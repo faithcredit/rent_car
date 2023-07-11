@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!-- Column nodes cannot have attributes called jlang because that is used for the Joomla Language definition. Reference attribute is used to print the name of the record to translate -->
+<!-- @wponly the column alias has been removed from the table rooms -->
+<VikRentCarTranslations>
+	<Version>1.3.0</Version>
+	<Date>2022-06-19</Date>
+	<Author>Alessio Gaggii - E4J srl - VikWP.com</Author>
+	<Translation table="#__vikrentcar_cars" name="VRCXMLTRANSLATECARS">
+		<Column name="name" type="text" reference="1">VRNEWCARFIVE</Column>
+		<Column name="info" type="html">VRNEWCARSEVEN</Column>
+		<Column name="short_info" type="textarea">VRCSHORTDESCRIPTIONCAR</Column>
+		<Column name="params" type="json" keys="custptitle,metakeywords,metadescription">VRCPARAMSCAR</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_categories" name="VRCXMLTRANSLATECATEGORIES">
+		<Column name="name" type="text" reference="1">VRPVIEWCATEGORIESONE</Column>
+		<Column name="descr" type="html">VRNEWCATDESCR</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_places" name="VRCXMLTRANSLATELOCATIONS">
+		<Column name="name" type="text" reference="1">VRNEWPLACEONE</Column>
+		<Column name="address" type="text">VRCLOCADDRESS</Column>
+		<Column name="descr" type="html">VRCPLACEDESCR</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_optionals" name="VRCXMLTRANSLATEOPTIONS">
+		<Column name="name" type="text" reference="1">VRNEWOPTONE</Column>
+		<Column name="descr" type="html">VRNEWOPTTWO</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_prices" name="VRCXMLTRANSLATETYPESPRICE">
+		<Column name="name" type="text" reference="1">VRNEWPRICEONE</Column>
+		<Column name="attr" type="text">VRNEWPRICETWO</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_seasons" name="VRCXMLTRANSLATESPECIALPRICES">
+		<Column name="spname" type="text" reference="1">VRCSPNAME</Column>
+		<Column name="promotxt" type="html">VRCPROMOTEXT</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_caratteristiche" name="VRCXMLTRANSLATECHARACTERISTICS">
+		<Column name="name" type="text" reference="1">VRPVIEWCARATONE</Column>
+		<Column name="textimg" type="text">VRNEWCARATTHREE</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_gpayments" name="VRCXMLTRANSLATEPAYMENTS">
+		<Column name="name" type="text" reference="1">VRPSHOWPAYMENTSONE</Column>
+		<Column name="note" type="html">VRPSHOWPAYMENTSTHREE</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_custfields" name="VRCXMLTRANSLATECFIELDS">
+		<Column name="name" type="text" reference="1">VRPVIEWCUSTOMFONE</Column>
+		<Column name="choose" type="textarea">VRNEWCUSTOMFFOUR</Column>
+		<Column name="poplink" type="text">VRNEWCUSTOMFEIGHT</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_texts" name="VRCXMLTRANSLATETEXTS">
+		<Column name="exp" type="skip" reference="1"></Column>
+		<Column name="setting" type="textarea">VRCXMLCONTENT</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_cronjobs" name="VRCXMLTRANSLATECRONJOBS">
+		<Column name="cron_name" type="text" reference="1">VRCCRONNAME</Column>
+		<Column name="params" type="json" keys="subject,tpl_text">VRCCRONPARAMS</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_condtexts" name="VRC_COND_TEXTS">
+		<Column name="name" type="skip" reference="1"></Column>
+		<Column name="msg" type="html">VRC_CONDTEXT_MSG</Column>
+	</Translation>
+	<Translation table="#__vikrentcar_countries" name="VRC_CONDTEXT_RULE_COUNTRIES">
+		<Column name="country_name" type="text" reference="1">VRCNEWCUSTOMFCOUNTRY</Column>
+	</Translation>
+</VikRentCarTranslations>

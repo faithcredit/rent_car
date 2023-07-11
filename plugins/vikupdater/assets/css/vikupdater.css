@@ -1,0 +1,75 @@
+.vikup-table-content,
+.vikup-table-content td,
+.vikup-table-content th,
+.vikup-table-content tr {
+	border: 1px solid #ccc;
+}
+.vikup-table-content th {
+	padding: 10px 15px;
+	background: #ddd;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+.vikup-table-content tr {
+	background: #fff;
+}
+.vikup-table-content tr:nth-child(odd) {
+	background: #f6f6f6;
+}
+.vikup-table-content td {
+	text-align: center;
+	padding: 15px 10px;	
+}
+.vikup-table-content td form {
+	margin-bottom: 0;
+}
+.vikup-table-content {
+	border-collapse: collapse;
+}
+.vikup-table-container {
+	margin-top: 25px;
+}
+.vikup-buttons-container {
+	margin-top: 15px;
+}
+.vikup-buttons-container > div {
+	display: inline-block;
+	vertical-align: top;
+}
+.vikup-hash-container .vikup-hash-confirm {
+	background: #22991a;
+	border-color: #197713 #0c5b07 #0b6b05;
+	box-shadow: 0 1px 0 #0c5b07;
+	text-shadow: 0 -1px 1px #0b6b05,1px 0 1px #0b6b05,0 1px 1px #0b6b05,-1px 0 1px #0b6b05;
+}
+.vikup-hash-container .vikup-hash-confirm:hover {
+	background: #17af0e;
+}
+
+.vikthickbox {
+	display: none;
+}
+
+/* Modal changelog update */
+.vikthick-body h3 {
+	color: #007cba;
+}
+.vikthick-body .vik-section-title {
+	margin-bottom: 10px;
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.vikthick-body .vik-section-title:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+.vikthick-body .vik-child-cnt {
+	margin-bottom: 10px;
+}
+.vikthick-body .vik-child-title {
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
+/* VikUpdater 1.5.0 Update with New tabs and menu items */ 

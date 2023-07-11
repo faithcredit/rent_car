@@ -1,0 +1,1226 @@
+.vrcdivsearchmodule {
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:0;
+	padding: 15px;
+}
+.vrcdivsearch .vrcsfentrycont select, 
+.vrcdivsearch .vrcsfentrycont input {
+	font-size: .8em;
+	text-transform: uppercase;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrydate .hasDatepicker {
+	border-radius: 0;
+	padding: 0;
+	height: 37px;
+	float: left;
+	margin: 0 10px 0 0;
+	border: 0;
+	box-shadow: none;
+	flex: 1;
+	background: #fff;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrydate .ui-datepicker-trigger {
+	display: none;
+}
+.vrcdivsearchmodule .vrcsfentryselect select {
+    padding: 12px 1.75rem 12px .75rem;
+    font-size: .8em !important;
+    line-height: 1;
+    border:0; 
+    border-radius: 2px;
+    height: 39.2px;
+    width: 100%;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+}
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselph, 
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselpm,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldh, 
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldm {
+	display: inline-block;
+   float: left;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrctimesep {
+	display: inline-block;
+	padding: 5px;
+	float: left;
+}
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselph select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodselpm select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldh select,
+.vrcdivsearchmodule .vrcsfentrycont #vrcmodseldm select {
+    padding: 12px 1.75rem 12px .75rem;
+    font-size: .8em;
+    line-height: 1;
+    border:0; 
+    height: 34px;
+    color:#999;
+    border-radius: 2px;
+    margin-bottom: 0;
+    border: 1px solid #ddd;
+}
+.vrcdivsearch .vrcsfentrycont label {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	width: 100%;
+}
+.vrcdivsearch .vrcsfentrycont .vrcsfentrylabsel {
+	float: left;
+	min-width: 200px;
+}
+.vrcdivsearchmodule .vrcsfentrycont .vrcsfentrytime {
+	float: left;
+	width: 50%;
+	/** @wponly **/
+	margin: 0 0 0 21px;
+}
+.vrcdivsearch .vrcsfentrylabsel label {
+	display: block;
+}
+.vrcdivsearch .vrcsfentrylabsel .vrcsfentrydate {
+	background: #fff;
+	padding: 0 10px;
+	color: #666;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+	display: flex;
+}
+.vrcdivsearch .vrcsfentrylabsel .vrcsfentrydate i {
+	margin-top: 12px;
+	font-size: .8em;
+}
+.vrcdivsearch .vrcsfentrycont div {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 100%;
+}
+.vrcdivsearchmodule .vrcsfentrysubmit {
+	width: 100%;
+}
+.vrcdivsearchmodule .vrcsfentrysubmit .vrcsearch {
+	width: 93%;
+}
+.vrcdivsearchmodule select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none !important;
+	background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center !important;
+	background-size: 10px 12px !important;
+}
+.vrc-searchmod-wrap-horizontal > form {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.vrc-searchmod-wrap-horizontal > form > div {
+	flex: initial;
+}
+.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: inherit
+	max-width: 200px;
+	margin-right: 10px;
+}
+.vrc-searchmod-wrap-horizontal form .vrcsfentrycont {
+	vertical-align: top;
+	width: auto;
+	min-width: inherit;
+	margin: 3px 10px 3px 0;
+	align-self: end;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-pickup .vrcsfentrycont {
+    margin-right: 0;
+}
+.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+	display: flex;
+	width: 100%;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrylabsel {
+	min-width: 120px;
+	margin-right: 10px;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont > div > label, .vrc-searchmod-wrap-horizontal .vrcsfentrycont > label {
+    display: block;
+    float: none;
+    width: auto;
+    font-weight: normal;
+    font-size: .9em;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont > div {
+    width: 100%;
+    align-self: flex-start;
+}
+.vrc-searchmod-wrap-horizontal form .vrcsfentrycont:first-child .vrcsfentryselect {
+    border-right: 1px solid #eee;
+}
+.vrc-searchmod-wrap-horizontal form .vrcsfentrycont select {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    height: 39.2px !important;
+    padding: 13px 1.75rem 13px .75rem !important;
+}
+.vrc-searchmod-wrap-horizontal form .vrcsfentrycont:first-child .vrcsfentryselect select {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.vrc-searchmod-wrap-horizontal form .vrcsfentrycont:last-child .vrcsfentryselect select {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+    display: flex;
+    margin-right: 10px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont {
+    margin-right: 0;
+    display: flex;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont:first-child {
+    margin-right: 10px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel {
+    margin-right: 0;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrylabsel {
+    width: auto;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrylabsel .vrcsfentrydate {
+    padding: 0 15px;
+    border-radius: 0;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel .vrcsfentrydate {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel .vrcsfentrydate input {
+    height: 39.2px;
+    background: transparent;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel .vrcsfentrydate i {
+    margin-top: 15px;
+    font-size: .9em;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime {
+    margin-left: 0;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime .vrc-sm-time-container {
+    display: flex;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime .vrc-sm-time-container > span > select {
+    font-size: .8em !important;
+    padding: 13px 1.75rem 13px .75rem !important;
+    border: 0 !important;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime .vrc-sm-time-container .vrctimesep {
+    color: #222;
+    padding: 9px 0 5px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime .vrc-sm-time-container #vrcmodselpm select, 
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime .vrc-sm-time-container #vrcmodseldm select {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-sbmt {
+    align-self: flex-end;
+}
+.vrc-searchmod-wrap-horizontal.vrcsfentrysubmit .vrcsearch {
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+    border-radius: 2px;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-categories {
+	flex: inherit;	
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrytime {
+	width: auto;
+}
+.vrc-searchmod-wrap-horizontal .vrcsfentrysubmit .vrcsearch {
+	width: auto;
+}
+.vrc-searchmod-wrap-vertical .vrcsfentrycont div {
+	display: block;
+}
+.vrc-searchmod-wrap-vertical > form > div .vrcsfentrycont {
+	margin: 5px 0;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes {
+	display: inline-block;
+	width: 100%;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes .vrcsfentrycont {
+	display: flex;
+	width: 100%;
+}
+.vrc-searchmod-wrap-vertical > form .vrc-searchmod-section-datetimes .vrcsfentrylabsel {
+	flex: 1;
+	min-width: auto;
+}
+.vrc-searchmod-wrap-vertical.vrcsfentrycont .vrcsfentrytime {
+    margin: 0 0 0 10px;
+    width: auto;
+}
+.vrc-searchmod-wrap-vertical .vrc-searchmod-section-sbmt {
+	margin-top: 10px;
+}
+.vrc-searchmod-wrap-vertical .vrcsfentrycont .vrcsfentrytime {
+	margin: 0 0 0 10px;
+	width: auto;
+}
+.vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodselph select, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodselpm select, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodseldh select, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodseldm select {
+	padding: 12px 1.75rem 12px .75rem;
+    font-size: .8em !important;
+    line-height: 1;
+    border:0; 
+    border-radius: 2px;
+    height: 39.2px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.vrc-searchmod-wrap-vertical .vrcsfentrysubmit .vrcsearch {
+	width: 100%;
+}
+
+/* New style Calendar UI */
+.ui-datepicker.ui-widget-content {
+    background: #fff;
+    padding: 0;
+    border: 0;
+    width: 19em;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.ui-datepicker.ui-widget > .ui-datepicker-header {
+    font-weight: bold;
+    border: 0;
+    padding: .4em 3px !important;
+	background: transparent;
+}
+.ui-datepicker.ui-widget table {
+    width: 95%;
+    margin: 0 auto .4em;
+	border-collapse: initial;
+	border-spacing: 2px;
+}
+.ui-datepicker.ui-widget td {
+	border: 1px solid #eee;
+	height: 35px;
+	width: 35px;
+}
+.ui-datepicker.ui-widget td span, .ui-datepicker.ui-widget td a {
+	padding: .2em;
+	height: 35px;
+	line-height: 35px !important;
+	display: block;
+}
+.ui-widget-header .ui-state-hover {
+	border: 1px solid #666;
+	background: #666;
+}
+.ui-datepicker.ui-widget-content .ui-state-disabled, .ui-datepicker.ui-widget-content .ui-state-disabled, .ui-datepicker .ui-widget-header .ui-state-disabled {
+    opacity: .55;
+}
+.ui-datepicker.ui-widget-content .ui-datepicker-prev, .ui-datepicker.ui-widget-content .ui-datepicker-next {
+    top: 6px;
+}
+.ui-datepicker.ui-widget-content .ui-datepicker-prev {
+    left: 6px;
+}
+.ui-datepicker.ui-widget-content .ui-datepicker-next {
+    right: 6px;
+}
+.ui-datepicker th {
+    font-weight: bold;
+    font-size: 14px;
+}
+.ui-datepicker.ui-widget-content .ui-state-default, .ui-datepicker.ui-widget-content .ui-state-default, .ui-datepicker.ui-widget-header .ui-state-default {
+    border: 0;
+    background: transparent;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+@media screen and (max-width : 960px) {
+	.vrcdivsearchmodule {
+		padding: 0;
+	}
+	.vrc-searchmod-wrap-horizontal > form > div {
+		margin-bottom: 10px;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+		margin-right: 0;
+		width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-pickup .vrcsfentrycont:first-child {
+		margin-right: 10px;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrcsfentrycont {
+		flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+		width: 100%;
+		margin: 0;
+	}
+	.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrylabsel {
+		flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-categories {
+		flex-basis: 100%;
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-sbmt {
+		flex-basis: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-sbmt .vrcsfentrysubmit > button {
+		width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrcsfentrycont {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal .vrcsfentrycont .vrcsfentrylabsel {
+		min-width: initial;
+	}
+}
+@media screen and (max-width : 760px) {
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-sbmt {
+		flex-basis: 100%;
+		text-align: center;
+	}
+}
+@media screen and (max-width : 680px) {
+	.vrc-searchmod-wrap-horizontal {
+    	text-align: left;
+    	flex-wrap: wrap;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+	    width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont {
+    	flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrcsfentrycont select {
+    	width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup, .vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+    	flex-wrap: wrap;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+    	display: flex;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrylabsel {
+    	flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-sbmt {
+    	width: 100%;
+    	margin-top: 10px;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-sbmt .vrcsfentrycont {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal .vrcsfentrysubmit .vrcsearch {
+    	width: 100% !important;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-categories {
+		flex-basis: 100%;
+	}
+}
+
+@media screen and (max-width : 580px) {
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+		flex-wrap: wrap;
+	}
+	.vrc-searchmod-wrap-vertical form .vrc-searchmod-section-datetimes .vrcsfentrylabsel {
+		flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+		flex-basis: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont:first-child {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont {
+		flex-basis: 100%;	
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont:first-child {
+		margin-right: 0;
+	}
+}
+@media screen and (max-width : 360px) {
+	.vrc-searchmod-wrap-vertical .vrcsfentrycont .vrc-sm-time-container {
+		display: flex;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont,
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel,
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime,
+	.vrc-searchmod-wrap-vertical form .vrc-searchmod-section-pickup .vrcsfentrycont,
+	.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrylabsel,
+	.vrc-searchmod-wrap-vertical .vrc-searchmod-section-datetimes .vrcsfentrycont .vrcsfentrytime {
+    	flex-basis: 100%;
+    	margin: 5px 0;
+	}
+	.vrc-searchmod-wrap-horizontal .vrcsfentrycont #vrcmodselph, .vrc-searchmod-wrap-horizontal .vrcsfentrycont #vrcmodselpm, .vrc-searchmod-wrap-horizontal .vrcsfentrycont #vrcmodseldh, .vrc-searchmod-wrap-horizontal .vrcsfentrycont #vrcmodseldm,
+	.vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodselph, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodselpm, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodseldh, .vrc-searchmod-wrap-vertical .vrcsfentrycont #vrcmodseldm {
+		flex: 1;
+	}
+}
+
+:root {
+	/* Colors */
+	--accent: #ff5f01  !important;
+	--main: #111111  !important;
+	--main-2: #fafafa  !important;
+  
+	/* Fonts */
+  
+	/* Effects */
+  }
+  
+  .rental-form,
+  .rental-form * {
+	box-sizing: border-box  !important;
+  }
+  .rental-form {
+	width: 1158px  !important;
+	height: 622px  !important;
+	position: static  !important;
+  }
+  .calendar {
+	width: 968px  !important;
+	height: 622px  !important;
+	position: static  !important;
+  }
+  .rectangle-6 {
+	background: var(--main-2, #fafafa)  !important;
+	width: 968px  !important;
+	height: 622px  !important;
+	position: absolute  !important;
+	left: 402px  !important;
+	top: 170px  !important;
+	box-shadow: 0px 0px 4px 2px rgba(148, 148, 148, 0.35)  !important;
+  }
+  .calendar2 {
+	width: 412px  !important;
+	height: 336px  !important;
+	position: absolute  !important;
+	left: 432px  !important;
+	top: 240px  !important;
+  }
+  .rectangle-62 {
+	background: var(--main-2, #fafafa)  !important;
+	border-style: solid  !important;
+	border-color: transparent  !important;
+	border-width: 1px  !important;
+	width: 412px  !important;
+	height: 336px  !important;
+	position: absolute  !important;
+	left: 0px  !important;
+	top: 0px  !important;
+	box-shadow: 0px 0px 4px 2px rgba(193, 193, 193, 0.25)  !important;
+  }
+  .month {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 500 20px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 133px  !important;
+	top: 50px  !important;
+	width: 154px  !important;
+  }
+  .rectangle-22 {
+	background: var(--accent, #ff5f01)  !important;
+	opacity: 0.5  !important;
+	width: 147px  !important;
+	height: 30px  !important;
+	position: absolute  !important;
+	left: 235px  !important;
+	top: 191px  !important;
+  }
+  .rectangle-23 {
+	background: var(--accent, #ff5f01)  !important;
+	opacity: 0.5  !important;
+	width: 300px  !important;
+	height: 30px  !important;
+	position: absolute  !important;
+	left: 30px  !important;
+	top: 229px  !important;
+  }
+  .days {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 50px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle2 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 99px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle3 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 148px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle4 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle5 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 246px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle6 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 295px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .subtitle7 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 15px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 344px  !important;
+	top: 87px  !important;
+	width: 24px  !important;
+  }
+  .line-1 {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle8 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 126px  !important;
+	width: 24px  !important;
+  }
+  .subtitle9 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 249px  !important;
+	top: 126px  !important;
+	width: 24px  !important;
+  }
+  .subtitle10 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 295px  !important;
+	top: 126px  !important;
+	width: 24px  !important;
+  }
+  .subtitle11 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 344px  !important;
+	top: 126px  !important;
+	width: 24px  !important;
+  }
+  .line-2 {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle12 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 50px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle13 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 102px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle14 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 148px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle15 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle16 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 249px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle17 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 295px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .subtitle18 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 344px  !important;
+	top: 164px  !important;
+	width: 24px  !important;
+  }
+  .line-3 {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle19 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 50px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle20 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 102px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle21 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 148px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle22 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle23 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 249px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle24 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 295px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .subtitle25 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 344px  !important;
+	top: 202px  !important;
+	width: 24px  !important;
+  }
+  .line-4 {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle26 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 50px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle27 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 102px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle28 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 148px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle29 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle30 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 249px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle31 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 295px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .subtitle32 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 344px  !important;
+	top: 240px  !important;
+	width: 24px  !important;
+  }
+  .line-5 {
+	position: absolute  !important;
+	inset: 0  !important;
+  }
+  .subtitle33 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 50px  !important;
+	top: 278px  !important;
+	width: 24px  !important;
+  }
+  .subtitle34 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 102px  !important;
+	top: 278px  !important;
+	width: 24px  !important;
+  }
+  .subtitle35 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 148px  !important;
+	top: 278px  !important;
+	width: 24px  !important;
+  }
+  .subtitle36 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 197px  !important;
+	top: 278px  !important;
+	width: 24px  !important;
+  }
+  .subtitle37 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 12px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 249px  !important;
+	top: 278px  !important;
+	width: 24px  !important;
+  }
+  .line-7 {
+	border-style: solid  !important;
+	border-color: var(--main, #111111)  !important;
+	border-width: 1px 0 0 0  !important;
+	width: 352px  !important;
+	height: 0px  !important;
+	position: absolute  !important;
+	left: 30px  !important;
+	top: 111px  !important;
+	transform-origin: 0 0  !important;
+	transform: rotate(0deg) scale(1, 1)  !important;
+  }
+  .calendar3 {
+	width: 412px  !important;
+	height: 336px  !important;
+	position: absolute  !important;
+	left: 896px  !important;
+	top: 240px  !important;
+  }
+  .time {
+	width: 414px  !important;
+	height: 77px  !important;
+	position: static  !important;
+  }
+  .time-slider {
+	width: 414px  !important;
+	height: 33px  !important;
+	position: static  !important;
+  }
+  .rectangle {
+	background: var(--accent, #ff5f01)  !important;
+	border-radius: 5px  !important;
+	width: 413px  !important;
+	height: 4px  !important;
+	position: absolute  !important;
+	left: 433px  !important;
+	top: 668px  !important;
+  }
+  .rectangle2 {
+	background: var(--main-2, #fafafa)  !important;
+	border-radius: 15px  !important;
+	width: 81px  !important;
+	height: 33px  !important;
+	position: absolute  !important;
+	left: 432px  !important;
+	top: 653px  !important;
+  }
+  .time2 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 16px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 448px  !important;
+	top: 664px  !important;
+	width: 49px  !important;
+  }
+  .time3 {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 20px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 432px  !important;
+	top: 609px  !important;
+	width: 154px  !important;
+  }
+  .rectangle3 {
+	background: var(--accent, #ff5f01)  !important;
+	border-radius: 5px  !important;
+	width: 413px  !important;
+	height: 4px  !important;
+	position: absolute  !important;
+	left: 897px  !important;
+	top: 668px  !important;
+  }
+  .rectangle4 {
+	background: var(--main-2, #fafafa)  !important;
+	border-radius: 15px  !important;
+	width: 81px  !important;
+	height: 33px  !important;
+	position: absolute  !important;
+	left: 896px  !important;
+	top: 653px  !important;
+  }
+  .time4 {
+	color: var(--main, #111111)  !important;
+	text-align: center  !important;
+	font: 400 16px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 912px  !important;
+	top: 664px  !important;
+	width: 49px  !important;
+  }
+  .time5 {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 20px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 896px  !important;
+	top: 609px  !important;
+	width: 154px  !important;
+  }
+  .icon-cross {
+	position: absolute  !important;
+	left: 1320px  !important;
+	top: 200px  !important;
+	overflow: visible  !important;
+  }
+  .rectangle-5 {
+	background: var(--main-2, #fafafa)  !important;
+	width: 332px  !important;
+	height: 622px  !important;
+	position: absolute  !important;
+	left: 70px  !important;
+	top: 170px  !important;
+	box-shadow: 0px 0px 4px 2px rgba(148, 148, 148, 0.35)  !important;
+  }
+  .button-normal {
+	width: 200px  !important;
+	height: 50px  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 636px  !important;
+  }
+  .rectangle-63 {
+	background: var(--accent, #ff5f01)  !important;
+	border-radius: 5px  !important;
+	width: 200px  !important;
+	height: 50px  !important;
+	position: absolute  !important;
+	left: 0px  !important;
+	top: 0px  !important;
+  }
+  .afficher-la-voiture {
+	color: #ffffff  !important;
+	text-align: center  !important;
+	font: 400 16px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 27px  !important;
+	top: 19px  !important;
+	width: 146px  !important;
+  }
+  .subtitle38 {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 600 30px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 240px  !important;
+	width: 226px  !important;
+	height: 22px  !important;
+  }
+  .points {
+	width: 272px  !important;
+	height: 264px  !important;
+	position: static  !important;
+  }
+  .point-1 {
+	width: 272px  !important;
+	height: 43px  !important;
+	position: static  !important;
+  }
+  .decor {
+	border-style: solid  !important;
+	border-color: var(--main, #111111)  !important;
+	border-width: 1px 0 0 0  !important;
+	width: 271px  !important;
+	height: 0px  !important;
+	position: absolute  !important;
+	left: 101px  !important;
+	top: 345px  !important;
+  }
+  .pickup-livraison {
+	color: #000000  !important;
+	text-align: left  !important;
+	font: 400 10px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 302px  !important;
+	width: 152px  !important;
+	height: 7px  !important;
+  }
+  .a-roport-domicile-adresse-ou-agence {
+	color: #747474  !important;
+	text-align: left  !important;
+	font: 400 14px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 324px  !important;
+	width: 264px  !important;
+	height: 10px  !important;
+  }
+  .icon {
+	position: absolute  !important;
+	left: 364px  !important;
+	top: 326px  !important;
+	overflow: visible  !important;
+  }
+  .point-2 {
+	width: 272px  !important;
+	height: 43px  !important;
+	position: static  !important;
+  }
+  .decor2 {
+	border-style: solid  !important;
+	border-color: var(--main, #111111)  !important;
+	border-width: 1px 0 0 0  !important;
+	width: 271px  !important;
+	height: 0px  !important;
+	position: absolute  !important;
+	left: 101px  !important;
+	top: 492px  !important;
+  }
+  .date-de-d-part {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 10px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 449px  !important;
+	width: 152px  !important;
+	height: 7px  !important;
+  }
+  .juin-16-5-00-am {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 16px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 471px  !important;
+	width: 169px  !important;
+	height: 11px  !important;
+  }
+  .point-3 {
+	width: 272px  !important;
+	height: 43px  !important;
+	position: static  !important;
+  }
+  .decor3 {
+	border-style: solid  !important;
+	border-color: var(--main, #111111)  !important;
+	border-width: 1px 0 0 0  !important;
+	width: 271px  !important;
+	height: 0px  !important;
+	position: absolute  !important;
+	left: 101px  !important;
+	top: 566px  !important;
+  }
+  .date-de-retour {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 10px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 523px  !important;
+	width: 152px  !important;
+	height: 7px  !important;
+  }
+  .juin-24-8-30-am {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 16px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 545px  !important;
+	width: 169px  !important;
+	height: 11px  !important;
+  }
+  .point-5 {
+	width: 272px  !important;
+	height: 43px  !important;
+	position: static  !important;
+  }
+  .decor4 {
+	border-style: solid  !important;
+	border-color: var(--main, #111111)  !important;
+	border-width: 1px 0 0 0  !important;
+	width: 271px  !important;
+	height: 0px  !important;
+	position: absolute  !important;
+	left: 101px  !important;
+	top: 419px  !important;
+  }
+  .retour {
+	color: var(--main, #111111)  !important;
+	text-align: left  !important;
+	font: 400 10px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 101px  !important;
+	top: 376px  !important;
+	width: 152px  !important;
+	height: 7px  !important;
+  }
+  .a-roport-domicile-adresse-ou-agence2 {
+	color: #747474  !important;
+	text-align: left  !important;
+	font: 400 14px "Golos Text", sans-serif  !important;
+	position: absolute  !important;
+	left: 100px  !important;
+	top: 397px  !important;
+	width: 264px  !important;
+	height: 10px  !important;
+  }
+  .icon2 {
+	position: absolute  !important;
+	left: 364px  !important;
+	top: 400px  !important;
+	overflow: visible  !important;
+  }
+

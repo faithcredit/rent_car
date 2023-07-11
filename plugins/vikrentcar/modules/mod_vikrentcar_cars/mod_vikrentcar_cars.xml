@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>MOD_VIKRENTCAR_CARS</name>
+	<author>E4J s.r.l.</author>
+	<creationDate>September 2019</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>tech@e4j.com</authorEmail>
+	<authorUrl>https://vikwp.com</authorUrl>
+	<version>1.13</version>
+	<description>MOD_VIKRENTCAR_CARS_DESC</description>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field
+					name="numb"
+					type="number"
+					default="4"
+					min="0"
+					step="1"
+					label="NUMVEHICLESDISP"
+					description="NUMVEHICLESDISP"
+					size="5"
+					filter="integer"
+				/>
+
+				<field
+					name="numb_carrow"
+					type="number"
+					default="4"
+					min="0"
+					max="10"
+					step="1"
+					label="VEHICLESPERROW"
+					description=""
+					size="5"
+					filter="integer"
+				/>
+
+				<field
+					name="query"
+					type="list"
+					default="price"
+					label="ORDERINGANDFILT"
+					description="ORDERINGANDFILT"
+				>
+					<option value="price">BYPRICE</option>
+					<option value="name">BYNAME</option>
+					<option value="category">BYCATEGORY</option>
+				</field>
+
+				<field
+					name="order"
+					type="list"
+					default="asc"
+					label="SORTING"
+					description="SORTING"
+				>
+					<option value="asc">ASCENDING</option>
+					<option value="desc">DESCENDING</option>
+				</field>
+
+				<field
+					name="show_desc"
+					type="list"
+					default="0"
+					label="SHOWDESC"
+					description=""
+					class="btn-group"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="currency"
+					type="text"
+					default="€"
+					label="CURRENCYSYMB"
+					description="CURRENCYSYMB"
+					size="10"
+					filter="raw"
+				/>
+
+				<field
+					name="showcatname"
+					type="list"
+					default="1"
+					label="SHOWCATNAME"
+					description="SHOWCATNAME"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="layoutlist"
+					type="list"
+					default="0"
+					label="LAYOUTTYPE"
+					description="LAYOUTTYPEDESC"
+				>
+					<option value="0">LAYOUTGRID</option>
+					<option value="1">LAYOUTSCROLL</option>
+				</field>
+
+				<field
+					name="autoplay"
+					type="list"
+					default="0"
+					label="AUTOPLAY"
+					description=""
+					showon="layoutlist:1"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="pagination"
+					type="list"
+					default="1"
+					label="DOTS"
+					description=""
+					showon="layoutlist:1"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="navigation"
+					type="list"
+					default="0"
+					label="NAVIGATIONARROWS"
+					description=""
+					showon="layoutlist:1"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field
+					name="catid"
+					type="sql"
+					default="0"
+					label="CATEGORYFILT"
+					query="SELECT id, name FROM #__vikrentcar_categories"
+					key_field="id"
+					value_field="name"
+				>
+					<option value="0">-----</option>
+				</field>
+
+				<field
+					name="querycat"
+					type="list"
+					default="price"
+					label="ORDERINGTYPE"
+					description="ORDERINGTYPE"
+				>
+					<option value="price">BYPRICE</option>
+					<option value="name">BYNAME</option>
+				</field>
+
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JLAYOUT"
+					description="JLAYOUT_DESC"
+				/>
+
+				<field
+					name="itemid"
+					type="menuitem"
+					prefix="vikrentcar"
+					default=""
+					required="true"
+					label="JMENUITEM"
+					description="JMENUITEM_DESC"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

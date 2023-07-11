@@ -1,0 +1,96 @@
+/*! ================================================
+ * DUPLICATOR NOTICES STYLE
+ * Copyright:Snap Creek LLC 2015-2021
+ * ================================================ */
+
+.duplicator-gen-admin-notice {
+    position: relative;
+}
+
+.duplicator-gen-admin-notice .notice-dismiss {
+    text-decoration: none;
+}
+
+.dpro-admin-notice {
+    background: #fff;
+    border-left: 4px solid #ED494D;
+    border-top: 4px;
+    width: calc(100% - 22px);
+    padding: 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.dup-border-left-red-notice {
+    background: #fff;
+    border-left: 4px solid #ED494D;
+    padding: 10px;
+}
+
+.dpro-admin-notice p {
+    overflow: hidden;
+}
+
+.dpro-admin-notice.dpro-yellow-border {
+    border-left-color: #dba617;
+}
+
+.dup-updated {
+    margin-left: 0;
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.dup-updated p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+.dup-updated a {
+    padding-bottom: 2px;
+}
+
+.dup-updated {
+    border-left-color: #46b450;
+}
+
+.wrap .dup-updated {
+    margin: 5px 0 15px;
+    margin: 20px 0 10px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 175%;
+}
+
+.dpro-invalid-license {
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px
+}
+
+.dpro-invalid-license h2 {
+    font-size:30px;
+    text-shadow: 0px 5px 5px #d8d8d8;
+    color: red;
+    margin: 30px 0 20Px 0;
+}
+
+.dpro-invalid-license p {
+    font-size: 1.25em;
+}
+
+.dpro-invalid-license small {
+    font-size: 0.8rem;
+}
+
+span.dup-license-expired {
+    float:left;
+    display:inline-block;
+    padding:0 15px 0 10px;
+    font-size:60px;
+    width:60px;
+    height:60px;
+}

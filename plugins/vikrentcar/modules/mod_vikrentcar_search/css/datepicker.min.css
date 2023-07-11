@@ -1,0 +1,176 @@
+body, html {
+    /* --color: #945;
+    --bgColor: #d89; */
+    --size: 2rem;
+    --border: calc(var(--size) * 0.125);
+    --borderRadius: calc(var(--size) * 0.5);
+    --labelSize: calc(var(--size) * 0.5);
+    --margin: calc(var(--size) * 0.25);
+    --marginLeft: calc(var(--size) + calc(var(--size) * 0.5));
+    background: var(--bgColor);
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: helvetica, arial, sans-serif; */
+  }
+  
+  label {
+    color: var(--color);
+    font-size: var(--labelSize);
+    /* font-weight: bold; */
+  }
+  
+  input {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><circle cx='20' cy='20' r='18.5' fill='none' stroke='%23222' stroke-width='3' /><path d='M20,4 20,8 M4,20 8,20 M36,20 32,20 M20,36 20,32' stroke='%23bbb' stroke-width='1' /><circle cx='20' cy='20' r='2' fill='%23222' stroke='%23222' stroke-width='2' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><path d='M18.5,24.5 19.5,4 20.5,4 21.5,24.5 Z' fill='%23222' style='transform:rotate(120deg); transform-origin: 50% 50%;' /></svg>"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><path d='M18.5,24.5 19.5,8.5 20.5,8.5 21.5,24.5 Z' style='transform:rotate(20deg); transform-origin: 50% 50%;' /></svg>");
+    background-position: var(--margin) 50%;
+    background-repeat: no-repeat;
+    background-size: var(--size) var(--size);
+    border: var(--border) solid var(--color);
+    border-radius: var(--borderRadius);
+    color: #222;
+    font-size: var(--size);
+    padding: var(--margin) var(--margin) var(--margin) var(--marginLeft);
+    transition: backgroundImage 0.25s;
+  }
+  
+  input:focus {
+    outline: 2px dashed #ff5e20;
+    outline-offset: 3px;
+  }
+
+  datedreamer-range {
+    background-color: white;
+  }
+
+
+
+
+
+
+
+
+
+  form {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 75px;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	/* background-image: radial-gradient(at top, #b5e6cf, #9dddad); */
+}
+
+.select {
+	width: 225px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0 2px 0 white;
+	border-radius: 2px;
+	
+	&_expand {
+		width: 0;
+		height: 40px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		
+		&::after {
+			content: '\003E';
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translate(-50%, -50%) rotate(90deg) scaleY(1.75);
+			color: #3e3e3e;
+			font-size: 28px;
+			pointer-events: none;
+			z-index: 2;
+			transition: all 250ms cubic-bezier(.4,.25,.3,1);
+			opacity: .6;
+		}
+		
+		&:hover::after {opacity: 1}
+
+		&:checked::after {transform: translate(-50%, -50%) rotate(90deg) scaleX(-1) scaleY(1.75);}
+	}
+	
+	&_expandLabel {
+		display: block;
+		width: 100%;
+		height: 40px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+	}
+	
+	&_close {display: none}
+	
+	&_closeLabel {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	
+	&_items {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 2px solid #2fb5d1;
+		border-radius: 2px;
+		padding-top: 40px;
+	}
+	
+	&_input {display: none}
+	
+	&_label {
+		transition: all 250ms cubic-bezier(.4,.25,.3,1);
+		display: block;
+		height: 0;
+		font-size: 1.2rem;
+		line-height: 40px;
+		overflow: hidden;
+		color: #3e3e3e;
+		background-color: #fff;
+		cursor: pointer;
+		padding-left: 20px;
+		
+		&-placeholder {
+			height: 40px;
+			vertical-align: middle;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: .6;
+			background-color: transparent;
+		}
+	}
+	
+	&_expand:checked {
+		+ .select_closeLabel {
+			display: block;
+			
+			+ .select_options {
+				.select_label {
+					height: 40px;
+					&:hover {background-color: #f7f7f7}
+				}
+				
+				+ .select_expandLabel {display: none}
+			}
+		}
+	}
+	
+	&_input:checked + .select_label {
+		height: 40px;
+		margin-top: -40px;
+	}
+}

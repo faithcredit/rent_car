@@ -1,0 +1,116 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.form-table th,
+.form-table td {
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-bottom: 14px;
+}
+
+p.submit {
+  padding-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Toggle Switch
+--------------------------------------------------------------*/
+
+.generate-child-theme-main .switch {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -moz-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  float: none;
+  right: 0;
+  top: 2px;
+}
+
+.generate-child-theme-main .module-title.active {
+  background-color: #0085c3;
+}
+
+.generate-child-theme-main .switch label {
+  background-color: #48a348;
+  border-radius: 11px;
+  cursor: pointer;
+  height: 16px;
+  right:0;
+  position: absolute;
+  top: 3px;
+  width: 30px;
+}
+
+.generate-child-theme-main .inactive .switch label {
+  background-color: #ccc;
+}
+
+.generate-child-theme-main .switch input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.generate-child-theme-main .switch label:after {
+  background-color: #fff;
+  border-radius: 100%;
+  content: '';
+  height: 12px;
+  left: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  top: 2px;
+  width: 12px;
+}
+
+.generate-child-theme-main .switch input[type="checkbox"]:checked + label:after {
+  left: 16px;
+  background-color: #fff;
+}
+
+.generate-child-theme-main .loader {
+  border: 5px solid #48a348;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  right: 60px;
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Catch Themes & Plugins switch */
+#ctp-switch .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 7px;
+}
+
+#ctp-switch.generate-child-theme-main .module-header {
+    background-color: transparent;
+}

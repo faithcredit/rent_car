@@ -1,0 +1,225 @@
+.vrcmodcarsgridcontainer {
+	width: 100%;
+	display: inline-block;
+}
+div.vrcinf {
+	float:left;
+	padding:0 0 0 8px;
+}
+.vrcmodcarsgridhorizontal {
+	list-style-type: none;
+}
+ul.vrcmodcarsgridhorizontal li {
+	display:inline-block;
+	margin:0;
+	padding: 0;
+	vertical-align: top;
+}
+ul.vrcmodcarsgridhorizontal li:last-child {
+	margin:0;
+}
+
+ul.vrcmodcarsgridhorizontal li img {
+	width:100%;	
+}
+ul.vrcmodcarsgridvertical {
+	list-style-type: none;
+}
+.vrcmodcarsgrid-item-desc {
+	margin: 10px 0;
+	padding: 0 20px;
+}
+.vrcmodcarsgridboxdiv {
+	width: 100%;
+	display: inline-block;
+	border:1px solid #ddd;
+	background:#fff !important;
+	transition: all 400ms ease-in-out 0s;
+}
+.vrcmodcarsgridboxdiv:hover {
+	-ms-transform: scale(1.05,1.05); /* IE 9 */
+    -webkit-transform: scale(1.05,1.05); /* Safari */
+    transform: scale(1.05,1.05);
+    transition: all 400ms ease-in-out 0s;
+    background:#fff !important;
+}
+.vrcmodcarsgridvertical img.vrcmodcarsgridimg {
+	max-width: 99% !important;
+	float:none;
+	clear:both;
+	margin: 0 0 5px 0;
+}
+span.vrcmodcarsgridname {
+	font-weight: bold;
+	font-size:15px;
+	color:#444;
+}
+
+.vrcmodcarsgridview {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    padding-bottom:15px;
+}
+.vrcmodcarsgridview a {
+	display: inline-block;
+	padding:8px 25px;
+	border-radius: 3px;
+	background:#e7e7e7;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+.vrcmodcarsgridcont-sorting {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.vrcmodcarsgridcont-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.vrcmodcarsgridcont-item {
+	padding:10px;
+}
+.vrcmodcarsgrid-item_details {
+	text-align: center;
+	padding-top:10px;
+}
+.vrcmodcarsgrid-item_title {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+.vrcmodcarsgrid-item-btm {
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid #eee;
+	padding: 7px 10px;
+	font-size: 0.8em;
+	color: #999;
+}
+.vrcmodcarsgrid-item-btm > div {
+	display: inline-block;
+}
+.vrcmodcarsgrid-item_cat {
+	float: right;
+}
+.vrcmodcarsgrid-item_carat .vrccarcarat {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px;
+	font-size: 14px;
+}
+.vrc-modcars-grid-item figure {
+	margin-bottom: 0;
+}
+.vrcmodcarsgrid-item_carat i {
+	font-size: 16px;
+}
+.vrcmodcarsgridcontainer .owl-nav {
+	text-align: center;
+}
+.vrcmodcarsgridcontainer  .vrcmodcarsgridcont-items .owl-nav > button.owl-prev, .vrcmodcarsgridcontainer  .vrcmodcarsgridcont-items .owl-nav > button.owl-next {
+	display: inline-block;
+	background: #eee;
+	border:1px solid #ddd;
+	padding: 2px 10px;
+	margin: 3px;
+	border-radius: 4px;
+}
+.vrcmodcarsgridcontainer .owl-nav > button.owl-prev:hover, .vrcmodcarsgridcontainer .owl-nav > button.owl-next:hover {
+	background: #ddd;
+}
+.vrcmodcarsgridcontainer .owl-nav > button.owl-prev:active, .vrcmodcarsgridcontainer .owl-nav > button.owl-next:active {
+	background: #ccc;
+}
+.vrcmodcarsgridcontainer .owl-nav > button.disabled {
+	background: #f6f6f6;
+}
+.vrcmodcarsgridcontainer .owl-nav > button.disabled:active, .vrcmodcarsgridcontainer .owl-nav > button.disabled:hover {
+	background: #f6f6f6;
+}
+.vrcmodcarsgridcontainer .owl-carousel .owl-dots {
+	text-align: center;
+}
+.vrcmodcarsgridcontainer .owl-carousel .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: 2px 4px;
+}
+.vrcmodcarsgridcontainer .vrcmodcarsgridcont-items .owl-carousel .owl-dots .owl-dot.active, .vrcmodcarsgridcontainer .owl-carousel .owl-dots .owl-dot.hover {
+    background: #999;
+}
+@media only screen and (max-width: 980px) {
+	.vrc-modcars-grid-item {
+		width: 33% !important;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.vrc-modcars-grid-item {
+		width: 50% !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.vrcmodcarsgridhorizontal .vrc-modcars-item {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.vrc-modcars-grid-item {
+		width: 100% !important;
+	}
+}
+
+/* @since February 2023
+ * Apply a list layout for the customers that wants something similar to the shortcode Cars List. 
+ */
+
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv > a {
+	display: inline-block;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv .vrcmodcarsgrid-item_details {
+	text-align: left;
+	padding-top: 10px;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv .vrcmodcarsgrid-item-desc {
+	padding: 0;
+}
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv .vrcmodcarsgrid-item_details .vrcmodcarsgrid-box-cost {
+	text-align: right;
+}
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridview {
+	text-align: right;
+	margin: 10px 20px 0 0;
+	padding-bottom: 15px;
+}
+.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv:hover {
+	 transform: scale(1);
+}
+@media only screen and (max-width: 980px) {
+	.vrc-modcars-grid-item[style^="width: 100%"] .vrc-modcars-grid-item {
+	  width: 100% !important;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridboxdiv > a {
+		width: 100%;
+		float: none;
+	}
+	.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridview {
+		margin: 10px 10px 0;
+	}
+	.vrc-modcars-grid-item[style^="width: 100%"] .vrcmodcarsgridview a {
+		width: 100%;
+	}
+}

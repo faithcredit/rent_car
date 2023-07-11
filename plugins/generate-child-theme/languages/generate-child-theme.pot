@@ -1,0 +1,276 @@
+# Copyright (C) 2018-2023 Catch Plugins
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Generate Child Theme\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2023-01-30 15:18-0800\n"
+"PO-Revision-Date: 2016-12-12 09:23-0500\n"
+"Last-Translator: Sakin Shrestha <info@catchplugins.com>\n"
+"Language-Team: Catch Plugins <info@catchplugins.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx;_x;"
+"esc_html_e;esc_html__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../generate-child-theme.php:64 ../generate-child-theme.php:65
+#: ../partials/generate-child-theme-admin-display.php:17
+msgid "Generate Child Theme"
+msgstr ""
+
+#: ../generate-child-theme.php:77
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../generate-child-theme.php:161
+msgid "The directory already exists"
+msgstr ""
+
+#: ../generate-child-theme.php:248
+#, php-format
+msgid ""
+"Theme switched! <a href=\"%s\">Click here to edit the child stylesheet</a>."
+msgstr ""
+
+#: ../generate-child-theme.php:263
+#, php-format
+msgid "Failed to create file: %s"
+msgstr ""
+
+#: ../partials/CatchThemesThemePlugin.php:154
+msgid "Themes by CatchThemes"
+msgstr ""
+
+#: ../partials/CatchThemesThemePlugin.php:434
+msgctxt "Plugin Installer"
+msgid "Catch Plugins"
+msgstr ""
+
+#: ../partials/CatchThemesThemePlugin.php:473
+#, php-format
+msgid ""
+"You can use any of our free plugins or premium plugins from <a href=\"%s\" "
+"target=\"_blank\">Catch Plugins</a>"
+msgstr ""
+
+#: ../partials/ctp-tabs-removal.php:59
+msgid "Invalid Nonce"
+msgstr ""
+
+#: ../partials/ctp-tabs-removal.php:62
+msgid "Permission denied!"
+msgstr ""
+
+#: ../partials/ctp-tabs-removal.php:75
+msgid "Connection Error. Please try again."
+msgstr ""
+
+#: ../partials/dashboard-display.php:19
+msgid "Settings"
+msgstr ""
+
+#: ../partials/dashboard-display.php:28
+msgid "Select Parent Theme:"
+msgstr ""
+
+#: ../partials/dashboard-display.php:44
+msgid "Child theme's name:"
+msgstr ""
+
+#: ../partials/dashboard-display.php:47
+msgid "Your child theme's name"
+msgstr ""
+
+#: ../partials/dashboard-display.php:52
+msgid "Description:"
+msgstr ""
+
+#: ../partials/dashboard-display.php:55
+msgid "Brief description of your child theme."
+msgstr ""
+
+#: ../partials/dashboard-display.php:60
+msgid "Author:"
+msgstr ""
+
+#: ../partials/dashboard-display.php:63
+msgid "Anonymous"
+msgstr ""
+
+#: ../partials/dashboard-display.php:68
+msgid "Version:"
+msgstr ""
+
+#: ../partials/dashboard-display.php:77
+msgid "Generate"
+msgstr ""
+
+#: ../partials/footer.php:4
+msgid "Catch Plugins"
+msgstr ""
+
+#: ../partials/footer.php:9
+msgid "View Themes"
+msgstr ""
+
+#: ../partials/footer.php:10
+msgid "View Plugins"
+msgstr ""
+
+#: ../partials/footer.php:11
+msgid "Support"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:19
+msgid ""
+"Create child themes of any WordPress themes effortlessly with Generate "
+"Child Theme"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:25
+msgid "Dashboard"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:26
+#: ../partials/generate-child-theme-admin-display.php:69
+msgid "Features"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:35
+msgid "Catch Themes & Catch Plugins Tabs"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:40
+msgid ""
+"If you want to turn off Catch Themes & Catch Plugins tabs option in Add "
+"Themes and Add Plugins page, please uncheck the following option."
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:45
+msgid "Turn On Catch Themes & Catch Plugin tabs"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:76
+msgid "Supports all themes on WordPress"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:77
+msgid ""
+"You don’t have to worry if you have a slightly different or complicated "
+"theme installed on your website. It supports all the themes on WordPress "
+"and makes your website more striking and playful."
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:81
+msgid "Lightweight"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:82
+msgid ""
+"It is extremely lightweight. You do not need to worry about it affecting "
+"the space and speed of your website."
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:86
+msgid "Super Simple to Set Up"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:87
+msgid ""
+"It is super easy to set up. Even the beginners can set it up easily and "
+"also, you do not need to have any coding knowledge. Just install, "
+"activate, customize it your way and enjoy the plugin."
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:91
+msgid "Lesser Configuration"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:92
+msgid ""
+"The plugin will work out of the box and only provide you with few "
+"configuration option. This means lesser workload for you. You can create "
+"your child themes within a few minutes in just a few steps."
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:96
+msgid "Incredible Support"
+msgstr ""
+
+#: ../partials/generate-child-theme-admin-display.php:97
+msgid ""
+"We have a great line of support team and support documentation. You do not "
+"need to worry about how to use the plugins we provide, just refer to our "
+"Tech Support Forum. Further, if you need to do advanced customization to "
+"your website, you can always hire our theme customizer!"
+msgstr ""
+
+#: ../partials/sidebar.php:3
+msgid "Recommendations"
+msgstr ""
+
+#: ../partials/sidebar.php:8
+msgid "Premium Themes"
+msgstr ""
+
+#: ../partials/sidebar.php:9
+msgid ""
+"Check out our simple, clean and responsive Premium WordPress Themes that "
+"come with an array of crucial features with a superior functionality."
+msgstr ""
+
+#: ../partials/sidebar.php:9
+msgid "Check our premium themes."
+msgstr ""
+
+#: ../partials/sidebar.php:16
+msgid "Free Themes"
+msgstr ""
+
+#: ../partials/sidebar.php:17
+msgid ""
+"Check out our collection of Free WordPress Themes that are clean, simple "
+"and feature-rich."
+msgstr ""
+
+#: ../partials/sidebar.php:17
+msgid "Check our free themes."
+msgstr ""
+
+#: ../partials/sidebar.php:25
+msgid "Premium Plugins"
+msgstr ""
+
+#: ../partials/sidebar.php:26
+msgid ""
+"Check out our secured Premium WordPress Plugins to enhance and add extra "
+"functionalities to your website. An exceptional way to get the most out of "
+"WordPress!"
+msgstr ""
+
+#: ../partials/sidebar.php:26
+msgid "Check our premium plugins."
+msgstr ""
+
+#: ../partials/sidebar.php:34
+msgid "Free Plugins"
+msgstr ""
+
+#: ../partials/sidebar.php:35
+msgid ""
+"Check out our Free WordPress Plugins and get the taste of our service "
+"without affecting your wallet."
+msgstr ""
+
+#: ../partials/sidebar.php:36
+msgid "check our free plugins."
+msgstr ""

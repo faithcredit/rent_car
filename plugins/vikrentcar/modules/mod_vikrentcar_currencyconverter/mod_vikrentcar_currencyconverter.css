@@ -1,0 +1,22 @@
+.vrccurconvcontainer {
+	clear: both;
+}
+.vrc_converting {
+	display: inline-block;
+	background: url('./images/converting.gif');
+	min-width: 50px;
+	min-height: 8px;
+}
+.vrccurconv-flag {
+	display: inline-block;
+	float: left;
+	padding: 6px 5px 0;
+}
+.vrccurconv-menu {
+	float: right;
+	overflow: hidden;
+	min-width: 100px;
+}
+#modcurconvsel {
+	width: auto !important;
+}

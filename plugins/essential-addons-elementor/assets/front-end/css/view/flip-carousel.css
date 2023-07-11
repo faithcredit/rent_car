@@ -1,0 +1,9 @@
+.eael-flip-carousel .flip-custom-nav {
+  display: block;
+}
+.eael-flip-carousel.flipster--carousel {
+  overflow: hidden;
+}
+.rtl .eael-flip-carousel {
+  direction: ltr;
+}

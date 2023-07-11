@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="4.0.0" client="site" method="upgrade">
+	<name>MOD_VIKRENTCAR_SEARCH</name>
+	<author>E4J s.r.l.</author>
+	<creationDate>September 2019</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>tech@e4j.com</authorEmail>
+	<authorUrl>https://vikwp.com</authorUrl>
+	<version>1.13</version>
+	<description>MOD_VIKRENTCAR_SEARCH_DESC</description>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field
+					name="orientation"
+					type="list"
+					default="vertical"
+					label="MODSEARCH_ORIENTATION"
+					description="MODSEARCH_ORIENTATION_DESC"
+				>
+					<option value="vertical">VERTICAL</option>
+					<option value="horizontal">HORIZONTAL</option>
+				</field>
+				
+				<field
+					name="heading_text"
+					type="text"
+					default=""
+					label="PARAMHEADINGTEXT"
+					description="PARAMHEADINGTEXT"
+				/>
+
+				<field
+					name="srchbtntext"
+					type="text"
+					default=""
+					label="SEARCHT"
+					description="SEARCHHELP"
+				/>
+
+				<field
+					name="showloc"
+					type="list"
+					default="0"
+					label="SHOWLOC"
+					description="SHOWLOC"
+				>
+					<option value="0">USEGLOB</option>
+					<option value="1">JYES</option>
+					<option value="2">JNO</option>
+				</field>
+
+				<field
+					name="showcat"
+					type="list"
+					default="0"
+					label="SHOWCAT"
+					description="SHOWCAT"
+				>
+					<option value="0">USEGLOB</option>
+					<option value="1">JYES</option>
+					<option value="2">JNO</option>
+				</field>
+
+				<field
+					name="category_id"
+					type="sql"
+					default="0"
+					label="FORCESINGLECATEGORYSEARCH"
+					description="FORCESINGLECATEGORYSEARCHHELP"
+					query="SELECT id AS value, name AS title FROM #__vikrentcar_categories ORDER BY name ASC"
+					key_field="value"
+					value_field="title"
+					required="false"
+				>
+					<option value="0">FORCESINGLECATEGORYSEARCHDISABLED</option>
+				</field>
+
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JLAYOUT"
+					description="JLAYOUT_DESC"
+				/>
+
+				<field
+					name="itemid"
+					type="menuitem"
+					prefix="vikrentcar"
+					default=""
+					required="true"
+					label="JMENUITEM"
+					description="JMENUITEM_DESC"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

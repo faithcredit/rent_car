@@ -1,0 +1,165 @@
+/**
+ * This sytle sheet is used in combination with the Duplicator.UI.Ctrl control namespace
+ * */
+
+/* ================================================
+* UI-CTRL: Spinner
+* ============================================= */
+div.dup-spinner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding:0;
+}
+
+.dup-spinner > div.area-right,
+.dup-spinner > div.area-left {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: auto;
+    border-radius:5px;
+    border:1px solid transparent;
+    height:88%;
+    width:50px;
+    color:#999;
+}
+
+.dup-spinner > div.area-right:hover,
+.dup-spinner > div.area-left:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    color:#000;
+    border:1px solid silver;
+}
+
+.dup-spinner > div.area-data {
+    height:88%;
+    box-shadow: 0px 5px 10px 0px rgba(161,161,161,1);
+    border-radius: 4px;
+    border:1px solid silver;
+    margin:0 10px 0 10px;
+    padding:10px 15px 15px 15px;
+    flex:70%;
+}
+
+.dup-spinner > div.area-data > div.item {
+   display: none;
+   border:1px solid transparent;
+   width:100%;
+   height: 100%;
+   border:0 solid blue;
+   border-radius: 2px;
+   margin: auto;
+}
+
+.dup-spinner > div.area-nav {
+   flex: 0 0 100%;
+   min-height:10%;
+   text-align: center;
+   padding: 10px 0 0 0;
+   width:100%;
+}
+
+.dup-spinner > div.area-nav .num {
+    padding-right:10px;
+}
+
+.dup-spinner > div.area-data > div.item.active {
+   display:block;
+}
+
+ /*DEBUG LAYOUT: Do not remove used to see layout
+ div.dup-spinner { border:1px dashed black;}
+ div.dup-spinner div.area-right, div.dup-spinner div.area-left {border:1px solid green}
+ div.dup-spinner div.area-data {border:1px solid blue}
+ div.dup-spinner div.area-data .item {border:1px dashed purple}
+ div.dup-spinner div.area-nav {border:1px solid red;} */
+
+
+/* ================================================
+ * UI-CTRL: Vert tabs
+ * ============================================= */
+ div.dup-tabs-vert {
+     display:flex;
+     border:0 dashed silver;
+ }
+
+ div.dup-tabs-vert > div.data-tabs {
+     flex:0 0 35%;
+     border:0 dashed red;
+ }
+
+ div.dup-tabs-vert > div.data-tabs > div.tab {
+     padding:7px 0 7px 3px;
+     background-color: #F5F5F5;
+     cursor: pointer;
+ }
+ div.dup-tabs-vert > div.data-tabs > div.void {
+     background: #444;
+     color:#fff;
+     padding: 4px 0 4px 3px;
+     font-weight: bold;
+ }
+ div.dup-tabs-vert > div.data-tabs > div.void i {
+     font-weight: normal;
+ }
+
+ div.dup-tabs-vert > div.data-tabs > div.tab:hover {
+     background-color: #efefef;
+ }
+
+ div.dup-tabs-vert > div.data-tabs > div.tab.active {
+     border-left:4px solid #91BCE3;
+     background-color: #fff;
+     color:#2271b1;
+     font-weight: bold;
+ }
+
+  div.dup-tabs-vert > div.data-panels > div.panel {
+      display:none;
+  }
+
+ div.dup-tabs-vert > div.data-panels {
+     flex:0 0 62%;
+     border-top:1px solid silver;
+     padding:8px;
+     border-radius: 2px
+ }
+
+/* ================================================
+* UI-CTRL: Flat tabs
+* ============================================= */
+div.dup-tabs-flat {
+    margin:5px 0 0 0;
+    height:425px;
+}
+
+div.dup-tabs-flat > div.data-tabs {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+div.dup-tabs-flat > div.data-tabs > a {
+    text-decoration: none;
+    display:inline-block;
+    min-width:200px;
+    outline: none;
+    box-shadow: none;
+    margin:0 15px 0 0;
+}
+
+div.dup-tabs-flat > div.data-tabs > a.active {
+    border-bottom:3px solid #91BCE3;
+    font-weight: bold;
+}
+
+div.dup-tabs-flat > div.data-panels > div.panel {
+    padding:20px 10px 10px 10px;
+    clear:both;
+}
+
+div.dup-tabs-flat > div.data-panels > div.panel {
+    display: none;
+}

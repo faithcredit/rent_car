@@ -1,0 +1,68 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/custom-select.css ***!
+  \*************************************************************************/
+.custom-select-wrapper {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.custom-select-hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom-select-options {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background-color: white;/*#f5fafe;*/
+    max-height: 0;
+    transition: max-height .3s ease-in, overflow-y 0.2s 0.1s;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: none;
+}
+
+.custom-select-wrapper.custom-select-is-open .custom-select-options {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ffaf8f;
+    padding: 1px
+}
+
+.custom-select-option {
+    font-size: 15px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+.custom-select-option:hover {
+    /* background: #c4ddf1; */
+    border: 2px solid #ff5f00;
+}
+
+.custom-select-option-selected {
+    background: #ff5f00;
+    color: white;
+    border: 2px solid #ff5f00;
+}
+
+.custom-select-head {
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #f5fafe00;
+}
+
+.custom-select-value {
+    font-size: 16px;
+    color: #333;
+    padding: 0px;
+}
+

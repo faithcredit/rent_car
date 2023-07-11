@@ -1,0 +1,520 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+<link type="text/css" href="https://rawgit.com/IonDen/ion.rangeSlider/master/css/ion.rangeSlider.css" rel="stylesheet">
+<link type="text/css" href="https://rawgit.com/IonDen/ion.rangeSlider/master/css/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.quilljs.com/1.3.6/quill.snow.css">
+
+<div class="form">
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="code" class="form-input-label">Default</label>
+      <input id="code" class="input-text" type="text" placeholder="Add code">
+    </div>
+    <div class="form-unit form-divided">
+      <label for="code" class="form-input-label">Error</label>
+      <input id="code" class="input-text error-input" type="text" placeholder="Add code">
+      <div class="error-input-message">This field is required</div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="emp-name" class="form-input-label">Select From Table</label>
+      <input id="emp-name" class="input-text input-disabled" disabled="disabled" type="text" placeholder="Select employee name">
+      <a class="input-select-btn on-disabled-btn" id="popup"><i class="fas fa-user"></i></a>
+      <a class="input-select-btn input-select-btn-clear pick-from-table"><i class="fas fa-times dropdown-icon"></i></a>
+    </div>
+    <div class="form-unit form-divided">
+      <label for="emp-id" class="form-input-label">Disable, Auto-Fill</label>
+      <input id="emp-id" class="input-text input-disabled" disabled="disabled" type="text" value="">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="selectable" class="form-input-label">Searchable Dropdown (Optional)</label>
+      <input class="input-text selectable" type="text" placeholder="Select location" data-drop-type="first">
+      <a class="input-select-btn dropdown-btn-wrapper"><i class="fas fa-sort-down dropdown-icon"></i></a>
+      <a class="input-select-btn input-select-btn-clear clear-selection"><i class="fas fa-times dropdown-icon"></i></a>
+    </div>
+    <div class="form-unit form-divided">
+      <label for="selectable" class="form-input-label">Predefined Attributes</label>
+      <input id= "non-searchable" class="input-text selectable" type="text" placeholder="Select status" data-drop-type="second" value="Waiting for approval">
+      <a class="input-select-btn dropdown-btn-wrapper"><i class="fas fa-sort-down dropdown-icon"></i></a>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="date" class="form-input-label">Date</label>
+      <input type="text" class="input-text input-datepicker" id="date" placeholder="Select date">
+      <a class="input-select-btn" id="datepicker-btn"><i class="fas fa-calendar-alt"></i></a>
+    </div>
+    <div class="form-unit form-divided form-dropdown">
+      <label class="form-input-label">Time</label>
+      <div class="time-row">
+        <div class="input-time-container">
+          <div class="time-arrow-up"><i class="fas fa-chevron-up"></i></div>
+          <input id="hour" class="input-text input-time" placeholder="HH" min="0" max="23" type="number">
+          <div class="time-arrow-down"><i class="fas fa-chevron-down"></i></div>
+        </div>
+        <span>:</span>
+        <div class="input-time-container">
+          <div class="time-arrow-up"><i class="fas fa-chevron-up"></i></div>
+          <input id="minute" class="input-text input-time" placeholder="MM" min="0" max="59" type="number">
+          <div class="time-arrow-down"><i class="fas fa-chevron-down"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <div class="combobox-label-row">
+        <label for="choices" class="form-input-label combobox-label">Categorized Checkboxes <span style="font-weight: 400;">(0/10)</span></label>
+        <a class="combobox-select">Check All</a>
+      </div>
+      <input id="choices" class="input-text" type="text" placeholder="Search choices">
+      <a class="input-select-btn" id="datepicker-btn"><i class="fas fa-search"></i></a>
+      <ul class="choices-list">
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-1" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-1">Choice ABC</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-2" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-2">Choice BCD</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-3" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-3">Choice DEF</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-4" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-4">Choice GHI</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-5" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-5">Choice IJK</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-6" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-6">Choice UVW</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-7" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-7">Choice XYZ</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-8" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-8">Choice 123</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-9" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-9">Choice 345</label>
+        </li>
+        <li class="combobox-each">
+          <input type="checkbox" class="checkbox-input" id="choice-10" checked><span class="checkbox"><i class="fas fa-check"></i></span>
+          <label class="combobox-value" for="choice-10">Choice 789</label>
+        </li>
+        <li class="combobox-each combobox-noresult">No results found</li>
+      </ul>
+    </div>
+    <div class="form-unit form-divided form-check-radio">
+      <label for="checkbox-regular" class="form-input-label">Checkboxes</label>
+      <ul class="checkbox-regular-list">
+        <li class="checkbox-regular-each">
+          <input type="checkbox" class="checkbox-input" id="reg-choice-1" checked><span class="checkbox" disabled="disabled"><i class="fas fa-check disabled-check"></i></span>
+          <label class="checkbox-regular-value" for="reg-choice-1">Choice 1</label>
+        </li>
+        <li class="checkbox-regular-each">
+          <input type="checkbox" class="checkbox-input" id="reg-choice-2" checked><span class="checkbox" disabled="disabled"></span>
+          <label class="checkbox-regular-value" for="reg-choice-2">Choice 2</label>
+        </li>
+        <li class="checkbox-regular-each">
+          <input type="checkbox" class="checkbox-input" id="reg-choice-3" checked><span class="checkbox" selected="selected"><i class="fas fa-check"></i></span>
+          <label class="checkbox-regular-value" for="reg-choice-3">Choice 3</label>
+        </li>
+        <li class="checkbox-regular-each">
+          <input type="checkbox" class="checkbox-input" id="reg-choice-4" checked><span class="checkbox with-field"><i class="fas fa-check"></i></span>
+          <label class="checkbox-regular-value other-label" for="reg-choice-4">Other</label>
+          <input id="checkbox-field" class="input-text input-disabled other-input" disabled="disabled" type="text" placeholder="Add other choice">
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label class="form-input-label">Labeled, Numeric, Multi Entries</label>
+      <div class="labeled-row">
+        <div class="labeled-label">
+          Percentage
+        </div>
+        <div class="labeled-input">
+          <input id="percentage" class="input-text input-with-spinner" type="number" min="1" max="100" placeholder="Add percentage">
+          <a class="input-select-btn on-disabled-btn btn-label" id="popup">%</a>
+          <div class="spinner-group">
+            <a class="spinner-up"><i class="fas fa-caret-up"></i></a>
+            <a class="spinner-down"><i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="labeled-row">
+        <div class="labeled-label">
+          Amount
+        </div>
+        <div class="labeled-input" id="form-amount-input">
+          <input id="amount-input" class="input-text input-with-spinner money-input" type="text" value="0.00">
+          <a />
+          <div class="spinner-group amount-spinner-group">
+            <a class="spinner-up"><i class="fas fa-caret-up"></i></a>
+            <a class="spinner-down"><i class="fas fa-caret-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-unit form-divided form-check-radio">
+      <label for="radio-regular" class="form-input-label">Radio Buttons</label>
+      <ul class="radio-regular-list">
+        <li class="radio-regular-each">
+          <input type="radio" class="radio-input" id="reg-radio-1" checked><span class="radio" disabled="disabled"><span class="radio-selected disabled-radio"></span></span>
+          <label class="radio-regular-value" for="reg-radio-1">Choice 1</label>
+        </li>
+        <li class="radio-regular-each">
+          <input type="radio" class="radio-input" id="reg-radio-2" checked><span class="radio" disabled="disabled"></span>
+          <label class="radio-regular-value" for="reg-radio-2">Choice 2</label>
+        </li>
+        <li class="radio-regular-each">
+          <input type="radio" class="radio-input" id="reg-radio-3" checked><span class="radio" selected="selected"><span class="radio-selected"></span></span>
+          <label class="radio-regular-value" for="reg-radio-3">Choice 3</label>
+        </li>
+        <li class="radio-regular-each">
+          <input type="radio" class="radio-input" id="reg-radio-4" checked><span class="radio with-field"><span class="radio-selected"></span></span>
+          <label class="radio-regular-value other-label" for="reg-radio-4">Other</label>
+          <input id="radio-field" class="input-text input-disabled other-input" disabled="disabled" type="text" placeholder="Add other choice">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="upload-input" class="form-input-label">Toggle</label>
+      <div class="toggle-wrapper">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+          <span class="toggle-label">Toggle 1</span>
+        </label>
+      </div>
+      <div class="toggle-wrapper">
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round"></span>
+          <span class="toggle-label">Toggle 2</span>
+        </label>
+      </div>
+    </div>
+    <div class="form-unit form-divided">
+      <label for="upload-input" class="form-input-label">Slider</label>
+      <input type="text" id="slider" name="example_name" value="" />
+      <div class="min-max-slider">
+        <span class="min-slider">1,000.00</span>
+        <span class="max-slider">1,000,000.00</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label class="form-input-label multiple-upload-label">Multiple Upload</label>
+      <div class="attachment-note">Maximum 5 files. Accepted format .png, .jpg, .docx, .xlsx, .pdf</div>
+      <div class="attachment-row">
+        <div class="attachment-each"><a class="attachment-link" href="#"><i class="fas fa-file-pdf attachment-icon"></i><i class="fas fa-download attachment-icon"></i><span class="attachment-title">Resignation_069.pdf</span></a><i class="fas fa-trash"></i></div>
+        <div class="attachment-each"><a class="attachment-link" href="#"><i class="fas fa-file-word attachment-icon"></i><i class="fas fa-download attachment-icon"></i><span class="attachment-title">ExitInterview-EMP/001.docx</span></a><i class="fas fa-trash"></i></div>
+        <div class="attachment-each"><a class="attachment-link" href="#"><i class="fas fa-file-excel attachment-icon"></i><i class="fas fa-download attachment-icon"></i><span class="attachment-title">Checklist.xlsx</span></a><i class="fas fa-trash"></i></div>
+        <div class="attachment-each"><a class="attachment-link" href="#"><i class="fas fa-file-image attachment-icon"></i><i class="fas fa-download attachment-icon"></i><span class="attachment-title">Screenshot_20180101.jpg</span></a><i class="fas fa-trash"></i></div>
+        <div class="attachment-each"><a class="attachment-link" href="#"><i class="fas fa-file-image attachment-icon"></i><i class="fas fa-download attachment-icon"></i><span class="attachment-title">Pas Foto 2018.png</span></a><i class="fas fa-trash"></i></div>
+      </div>
+      <a class="button inline-btn white-btn attachment-btn">Upload Attachment</a>   
+    </div>
+    <div class="form-unit form-divided">
+      <label for="upload-input" class="form-input-label">Single Upload</label>
+      <input id="upload-input" class="input-text input-disabled" disabled="disabled" type="text" value="">
+      <a id="browse-btn" class="button green-btn inline-btn">Browse</a>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-divided form-divided-left">
+      <label for="emp-name" class="form-input-label">Text Area</label>
+      <textarea placeholder="Add description"></textarea>
+    </div>
+    <div class="form-unit form-divided">
+      <label for="emp-id" class="form-input-label">Pill Box</label>
+      <select class="js-example-basic-multiple" name="states[]" multiple="multiple">
+        <option value="a1">Item A1</option>
+        <option value="a2">Item A2</option>
+        <option value="b1">Item B1</option>
+        <option value="a1">Item C1</option>
+        <option value="a2">Item C2</option>
+        <option value="b1">Item C3</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit">
+      <label for="code" class="form-input-label">Input in Sentence</label>
+      <div class="sentence-row">
+        <div class="sentence-checkbox-wrapper">
+          <input type="checkbox" class="checkbox-input" id="reg-choice-3" checked><span class="checkbox" selected="selected"><i class="fas fa-check"></i></span>
+        </div>
+        <div class="sentence-text-wrapper">
+          Enable automatic approval system: Entry will be automatically 
+          <span class="input-inline-wrapper">
+            <input class="selectable input-text input-inline input-disabled" type="text" data-drop-type="third" val="Approved" disabled="disabled">
+            <a class="input-select-btn dropdown-btn-wrapper input-inline-btn"><i class="fas fa-sort-down dropdown-icon"></i></a> 
+          </span>
+          after 
+          <span class="input-inline-wrapper input-minimal">
+            <input class="input-text input-with-spinner input-inline input-day input-disabled" type="number" min="0" val="0" disabled="disabled">
+            <a />
+            <div class="spinner-group spinner-group-day">
+              <a class="spinner-up"><i class="fas fa-caret-up"></i></a>
+              <a class="spinner-down"><i class="fas fa-caret-down"></i></a>
+            </div>
+          </span>
+          day(s) since Entry Date
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit">
+      <div class="multi-attribute">
+        <label class="form-input-label">Multi-Attributes Input</label>
+        <div class="add-multi">Add item <i class="fas fa-plus"></i></div>
+        <ul class="multi-list">
+          <li class="multi-list-each">
+            <div class="col-33 multi-col">
+              <label class="form-input-label">Year</label>
+              <div class="multi-form-group">
+                <input class="year-input input-text input-with-spinner" type="number" min="0" placeholder="Add year">
+                <a />
+                <div class="spinner-group spinner-group-year">
+                  <a class="spinner-up"><i class="fas fa-caret-up"></i></a>
+                  <a class="spinner-down"><i class="fas fa-caret-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-33 multi-col">
+              <label class="form-input-label">Balance Increase</label>
+              <div class="balance-group multi-form-group">
+                <input class="balance-input input-text input-with-spinner money-input" type="text" value="0.00">
+                <a />
+                <div class="spinner-group spinner-group-year">
+                  <a class="spinner-up"><i class="fas fa-caret-up"></i></a>
+                  <a class="spinner-down"><i class="fas fa-caret-down"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-33 multi-col">
+              <div class="panel-data panel-data-vertical">
+                <div class="panel-data-label">
+                  Total Balance
+                </div>
+                <div class="panel-data-value">
+                  Formula
+                </div>
+              </div>
+            </div>
+            <div class="multi-list-each-delete"><i class="fas fa-trash"></i></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="form-row form-calc">
+    <div class="form-unit form-divided form-divided-left form-divided-calc">
+      <label for="calc-input" class="form-input-label">Formula</label>
+      <input id="calc-input" class="input-text" type="text" placeholder="Add formula">
+    </div>
+  </div>
+  <div class="form-row form-calc">
+    <div class="form-unit">
+      <ul class="calc-op-list">
+        <li class="calc-op-each" data-op="/$"><span class="op-text op-divide">&#247;</span></li>
+        <li class="calc-op-each" data-op="*$"><i class="fas fa-times op-icon"></i></li>
+        <li class="calc-op-each" data-op="-$"><i class="fas fa-minus op-icon"></i></li>
+        <li class="calc-op-each" data-op="+$"><i class="fas fa-plus op-icon"></i></li>
+        <li class="calc-op-each" data-op="($"><span class="op-text">(</span></li>
+        <li class="calc-op-each" data-op=")$"><span class="op-text">)</span></li>
+        <li class="calc-op-each" data-op="%$"><span class="op-text">%</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit">
+      <div class="calc-btn-group">
+      <ul class="calc-btn-list">
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">A01</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">A02</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">A03</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">A04</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">B01</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">B02</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">B03</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">B04</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">C01</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">C02</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">C03</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+        <li class="calc-btn-each-wrapper">
+          <div class="calc-btn-each">
+            <span class="calc-btn-code">C04</span><br /><span class="calc-btn-name">Formula Item</span>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-unit form-unit-last">
+      <div class="editor-label-wrapper">
+        <label class="form-input-label editor-label">Text Editor</label>
+        <a class="character-count"></a>
+      </div>
+      <div class="toolbar-container-wrapper">
+        <div id="toolbar-container">
+        <span class="ql-formats">
+          <select class="ql-font"></select>
+          <select class="ql-size"></select>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-bold"></button>
+          <button class="ql-italic"></button>
+          <button class="ql-underline"></button>
+          <button class="ql-strike"></button>
+        </span>
+        <span class="ql-formats">
+          <select class="ql-color"></select>
+          <select class="ql-background"></select>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-script" value="sub"></button>
+          <button class="ql-script" value="super"></button>
+        </span>
+        <br />
+        <span class="ql-formats">
+          <button class="ql-header" value="1"></button>
+          <button class="ql-header" value="2"></button>
+          <button class="ql-blockquote"></button>
+          <button class="ql-code-block"></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-list" value="ordered"></button>
+          <button class="ql-list" value="bullet"></button>
+          <button class="ql-indent" value="-1"></button>
+          <button class="ql-indent" value="+1"></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-direction" value="rtl"></button>
+          <select class="ql-align"></select>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-link"></button>
+          <button class="ql-image"></button>
+          <button class="ql-video"></button>
+          <button class="ql-formula"></button>
+        </span>
+        <span class="ql-formats">
+          <button class="ql-clean"></button>
+        </span>
+      </div>
+      </div>
+      <div class="editor">
+     
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="selectable-dropdown-wrapper" data-drop-type="first">
+  <ul class="selectable-dropdown">
+     <li class="selectable-dropdown-each">Bali</li>
+     <li class="selectable-dropdown-each">Bandung</li>
+     <li class="selectable-dropdown-each">Jakarta</li>
+     <li class="selectable-dropdown-each">Makassar</li>
+     <li class="selectable-dropdown-each">Manado</li>
+     <li class="selectable-dropdown-each">Medan</li>
+     <li class="selectable-dropdown-each">Padang</li>
+     <li class="selectable-dropdown-each">Palembang</li>
+     <li class="selectable-dropdown-each">Pontianak</li>
+     <li class="selectable-dropdown-each">Semarang</li>
+     <li class="selectable-dropdown-each">Serang</li>
+     <li class="selectable-dropdown-each">Surabaya</li>
+     <li class="selectable-dropdown-each">Yogyakarta</li>
+     <li class="selectable-dropdown-each selectable-noresult">No results found</li>
+  </ul>
+</div>
+
+<div class="selectable-dropdown-wrapper" data-drop-type="second">
+  <ul class="selectable-dropdown">
+     <li class="selectable-dropdown-each selectable-selected">Waiting for approval</li>
+     <li class="selectable-dropdown-each">Approved</li>
+     <li class="selectable-dropdown-each">Rejected</li>
+     <li class="selectable-dropdown-each">Paid</li>
+  </ul>
+</div>
+  
+<div class="selectable-dropdown-wrapper" data-drop-type="third">
+  <ul class="selectable-dropdown">
+     <li class="selectable-dropdown-each selectable-selected">Approved</li>
+     <li class="selectable-dropdown-each">Rejected</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+<script src="https://rawgit.com/IonDen/ion.rangeSlider/master/js/ion.rangeSlider.min.js"></script>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>

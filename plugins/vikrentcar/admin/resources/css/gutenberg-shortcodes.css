@@ -1,0 +1,37 @@
+/* editor control */
+
+.vrc-shortcode-admin-wrapper .wp-block-shortcode .components-base-control__field {
+	display: flex;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.vrc-shortcode-admin-wrapper .wp-block-shortcode .components-base-control__field label {
+	display: flex;
+	margin-bottom: 0;
+}
+
+.vrc-shortcode-admin-wrapper .wp-block-shortcode .components-base-control__field select {
+	display: flex;
+	width: 100% !important;
+	height: 36px;
+}
+
+/* inspector */
+
+.vikrentcar-shortcode-info-box:not(.toggled) {
+	display: none;
+}
+
+.vikrentcar-shortcode-info-box .vrc-sh-info-control {
+	margin-bottom: 8px;
+}
+
+.vikrentcar-shortcode-info-box .vrc-sh-info-control label {
+	vertical-align: initial;
+}
+
+.vikrentcar-shortcode-info-box .vrc-sh-info-control span {
+	font-weight: bold;
+	float: right;
+}

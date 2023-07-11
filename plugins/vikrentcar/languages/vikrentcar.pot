@@ -1,0 +1,7727 @@
+# Copyright (C) 2022 E4J s.r.l.
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: VikRentCar 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/vikrentcar\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-14T16:39:02+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: vikrentcar\n"
+
+#. Plugin Name of the plugin
+#: libraries/language/admin.php:1372
+#: libraries/language/adminsys.php:52
+msgid "VikRentCar"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://vikwp.com/plugin/vikrentcar"
+msgstr ""
+
+#. Description of the plugin
+msgid "Robust Car Rental Management Software."
+msgstr ""
+
+#. Author of the plugin
+msgid "E4J s.r.l."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://vikwp.com"
+msgstr ""
+
+#: admin/payments/paypal.php:151
+msgid "Transaction completed. The page will be refreshed automatically in a few seconds."
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:28
+msgid "No, thanks"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:34
+msgid "The plugin is not working"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:40
+msgid "The plugin didn't work as expected"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:48
+msgid "The FREE version is too limited"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:51
+msgid "What feature would you like to use?"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:58
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:64
+msgid "The plugin broke my site"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:66
+msgid "Could you please explain what happened?"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:72
+msgid "I couldn't understand how to get it working"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:73
+msgid "Did you read the plugin documentation? You can find it <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:78
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:83
+msgid "I'm just debugging an issue"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:88
+msgid "I'm not able to deactivate this plugin!"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:89
+msgid "In case you are experiencing some issues with the deactivation of this plugin, try to relaunch the page by appending <code>&feedback=0</code> to the URL. Otherwise just click <a href=\"%s\">HERE</a>."
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:94
+msgid "Other"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:97
+msgid "Please give us more information"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:151
+#: libraries/system/feedback.php:66
+msgid "Feedback"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:152
+msgid "If you have a moment, please let us know why you are deactivating."
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:189
+msgid "Please, could you write some extra notes?"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:209
+msgid "Would you like to be contacted by our team for a clarification?"
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:214
+msgid "If you believe you could have missed a feature in the plugin, please drop us your email and we will get back to you with <u>one</u> message."
+msgstr ""
+
+#: libraries/html/feedback/thickbox.php:225
+msgid "In addition to the specified information, the feedback will contain your IP address (for security reasons), your PHP version, your WordPress version and the plugin version. If provided, we will not use your email address for any kind of newsletter, nor will we share it with anyone. We will only answer to your questions."
+msgstr ""
+
+#: libraries/html/license/update.php:15
+msgid ""
+"Your PRO license is expired, if you proceed with the update, you'll lose access to the features unlocked with the PRO version. We strongly recommend to update the plugin only after renewing your license.\n"
+"Would you like to proceed anyway?"
+msgstr ""
+
+#: libraries/language/admin.php:45
+msgid "Search Tools"
+msgstr ""
+
+#: libraries/language/admin.php:52
+#: libraries/language/admin.php:2113
+#: libraries/language/system.php:209
+msgid "Save"
+msgstr ""
+
+#: libraries/language/admin.php:55
+#: libraries/language/system.php:225
+msgid "Cancel"
+msgstr ""
+
+#: libraries/language/admin.php:58
+#: libraries/language/admin.php:967
+#: libraries/language/admin.php:979
+#: libraries/language/system.php:116
+#: libraries/language/system.php:201
+msgid "Delete"
+msgstr ""
+
+#: libraries/language/admin.php:61
+#: libraries/language/site.php:324
+#: libraries/language/system.php:181
+msgid "Back"
+msgstr ""
+
+#: libraries/language/admin.php:64
+#: libraries/language/admin.php:1921
+#: libraries/language/site.php:729
+msgid "Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:67
+#: libraries/language/site.php:732
+msgid "Standby"
+msgstr ""
+
+#: libraries/language/admin.php:70
+msgid "Left"
+msgstr ""
+
+#: libraries/language/admin.php:73
+msgid "Right"
+msgstr ""
+
+#: libraries/language/admin.php:76
+#: libraries/language/admin.php:706
+msgid "Bottom, Center"
+msgstr ""
+
+#: libraries/language/admin.php:79
+#: libraries/language/admin.php:508
+#: libraries/language/admin.php:1666
+#: libraries/language/admin.php:1966
+#: libraries/language/admin.php:2413
+#: libraries/language/site.php:723
+msgid "Status"
+msgstr ""
+
+#: libraries/language/admin.php:82
+msgid "Vik Rent Car - Cars List"
+msgstr ""
+
+#: libraries/language/admin.php:85
+msgid "Delete Car"
+msgstr ""
+
+#: libraries/language/admin.php:88
+msgid "Edit Car"
+msgstr ""
+
+#: libraries/language/admin.php:91
+msgid "Edit/View Fares"
+msgstr ""
+
+#: libraries/language/admin.php:94
+msgid "Cars Calendar"
+msgstr ""
+
+#: libraries/language/admin.php:97
+msgid "New Car"
+msgstr ""
+
+#: libraries/language/admin.php:100
+msgid "Vik Rent Car - Pickup/Drop Off Locations"
+msgstr ""
+
+#: libraries/language/admin.php:103
+msgid "Delete Location"
+msgstr ""
+
+#: libraries/language/admin.php:106
+msgid "Edit Location"
+msgstr ""
+
+#: libraries/language/admin.php:109
+msgid "New Location"
+msgstr ""
+
+#: libraries/language/admin.php:112
+msgid "Vik Rent Car - Tax Rates List"
+msgstr ""
+
+#: libraries/language/admin.php:115
+msgid "Delete Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:118
+msgid "Edit Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:121
+msgid "New Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:124
+msgid "Vik Rent Car - Categories List"
+msgstr ""
+
+#: libraries/language/admin.php:127
+msgid "Delete Categories"
+msgstr ""
+
+#: libraries/language/admin.php:130
+msgid "Edit Category"
+msgstr ""
+
+#: libraries/language/admin.php:133
+msgid "New Category"
+msgstr ""
+
+#: libraries/language/admin.php:136
+msgid "Vik Rent Car - Characteristics List"
+msgstr ""
+
+#: libraries/language/admin.php:139
+msgid "Delete Characteristics"
+msgstr ""
+
+#: libraries/language/admin.php:142
+msgid "Edit Characteristic"
+msgstr ""
+
+#: libraries/language/admin.php:145
+msgid "New Characteristic"
+msgstr ""
+
+#: libraries/language/admin.php:148
+msgid "Vik Rent Car - Options List"
+msgstr ""
+
+#: libraries/language/admin.php:151
+msgid "Delete Options"
+msgstr ""
+
+#: libraries/language/admin.php:154
+msgid "Edit Option"
+msgstr ""
+
+#: libraries/language/admin.php:157
+msgid "New Option"
+msgstr ""
+
+#: libraries/language/admin.php:160
+msgid "Vik Rent Car - Types of Price"
+msgstr ""
+
+#: libraries/language/admin.php:163
+msgid "Delete Prices"
+msgstr ""
+
+#: libraries/language/admin.php:166
+msgid "Edit Price"
+msgstr ""
+
+#: libraries/language/admin.php:169
+msgid "New Price"
+msgstr ""
+
+#: libraries/language/admin.php:172
+msgid "Vik Rent Car - New Pickup/Drop Off Location"
+msgstr ""
+
+#: libraries/language/admin.php:175
+msgid "Vik Rent Car - Edit Location"
+msgstr ""
+
+#: libraries/language/admin.php:178
+msgid "Vik Rent Car - New Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:181
+msgid "Vik Rent Car - Edit Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:184
+msgid "Vik Rent Car - New Price"
+msgstr ""
+
+#: libraries/language/admin.php:187
+msgid "Vik Rent Car - Edit Price"
+msgstr ""
+
+#: libraries/language/admin.php:190
+msgid "Vik Rent Car - New Category"
+msgstr ""
+
+#: libraries/language/admin.php:193
+msgid "Vik Rent Car - Edit Category"
+msgstr ""
+
+#: libraries/language/admin.php:196
+msgid "Vik Rent Car - New Characteristic"
+msgstr ""
+
+#: libraries/language/admin.php:199
+msgid "Vik Rent Car - Edit Characteristic"
+msgstr ""
+
+#: libraries/language/admin.php:202
+msgid "Vik Rent Car - New Option"
+msgstr ""
+
+#: libraries/language/admin.php:205
+msgid "Vik Rent Car - Edit Option"
+msgstr ""
+
+#: libraries/language/admin.php:208
+msgid "Vik Rent Car - New Car"
+msgstr ""
+
+#: libraries/language/admin.php:211
+msgid "Vik Rent Car - Edit Car"
+msgstr ""
+
+#: libraries/language/admin.php:214
+msgid "Vik Rent Car - Cars Fares"
+msgstr ""
+
+#: libraries/language/admin.php:217
+msgid "Delete Fares"
+msgstr ""
+
+#: libraries/language/admin.php:220
+msgid "Quit Inserting"
+msgstr ""
+
+#: libraries/language/admin.php:223
+msgid "Vik Rent Car - Rental Orders"
+msgstr ""
+
+#: libraries/language/admin.php:226
+msgid "Delete Orders"
+msgstr ""
+
+#: libraries/language/admin.php:229
+msgid "View Order"
+msgstr ""
+
+#: libraries/language/admin.php:232
+msgid "Vik Rent Car - Removed Rental Orders"
+msgstr ""
+
+#: libraries/language/admin.php:235
+msgid "Permanently Delete"
+msgstr ""
+
+#: libraries/language/admin.php:238
+msgid "View Removed Order"
+msgstr ""
+
+#: libraries/language/admin.php:241
+msgid "Vik Rent Car - Rental Order"
+msgstr ""
+
+#: libraries/language/admin.php:244
+msgid "Vik Rent Car - Removed Rental Order"
+msgstr ""
+
+#: libraries/language/admin.php:247
+msgid "Vik Rent Car - Booking Calendar"
+msgstr ""
+
+#: libraries/language/admin.php:250
+msgid "Reservations for"
+msgstr ""
+
+#: libraries/language/admin.php:253
+msgid "Vik Rent Car - Edit Reservation"
+msgstr ""
+
+#: libraries/language/admin.php:256
+#: libraries/language/admin.php:607
+msgid "Delete Reservation"
+msgstr ""
+
+#: libraries/language/admin.php:259
+msgid "Vik Rent Car - Global Configuration"
+msgstr ""
+
+#: libraries/language/admin.php:262
+msgid "Vik Rent Car - Payment Methods"
+msgstr ""
+
+#: libraries/language/admin.php:265
+#: libraries/language/admin.php:1270
+#: libraries/language/admin.php:1639
+#: libraries/language/admin.php:2905
+#: libraries/language/admin.php:3109
+#: libraries/language/admin.php:3688
+msgid "Remove"
+msgstr ""
+
+#: libraries/language/admin.php:268
+#: libraries/language/admin.php:970
+#: libraries/language/admin.php:982
+#: libraries/language/admin.php:1273
+#: libraries/language/admin.php:1636
+#: libraries/language/admin.php:2182
+#: libraries/language/admin.php:2902
+#: libraries/language/admin.php:3106
+#: libraries/language/admin.php:3685
+#: libraries/language/system.php:124
+#: libraries/language/system.php:177
+msgid "Edit"
+msgstr ""
+
+#: libraries/language/admin.php:271
+#: libraries/language/admin.php:973
+#: libraries/language/admin.php:1276
+#: libraries/language/admin.php:1633
+#: libraries/language/admin.php:2179
+#: libraries/language/admin.php:2899
+#: libraries/language/system.php:173
+msgid "New"
+msgstr ""
+
+#: libraries/language/admin.php:274
+msgid "Vik Rent Car - New Payment Method"
+msgstr ""
+
+#: libraries/language/admin.php:277
+msgid "Vik Rent Car - Edit Payment Method"
+msgstr ""
+
+#: libraries/language/admin.php:280
+msgid "Vik Rent Car - Availability Overview"
+msgstr ""
+
+#: libraries/language/admin.php:283
+msgid "Shop and Rentals"
+msgstr ""
+
+#: libraries/language/admin.php:286
+msgid "Prices and Payments"
+msgstr ""
+
+#: libraries/language/admin.php:289
+msgid "Views and Layout"
+msgstr ""
+
+#: libraries/language/admin.php:292
+msgid "Orders and Company"
+msgstr ""
+
+#: libraries/language/admin.php:295
+msgid "Reservation Deleted"
+msgstr ""
+
+#: libraries/language/admin.php:298
+#: libraries/language/site.php:102
+msgid "to the"
+msgstr ""
+
+#: libraries/language/admin.php:301
+#: libraries/language/site.php:105
+msgid "Car is not available from the"
+msgstr ""
+
+#: libraries/language/admin.php:304
+msgid "Drop Off time is previous than Pickup"
+msgstr ""
+
+#: libraries/language/admin.php:307
+msgid "The car is not available in the days requested. The Car is currently blocked by a pending order waiting to be confirmed."
+msgstr ""
+
+#: libraries/language/admin.php:310
+msgid "Reservation Updated"
+msgstr ""
+
+#: libraries/language/admin.php:313
+msgid "Settings Saved! Click the Renew Session button to immediately apply the changes"
+msgstr ""
+
+#: libraries/language/admin.php:316
+msgid "Payment Method Saved"
+msgstr ""
+
+#: libraries/language/admin.php:319
+msgid "File Class is already used in another payment method"
+msgstr ""
+
+#: libraries/language/admin.php:322
+msgid "Payment Method Updated"
+msgstr ""
+
+#: libraries/language/admin.php:325
+#: libraries/language/site.php:51
+#: libraries/language/site.php:183
+msgid "Rental Order"
+msgstr ""
+
+#: libraries/language/admin.php:328
+#: libraries/language/site.php:57
+#: libraries/language/site.php:186
+msgid "Completed"
+msgstr ""
+
+#: libraries/language/admin.php:331
+msgid "Error, the Car is no longer available. Order was set to Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:334
+msgid "Order successfully set to Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:337
+msgid "No Vehicle Found"
+msgstr ""
+
+#: libraries/language/admin.php:340
+msgid "Insert Fares"
+msgstr ""
+
+#: libraries/language/admin.php:343
+msgid "No Prices Found, Insert Prices from"
+msgstr ""
+
+#: libraries/language/admin.php:346
+msgid "Here"
+msgstr ""
+
+#: libraries/language/admin.php:349
+msgid "Days Field is empty"
+msgstr ""
+
+#: libraries/language/admin.php:352
+#: libraries/language/admin.php:502
+#: libraries/language/admin.php:1837
+#: libraries/language/admin.php:1990
+#: libraries/language/site.php:141
+#: libraries/language/site.php:327
+#: libraries/language/site.php:768
+msgid "Days"
+msgstr ""
+
+#: libraries/language/admin.php:355
+msgid "from"
+msgstr ""
+
+#: libraries/language/admin.php:358
+msgid "to"
+msgstr ""
+
+#: libraries/language/admin.php:361
+msgid "Daily Price(s)"
+msgstr ""
+
+#: libraries/language/admin.php:364
+#: libraries/language/site.php:144
+msgid "Day"
+msgstr ""
+
+#: libraries/language/admin.php:367
+msgid "Insert"
+msgstr ""
+
+#: libraries/language/admin.php:370
+msgid "Edit Reservation"
+msgstr ""
+
+#: libraries/language/admin.php:373
+msgid "Quick Reservation"
+msgstr ""
+
+#: libraries/language/admin.php:376
+msgid "Reservation Saved"
+msgstr ""
+
+#: libraries/language/admin.php:379
+msgid "Unable to save the reservation, car not available"
+msgstr ""
+
+#: libraries/language/admin.php:382
+msgid "Pickup Field is empty"
+msgstr ""
+
+#: libraries/language/admin.php:385
+msgid "Drop Off Field is empty"
+msgstr ""
+
+#: libraries/language/admin.php:388
+msgid "Pickup Date and Time"
+msgstr ""
+
+#: libraries/language/admin.php:391
+msgid "At"
+msgstr ""
+
+#: libraries/language/admin.php:394
+msgid "Drop Off Date and Time"
+msgstr ""
+
+#: libraries/language/admin.php:397
+#: libraries/language/admin.php:490
+#: libraries/language/admin.php:2332
+msgid "Customer Information"
+msgstr ""
+
+#: libraries/language/admin.php:400
+msgid "Save Reservation"
+msgstr ""
+
+#: libraries/language/admin.php:403
+msgid "No Future Reservations"
+msgstr ""
+
+#: libraries/language/admin.php:406
+msgid "View Mode"
+msgstr ""
+
+#: libraries/language/admin.php:409
+#: libraries/language/adminsys.php:142
+msgid "3 Months"
+msgstr ""
+
+#: libraries/language/admin.php:412
+#: libraries/language/adminsys.php:145
+msgid "6 Months"
+msgstr ""
+
+#: libraries/language/admin.php:415
+#: libraries/language/adminsys.php:148
+msgid "1 Year"
+msgstr ""
+
+#: libraries/language/admin.php:418
+#: libraries/language/site.php:477
+msgid "Sun"
+msgstr ""
+
+#: libraries/language/admin.php:421
+#: libraries/language/site.php:480
+msgid "Mon"
+msgstr ""
+
+#: libraries/language/admin.php:424
+#: libraries/language/site.php:483
+msgid "Tue"
+msgstr ""
+
+#: libraries/language/admin.php:427
+#: libraries/language/site.php:486
+msgid "Wed"
+msgstr ""
+
+#: libraries/language/admin.php:430
+#: libraries/language/site.php:489
+msgid "Thu"
+msgstr ""
+
+#: libraries/language/admin.php:433
+#: libraries/language/site.php:492
+msgid "Fri"
+msgstr ""
+
+#: libraries/language/admin.php:436
+#: libraries/language/site.php:495
+msgid "Sat"
+msgstr ""
+
+#: libraries/language/admin.php:439
+msgid "Pickup at"
+msgstr ""
+
+#: libraries/language/admin.php:442
+msgid "Drop Off at"
+msgstr ""
+
+#: libraries/language/admin.php:445
+msgid "No cars found"
+msgstr ""
+
+#: libraries/language/admin.php:448
+msgid "Every selected Car will be removed with its own contents. Confirm"
+msgstr ""
+
+#: libraries/language/admin.php:451
+#: libraries/language/admin.php:520
+#: libraries/language/admin.php:529
+#: libraries/language/admin.php:568
+#: libraries/language/admin.php:751
+#: libraries/language/admin.php:1171
+#: libraries/language/admin.php:1222
+#: libraries/language/admin.php:1339
+#: libraries/language/admin.php:1429
+#: libraries/language/admin.php:2140
+#: libraries/language/admin.php:3115
+#: libraries/language/adminsys.php:109
+#: libraries/language/adminsys.php:232
+#: libraries/language/site.php:267
+#: libraries/language/site.php:438
+#: libraries/language/site.php:522
+#: libraries/language/system.php:303
+msgid "Name"
+msgstr ""
+
+#: libraries/language/admin.php:454
+#: libraries/language/admin.php:739
+#: libraries/language/adminsys.php:70
+#: libraries/language/site.php:120
+#: modules/mod_vikrentcar_search/language/handler.php:119
+msgid "Category"
+msgstr ""
+
+#: libraries/language/admin.php:457
+#: libraries/language/admin.php:745
+#: libraries/language/admin.php:1318
+#: libraries/language/admin.php:2569
+msgid "Characteristics"
+msgstr ""
+
+#: libraries/language/admin.php:460
+#: libraries/language/admin.php:631
+#: libraries/language/admin.php:661
+#: libraries/language/admin.php:748
+#: libraries/language/site.php:234
+#: libraries/language/site.php:318
+#: libraries/language/site.php:924
+msgid "Options"
+msgstr ""
+
+#: libraries/language/admin.php:463
+#: libraries/language/admin.php:1120
+#: libraries/language/admin.php:1933
+#: libraries/language/site.php:48
+msgid "Location"
+msgstr ""
+
+#: libraries/language/admin.php:466
+#: libraries/language/admin.php:760
+#: libraries/language/site.php:498
+msgid "Available"
+msgstr ""
+
+#: libraries/language/admin.php:469
+msgid "Units"
+msgstr ""
+
+#: libraries/language/admin.php:472
+msgid "Make Not Available"
+msgstr ""
+
+#: libraries/language/admin.php:475
+msgid "Make Available"
+msgstr ""
+
+#: libraries/language/admin.php:478
+#: libraries/language/admin.php:1162
+#: libraries/language/admin.php:1648
+#: libraries/language/site.php:123
+#: libraries/language/site.php:174
+#: modules/mod_vikrentcar_search/language/handler.php:122
+msgid "Any"
+msgstr ""
+
+#: libraries/language/admin.php:481
+msgid "No orders found"
+msgstr ""
+
+#: libraries/language/admin.php:484
+msgid "Every selected order will be removed with its reservation. Confirm"
+msgstr ""
+
+#: libraries/language/admin.php:487
+#: libraries/language/admin.php:1768
+#: libraries/language/admin.php:2305
+#: libraries/language/admin.php:3853
+#: libraries/language/admin.php:4027
+#: libraries/language/site.php:42
+#: libraries/language/site.php:720
+msgid "Date"
+msgstr ""
+
+#: libraries/language/admin.php:493
+#: libraries/language/admin.php:646
+#: libraries/language/admin.php:2119
+#: libraries/language/admin.php:2458
+#: libraries/language/admin.php:3247
+msgid "Car"
+msgstr ""
+
+#: libraries/language/admin.php:496
+#: libraries/language/admin.php:652
+#: libraries/language/admin.php:919
+#: libraries/language/admin.php:1660
+#: libraries/language/site.php:126
+msgid "Pickup"
+msgstr ""
+
+#: libraries/language/admin.php:499
+#: libraries/language/admin.php:655
+#: libraries/language/admin.php:922
+#: libraries/language/admin.php:1663
+#: libraries/language/site.php:129
+msgid "Drop Off"
+msgstr ""
+
+#: libraries/language/admin.php:505
+#: libraries/language/admin.php:664
+#: libraries/language/admin.php:1030
+#: libraries/language/admin.php:1960
+#: libraries/language/admin.php:2335
+#: libraries/language/admin.php:3340
+#: libraries/language/admin.php:3883
+#: libraries/language/site.php:249
+#: libraries/language/site.php:372
+#: libraries/language/site.php:639
+msgid "Total"
+msgstr ""
+
+#: libraries/language/admin.php:511
+msgid "No removed orders found"
+msgstr ""
+
+#: libraries/language/admin.php:514
+msgid "No Locations found"
+msgstr ""
+
+#: libraries/language/admin.php:517
+msgid "Remove every selected Location"
+msgstr ""
+
+#: libraries/language/admin.php:523
+msgid "No Tax rates Found"
+msgstr ""
+
+#: libraries/language/admin.php:526
+msgid "Remove every selected Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:532
+#: libraries/language/admin.php:577
+#: libraries/language/admin.php:604
+#: libraries/language/admin.php:673
+#: libraries/language/admin.php:682
+#: libraries/language/admin.php:718
+#: libraries/language/admin.php:949
+#: libraries/language/admin.php:2197
+msgid "Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:535
+msgid "No Categories found"
+msgstr ""
+
+#: libraries/language/admin.php:538
+msgid "Remove every selected Category"
+msgstr ""
+
+#: libraries/language/admin.php:541
+#: libraries/language/admin.php:685
+msgid "Category Name"
+msgstr ""
+
+#: libraries/language/admin.php:544
+msgid "No Characteristics found"
+msgstr ""
+
+#: libraries/language/admin.php:547
+msgid "Remove every selected Characteristic"
+msgstr ""
+
+#: libraries/language/admin.php:550
+#: libraries/language/admin.php:688
+msgid "Characteristic Name"
+msgstr ""
+
+#: libraries/language/admin.php:553
+msgid "Icon"
+msgstr ""
+
+#: libraries/language/admin.php:556
+#: libraries/language/admin.php:1243
+#: libraries/language/admin.php:4591
+msgid "Text"
+msgstr ""
+
+#: libraries/language/admin.php:559
+msgid "Text Alignment"
+msgstr ""
+
+#: libraries/language/admin.php:562
+msgid "No Options found"
+msgstr ""
+
+#: libraries/language/admin.php:565
+msgid "Remove every selected Option"
+msgstr ""
+
+#: libraries/language/admin.php:571
+#: libraries/language/admin.php:757
+#: libraries/language/admin.php:1441
+#: libraries/language/admin.php:1477
+#: libraries/language/admin.php:1480
+#: libraries/language/admin.php:2320
+#: libraries/language/admin.php:4030
+msgid "Description"
+msgstr ""
+
+#: libraries/language/admin.php:574
+#: libraries/language/admin.php:2329
+#: libraries/language/adminsys.php:103
+#: libraries/language/site.php:231
+msgid "Price"
+msgstr ""
+
+#: libraries/language/admin.php:580
+msgid "Per Day"
+msgstr ""
+
+#: libraries/language/admin.php:583
+msgid "Allowed Quantity"
+msgstr ""
+
+#: libraries/language/admin.php:586
+#: libraries/language/admin.php:754
+msgid "Image"
+msgstr ""
+
+#: libraries/language/admin.php:589
+#: libraries/language/admin.php:730
+msgid "Maximum Cost"
+msgstr ""
+
+#: libraries/language/admin.php:592
+msgid "No Prices Found"
+msgstr ""
+
+#: libraries/language/admin.php:595
+msgid "Remove every selected Price ? Each Tax Rate with one of these prices will become null."
+msgstr ""
+
+#: libraries/language/admin.php:598
+#: libraries/language/admin.php:676
+msgid "Price Name"
+msgstr ""
+
+#: libraries/language/admin.php:601
+#: libraries/language/admin.php:679
+msgid "Price Attributes"
+msgstr ""
+
+#: libraries/language/admin.php:610
+msgid "Order's data not found"
+msgstr ""
+
+#: libraries/language/admin.php:613
+msgid "Order date"
+msgstr ""
+
+#: libraries/language/admin.php:616
+msgid "Rental for"
+msgstr ""
+
+#: libraries/language/admin.php:619
+#: libraries/language/admin.php:1024
+#: libraries/language/admin.php:1045
+#: libraries/language/admin.php:1939
+#: libraries/language/admin.php:2641
+#: libraries/language/site.php:159
+#: libraries/language/site.php:366
+#: libraries/language/site.php:387
+#: modules/mod_vikrentcar_search/language/handler.php:107
+msgid "Pickup Date"
+msgstr ""
+
+#: libraries/language/admin.php:622
+msgid "At H:M"
+msgstr ""
+
+#: libraries/language/admin.php:625
+#: libraries/language/admin.php:1027
+#: libraries/language/admin.php:1048
+#: libraries/language/admin.php:1942
+#: libraries/language/site.php:162
+#: libraries/language/site.php:369
+#: libraries/language/site.php:390
+#: modules/mod_vikrentcar_search/language/handler.php:113
+msgid "Drop Off Date"
+msgstr ""
+
+#: libraries/language/admin.php:628
+msgid "Prices"
+msgstr ""
+
+#: libraries/language/admin.php:634
+#: libraries/language/admin.php:637
+msgid "Location Name"
+msgstr ""
+
+#: libraries/language/admin.php:640
+#: libraries/language/admin.php:1036
+#: libraries/language/admin.php:2638
+#: libraries/language/site.php:309
+#: libraries/language/site.php:378
+msgid "Order Date"
+msgstr ""
+
+#: libraries/language/admin.php:643
+#: libraries/language/admin.php:1018
+#: libraries/language/admin.php:1954
+msgid "Customer Info"
+msgstr ""
+
+#: libraries/language/admin.php:649
+#: libraries/language/admin.php:1705
+#: libraries/language/admin.php:1729
+msgid "Days of Rental"
+msgstr ""
+
+#: libraries/language/admin.php:658
+msgid "Fare"
+msgstr ""
+
+#: libraries/language/admin.php:667
+#: libraries/language/admin.php:1216
+#: libraries/language/site.php:351
+msgid "Pickup/Drop Off Fee"
+msgstr ""
+
+#: libraries/language/admin.php:670
+msgid "Tax Rate Name"
+msgstr ""
+
+#: libraries/language/admin.php:691
+msgid "Characteristic Icon"
+msgstr ""
+
+#: libraries/language/admin.php:694
+msgid "Text Next to Icon"
+msgstr ""
+
+#: libraries/language/admin.php:697
+msgid "Write Text on"
+msgstr ""
+
+#: libraries/language/admin.php:700
+msgid "the Left"
+msgstr ""
+
+#: libraries/language/admin.php:703
+msgid "the Right"
+msgstr ""
+
+#: libraries/language/admin.php:709
+msgid "Option Name"
+msgstr ""
+
+#: libraries/language/admin.php:712
+msgid "Option Description"
+msgstr ""
+
+#: libraries/language/admin.php:715
+msgid "Option Price"
+msgstr ""
+
+#: libraries/language/admin.php:721
+#: libraries/language/admin.php:946
+msgid "Daily Cost"
+msgstr ""
+
+#: libraries/language/admin.php:724
+msgid "Selectable Quantity"
+msgstr ""
+
+#: libraries/language/admin.php:727
+msgid "Option Image"
+msgstr ""
+
+#: libraries/language/admin.php:733
+msgid "Resize Image"
+msgstr ""
+
+#: libraries/language/admin.php:736
+msgid "If Larger than"
+msgstr ""
+
+#: libraries/language/admin.php:742
+msgid "Pickup Locations"
+msgstr ""
+
+#: libraries/language/admin.php:763
+#: libraries/language/admin.php:2674
+msgid "Total Units"
+msgstr ""
+
+#: libraries/language/admin.php:766
+msgid "No Fares found"
+msgstr ""
+
+#: libraries/language/admin.php:769
+msgid "Remove every selected Fare"
+msgstr ""
+
+#: libraries/language/admin.php:772
+msgid "Fare for days"
+msgstr ""
+
+#: libraries/language/admin.php:775
+msgid "Update Fares"
+msgstr ""
+
+#: libraries/language/admin.php:778
+msgid "Always Open"
+msgstr ""
+
+#: libraries/language/admin.php:781
+msgid "Time"
+msgstr ""
+
+#: libraries/language/admin.php:784
+#: libraries/language/admin.php:1102
+#: libraries/language/admin.php:1126
+#: libraries/language/admin.php:1507
+#: libraries/language/admin.php:3271
+#: libraries/language/site.php:240
+#: libraries/language/site.php:831
+msgid "From"
+msgstr ""
+
+#: libraries/language/admin.php:787
+#: libraries/language/admin.php:1105
+#: libraries/language/admin.php:1129
+#: libraries/language/admin.php:1510
+#: libraries/language/admin.php:3274
+#: libraries/language/site.php:243
+#: libraries/language/site.php:834
+msgid "To"
+msgstr ""
+
+#: libraries/language/admin.php:790
+msgid "Rentals Enabled"
+msgstr ""
+
+#: libraries/language/admin.php:793
+msgid "Rentals Disabled Message"
+msgstr ""
+
+#: libraries/language/admin.php:796
+msgid "Shop Opening Time"
+msgstr ""
+
+#: libraries/language/admin.php:799
+msgid "Hours of Extended Gratuity Period"
+msgstr ""
+
+#: libraries/language/admin.php:802
+msgid "Dropped Off car is available after"
+msgstr ""
+
+#: libraries/language/admin.php:805
+msgid "Choose Pickup Location"
+msgstr ""
+
+#: libraries/language/admin.php:808
+msgid "Pickup/Drop Off Date Format"
+msgstr ""
+
+#: libraries/language/admin.php:811
+#: libraries/language/site.php:210
+msgid "DD/MM/YYYY"
+msgstr ""
+
+#: libraries/language/admin.php:814
+#: libraries/language/site.php:213
+msgid "YYYY/MM/DD"
+msgstr ""
+
+#: libraries/language/admin.php:817
+msgid "Cars Category Filter"
+msgstr ""
+
+#: libraries/language/admin.php:820
+msgid "Token Form Order Submit"
+msgstr ""
+
+#: libraries/language/admin.php:823
+msgid "Admin e-Mail"
+msgstr ""
+
+#: libraries/language/admin.php:826
+msgid "Minutes of Waiting for the Payment"
+msgstr ""
+
+#: libraries/language/admin.php:829
+msgid "hours"
+msgstr ""
+
+#: libraries/language/admin.php:832
+msgid "Enable Paypal"
+msgstr ""
+
+#: libraries/language/admin.php:835
+msgid "Payments Account<br/><small>(for Gateways like Paypal)</small>"
+msgstr ""
+
+#: libraries/language/admin.php:838
+msgid "Pay Entire Amount"
+msgstr ""
+
+#: libraries/language/admin.php:841
+#: libraries/language/admin.php:2470
+#: libraries/language/site.php:432
+#: libraries/language/site.php:864
+msgid "Leave a deposit of "
+msgstr ""
+
+#: libraries/language/admin.php:844
+msgid "Prices Tax Included"
+msgstr ""
+
+#: libraries/language/admin.php:847
+msgid "Payment Transaction Name"
+msgstr ""
+
+#: libraries/language/admin.php:850
+#: libraries/language/admin.php:2980
+#: libraries/language/admin.php:2986
+msgid "Company Name"
+msgstr ""
+
+#: libraries/language/admin.php:853
+msgid "Front Title Tag"
+msgstr ""
+
+#: libraries/language/admin.php:856
+msgid "Front Title Tag Class"
+msgstr ""
+
+#: libraries/language/admin.php:859
+msgid "Search Button Text"
+msgstr ""
+
+#: libraries/language/admin.php:862
+msgid "Search Button Class"
+msgstr ""
+
+#: libraries/language/admin.php:865
+msgid "Show VikRentCar Footer"
+msgstr ""
+
+#: libraries/language/admin.php:868
+msgid "Opening Page Text"
+msgstr ""
+
+#: libraries/language/admin.php:871
+msgid "Closing Page Text"
+msgstr ""
+
+#: libraries/language/admin.php:874
+msgid "Enable Removed Orders Saving"
+msgstr ""
+
+#: libraries/language/admin.php:877
+msgid "Enable Search Statistics"
+msgstr ""
+
+#: libraries/language/admin.php:880
+msgid "Send Search Notifications to Admin"
+msgstr ""
+
+#: libraries/language/admin.php:883
+msgid "Disclaimer"
+msgstr ""
+
+#: libraries/language/admin.php:886
+msgid "Company Logo"
+msgstr ""
+
+#: libraries/language/admin.php:889
+msgid "Footer Text Order eMail"
+msgstr ""
+
+#: libraries/language/admin.php:892
+msgid "No Tax Rates Found"
+msgstr ""
+
+#: libraries/language/admin.php:895
+msgid "Ask Italian Fiscal Code"
+msgstr ""
+
+#: libraries/language/admin.php:898
+msgid "Currency Name"
+msgstr ""
+
+#: libraries/language/admin.php:901
+#: modules/mod_vikrentcar_cars/language/handler.php:95
+msgid "Currency Symbol"
+msgstr ""
+
+#: libraries/language/admin.php:904
+msgid "Transactions Currency Code"
+msgstr ""
+
+#: libraries/language/admin.php:907
+msgid "Reservation Date"
+msgstr ""
+
+#: libraries/language/admin.php:910
+msgid "Units Available"
+msgstr ""
+
+#: libraries/language/admin.php:913
+msgid "No results"
+msgstr ""
+
+#: libraries/language/admin.php:916
+#: libraries/language/admin.php:1099
+#: libraries/language/admin.php:1168
+msgid "Confirm"
+msgstr ""
+
+#: libraries/language/admin.php:925
+#: libraries/language/admin.php:1114
+#: libraries/language/admin.php:1141
+msgid "Charge"
+msgstr ""
+
+#: libraries/language/admin.php:928
+msgid "Daily"
+msgstr ""
+
+#: libraries/language/admin.php:931
+#: libraries/language/admin.php:1201
+#: libraries/language/site.php:894
+#: modules/mod_vikrentcar_cars/language/handler.php:62
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:62
+#: modules/mod_vikrentcar_search/language/handler.php:89
+msgid "Yes"
+msgstr ""
+
+#: libraries/language/admin.php:934
+#: libraries/language/admin.php:1204
+#: libraries/language/site.php:897
+#: modules/mod_vikrentcar_cars/language/handler.php:59
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:59
+#: modules/mod_vikrentcar_search/language/handler.php:86
+msgid "No"
+msgstr ""
+
+#: libraries/language/admin.php:937
+#: libraries/language/admin.php:1090
+#: libraries/language/admin.php:1651
+#: libraries/language/admin.php:1804
+#: libraries/language/admin.php:1948
+#: libraries/language/admin.php:2125
+#: libraries/language/site.php:156
+#: libraries/language/site.php:339
+#: modules/mod_vikrentcar_search/language/handler.php:104
+msgid "Pickup Location"
+msgstr ""
+
+#: libraries/language/admin.php:940
+#: libraries/language/admin.php:1093
+#: libraries/language/admin.php:1807
+#: libraries/language/admin.php:1951
+#: libraries/language/site.php:342
+#: modules/mod_vikrentcar_search/language/handler.php:125
+msgid "Drop Off Location"
+msgstr ""
+
+#: libraries/language/admin.php:943
+#: libraries/language/admin.php:1180
+#: libraries/language/admin.php:1195
+#: libraries/language/admin.php:1732
+msgid "Cost"
+msgstr ""
+
+#: libraries/language/admin.php:952
+msgid "Saved"
+msgstr ""
+
+#: libraries/language/admin.php:955
+#: libraries/language/admin.php:1159
+msgid "Updated"
+msgstr ""
+
+#: libraries/language/admin.php:958
+#: libraries/language/admin.php:961
+#: libraries/language/admin.php:964
+msgid "Vik Rent Car - Pickup Drop Off Fees"
+msgstr ""
+
+#: libraries/language/admin.php:976
+msgid "Vik Rent Car - Special Prices"
+msgstr ""
+
+#: libraries/language/admin.php:985
+msgid "New Special Price"
+msgstr ""
+
+#: libraries/language/admin.php:988
+msgid "Vik Rent Car - New Special Price"
+msgstr ""
+
+#: libraries/language/admin.php:991
+msgid "Vik Rent Car - Edit Special Price"
+msgstr ""
+
+#: libraries/language/admin.php:994
+msgid "Vik Rent Car - New Pickup Drop Off Fee"
+msgstr ""
+
+#: libraries/language/admin.php:997
+msgid "Vik Rent Car - Edit Pickup Drop Off Fee"
+msgstr ""
+
+#: libraries/language/admin.php:1000
+msgid "Set to Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:1003
+msgid "Method of Payment"
+msgstr ""
+
+#: libraries/language/admin.php:1006
+msgid "Send order emails with JUtility"
+msgstr ""
+
+#: libraries/language/admin.php:1009
+msgid "Show Partly Reserved Days"
+msgstr ""
+
+#: libraries/language/admin.php:1012
+msgid "Number of Months to Show"
+msgstr ""
+
+#: libraries/language/admin.php:1015
+#: libraries/language/site.php:357
+msgid "Order Received on the"
+msgstr ""
+
+#: libraries/language/admin.php:1021
+#: libraries/language/admin.php:1042
+#: libraries/language/site.php:363
+#: libraries/language/site.php:384
+msgid "Rented vehicle"
+msgstr ""
+
+#: libraries/language/admin.php:1033
+#: libraries/language/admin.php:1777
+#: libraries/language/site.php:375
+msgid "Order Status"
+msgstr ""
+
+#: libraries/language/admin.php:1039
+#: libraries/language/site.php:312
+#: libraries/language/site.php:381
+msgid "Personal Details"
+msgstr ""
+
+#: libraries/language/admin.php:1051
+#: libraries/language/site.php:393
+msgid "To see your order details, visit the following page"
+msgstr ""
+
+#: libraries/language/admin.php:1054
+#: libraries/language/site.php:396
+#: modules/mod_vikrentcar_search/language/handler.php:164
+msgid "January"
+msgstr ""
+
+#: libraries/language/admin.php:1057
+#: libraries/language/site.php:399
+#: modules/mod_vikrentcar_search/language/handler.php:167
+msgid "February"
+msgstr ""
+
+#: libraries/language/admin.php:1060
+#: libraries/language/site.php:402
+#: modules/mod_vikrentcar_search/language/handler.php:170
+msgid "March"
+msgstr ""
+
+#: libraries/language/admin.php:1063
+#: libraries/language/site.php:405
+#: modules/mod_vikrentcar_search/language/handler.php:173
+msgid "April"
+msgstr ""
+
+#: libraries/language/admin.php:1066
+#: libraries/language/admin.php:2689
+#: libraries/language/site.php:408
+#: modules/mod_vikrentcar_search/language/handler.php:176
+msgid "May"
+msgstr ""
+
+#: libraries/language/admin.php:1069
+#: libraries/language/site.php:411
+#: modules/mod_vikrentcar_search/language/handler.php:179
+msgid "June"
+msgstr ""
+
+#: libraries/language/admin.php:1072
+#: libraries/language/site.php:414
+#: modules/mod_vikrentcar_search/language/handler.php:182
+msgid "July"
+msgstr ""
+
+#: libraries/language/admin.php:1075
+#: libraries/language/site.php:417
+#: modules/mod_vikrentcar_search/language/handler.php:185
+msgid "August"
+msgstr ""
+
+#: libraries/language/admin.php:1078
+#: libraries/language/site.php:420
+#: modules/mod_vikrentcar_search/language/handler.php:188
+msgid "September"
+msgstr ""
+
+#: libraries/language/admin.php:1081
+#: libraries/language/site.php:423
+#: modules/mod_vikrentcar_search/language/handler.php:191
+msgid "October"
+msgstr ""
+
+#: libraries/language/admin.php:1084
+#: libraries/language/site.php:426
+#: modules/mod_vikrentcar_search/language/handler.php:194
+msgid "November"
+msgstr ""
+
+#: libraries/language/admin.php:1087
+#: libraries/language/site.php:429
+#: modules/mod_vikrentcar_search/language/handler.php:197
+msgid "December"
+msgstr ""
+
+#: libraries/language/admin.php:1096
+msgid "No Special Prices found"
+msgstr ""
+
+#: libraries/language/admin.php:1108
+#: libraries/language/admin.php:1132
+#: libraries/language/admin.php:1225
+#: libraries/language/admin.php:1240
+#: libraries/language/admin.php:1558
+#: libraries/language/system.php:307
+msgid "Type"
+msgstr ""
+
+#: libraries/language/admin.php:1111
+#: libraries/language/admin.php:1135
+#: libraries/language/admin.php:1591
+#: libraries/language/admin.php:1708
+#: libraries/language/admin.php:2221
+msgid "Value"
+msgstr ""
+
+#: libraries/language/admin.php:1117
+#: libraries/language/admin.php:1144
+#: libraries/language/admin.php:2116
+msgid "Discount"
+msgstr ""
+
+#: libraries/language/admin.php:1123
+msgid "No Cars found"
+msgstr ""
+
+#: libraries/language/admin.php:1138
+#: libraries/language/admin.php:1282
+#: libraries/language/admin.php:1681
+#: libraries/language/admin.php:2158
+#: libraries/language/admin.php:2548
+#: libraries/language/admin.php:3172
+#: libraries/language/site.php:921
+msgid "Cars"
+msgstr ""
+
+#: libraries/language/admin.php:1147
+#: libraries/language/admin.php:2161
+#: libraries/language/admin.php:2590
+#: libraries/language/admin.php:2857
+#: libraries/language/admin.php:3064
+msgid "Locations"
+msgstr ""
+
+#: libraries/language/admin.php:1150
+msgid "Invalid Dates"
+msgstr ""
+
+#: libraries/language/admin.php:1153
+msgid "Season with same dates, locations and vehicles already exists"
+msgstr ""
+
+#: libraries/language/admin.php:1156
+msgid "Special Price Saved"
+msgstr ""
+
+#: libraries/language/admin.php:1165
+msgid "No Payment Methods found"
+msgstr ""
+
+#: libraries/language/admin.php:1174
+msgid "File"
+msgstr ""
+
+#: libraries/language/admin.php:1177
+#: libraries/language/admin.php:1198
+#: libraries/language/admin.php:1369
+#: libraries/language/admin.php:2977
+#: libraries/language/site.php:345
+#: libraries/language/site.php:468
+msgid "Notes"
+msgstr ""
+
+#: libraries/language/admin.php:1183
+#: libraries/language/admin.php:1192
+#: libraries/language/admin.php:3703
+msgid "Published"
+msgstr ""
+
+#: libraries/language/admin.php:1186
+msgid "Payment Name"
+msgstr ""
+
+#: libraries/language/admin.php:1189
+msgid "File Class"
+msgstr ""
+
+#: libraries/language/admin.php:1207
+#: libraries/language/admin.php:1780
+#: libraries/language/admin.php:1957
+#: libraries/language/site.php:354
+#: libraries/language/site.php:435
+msgid "Payment Method"
+msgstr ""
+
+#: libraries/language/admin.php:1210
+msgid "Auto-Set Order Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:1213
+msgid "Always Show Notes"
+msgstr ""
+
+#: libraries/language/admin.php:1219
+msgid "No Custom Fields Found"
+msgstr ""
+
+#: libraries/language/admin.php:1228
+#: libraries/language/admin.php:1252
+msgid "Required"
+msgstr ""
+
+#: libraries/language/admin.php:1231
+#: libraries/language/admin.php:1753
+msgid "Ordering"
+msgstr ""
+
+#: libraries/language/admin.php:1234
+#: libraries/language/admin.php:1345
+#: libraries/language/site.php:273
+#: libraries/language/site.php:444
+#: libraries/language/site.php:528
+#: libraries/language/site.php:750
+#: libraries/language/site.php:1032
+msgid "e-Mail"
+msgstr ""
+
+#: libraries/language/admin.php:1237
+msgid "Field Name"
+msgstr ""
+
+#: libraries/language/admin.php:1246
+#: libraries/language/system.php:384
+msgid "Select"
+msgstr ""
+
+#: libraries/language/admin.php:1249
+msgid "Checkbox"
+msgstr ""
+
+#: libraries/language/admin.php:1255
+msgid "is e-Mail"
+msgstr ""
+
+#: libraries/language/admin.php:1258
+msgid "Popup Link"
+msgstr ""
+
+#: libraries/language/admin.php:1261
+msgid "Add Answer"
+msgstr ""
+
+#: libraries/language/admin.php:1264
+msgid "Textarea"
+msgstr ""
+
+#: libraries/language/admin.php:1267
+msgid "Vik Rent Car - Custom Fields"
+msgstr ""
+
+#: libraries/language/admin.php:1279
+#: libraries/language/site.php:225
+msgid "Rental"
+msgstr ""
+
+#: libraries/language/admin.php:1285
+msgid "Orders"
+msgstr ""
+
+#: libraries/language/admin.php:1288
+msgid "Global"
+msgstr ""
+
+#: libraries/language/admin.php:1291
+#: libraries/language/admin.php:1672
+#: libraries/language/admin.php:2023
+#: libraries/language/admin.php:2560
+msgid "Types of Price"
+msgstr ""
+
+#: libraries/language/admin.php:1294
+#: libraries/language/admin.php:1678
+#: libraries/language/admin.php:2554
+msgid "Categories"
+msgstr ""
+
+#: libraries/language/admin.php:1297
+msgid "Orders List"
+msgstr ""
+
+#: libraries/language/admin.php:1300
+msgid "Search Statistics"
+msgstr ""
+
+#: libraries/language/admin.php:1303
+msgid "Tax Rates"
+msgstr ""
+
+#: libraries/language/admin.php:1306
+#: libraries/language/adminsys.php:64
+msgid "Cars List"
+msgstr ""
+
+#: libraries/language/admin.php:1309
+msgid "Removed Orders"
+msgstr ""
+
+#: libraries/language/admin.php:1312
+msgid "Configuration"
+msgstr ""
+
+#: libraries/language/admin.php:1315
+msgid "Pickup/Drop Off Locations"
+msgstr ""
+
+#: libraries/language/admin.php:1321
+msgid "Car Options"
+msgstr ""
+
+#: libraries/language/admin.php:1324
+msgid "Pickup/Drop Off Fees"
+msgstr ""
+
+#: libraries/language/admin.php:1327
+#: libraries/language/admin.php:2557
+msgid "Special Prices"
+msgstr ""
+
+#: libraries/language/admin.php:1330
+#: libraries/language/admin.php:2563
+msgid "Payment Methods"
+msgstr ""
+
+#: libraries/language/admin.php:1333
+msgid "Overview"
+msgstr ""
+
+#: libraries/language/admin.php:1336
+#: libraries/language/admin.php:2566
+msgid "Custom Fields"
+msgstr ""
+
+#: libraries/language/admin.php:1342
+#: libraries/language/admin.php:2878
+#: libraries/language/site.php:270
+#: libraries/language/site.php:441
+#: libraries/language/site.php:525
+#: libraries/language/site.php:654
+msgid "Last Name"
+msgstr ""
+
+#: libraries/language/admin.php:1348
+#: libraries/language/admin.php:2821
+#: libraries/language/admin.php:2884
+#: libraries/language/site.php:276
+#: libraries/language/site.php:447
+#: libraries/language/site.php:678
+msgid "Phone"
+msgstr ""
+
+#: libraries/language/admin.php:1351
+#: libraries/language/admin.php:2959
+#: libraries/language/admin.php:3007
+#: libraries/language/site.php:279
+#: libraries/language/site.php:450
+#: libraries/language/site.php:663
+msgid "Address"
+msgstr ""
+
+#: libraries/language/admin.php:1354
+#: libraries/language/site.php:282
+#: libraries/language/site.php:453
+msgid "Zip Code"
+msgstr ""
+
+#: libraries/language/admin.php:1357
+#: libraries/language/admin.php:2962
+#: libraries/language/admin.php:3010
+#: libraries/language/site.php:285
+#: libraries/language/site.php:456
+#: libraries/language/site.php:666
+msgid "City"
+msgstr ""
+
+#: libraries/language/admin.php:1360
+#: libraries/language/admin.php:2071
+#: libraries/language/admin.php:2887
+#: libraries/language/admin.php:3889
+#: libraries/language/site.php:459
+#: libraries/language/site.php:675
+msgid "Country"
+msgstr ""
+
+#: libraries/language/admin.php:1363
+#: libraries/language/admin.php:3001
+#: libraries/language/site.php:291
+#: libraries/language/site.php:462
+msgid "Date of Birth"
+msgstr ""
+
+#: libraries/language/admin.php:1366
+#: libraries/language/site.php:465
+msgid "Flight Number"
+msgstr ""
+
+#: libraries/language/admin.php:1375
+msgid "Drop Off Locations"
+msgstr ""
+
+#: libraries/language/admin.php:1378
+msgid "Extra Images"
+msgstr ""
+
+#: libraries/language/admin.php:1381
+msgid "Add Images"
+msgstr ""
+
+#: libraries/language/admin.php:1384
+msgid "Resize Images"
+msgstr ""
+
+#: libraries/language/admin.php:1387
+msgid "Require Login"
+msgstr ""
+
+#: libraries/language/admin.php:1390
+msgid "Season"
+msgstr ""
+
+#: libraries/language/admin.php:1393
+#: libraries/language/admin.php:1432
+msgid "Week Days"
+msgstr ""
+
+#: libraries/language/admin.php:1396
+msgid "Days of the Week"
+msgstr ""
+
+#: libraries/language/admin.php:1399
+#: libraries/language/admin.php:2764
+#: libraries/language/admin.php:3226
+#: libraries/language/site.php:585
+#: libraries/language/site.php:930
+#: modules/mod_vikrentcar_search/language/handler.php:140
+msgid "Sunday"
+msgstr ""
+
+#: libraries/language/admin.php:1402
+#: libraries/language/admin.php:2767
+#: libraries/language/admin.php:3229
+#: libraries/language/site.php:588
+#: libraries/language/site.php:933
+#: modules/mod_vikrentcar_search/language/handler.php:143
+msgid "Monday"
+msgstr ""
+
+#: libraries/language/admin.php:1405
+#: libraries/language/admin.php:2770
+#: libraries/language/admin.php:3232
+#: libraries/language/site.php:591
+#: libraries/language/site.php:936
+#: modules/mod_vikrentcar_search/language/handler.php:146
+msgid "Tuesday"
+msgstr ""
+
+#: libraries/language/admin.php:1408
+#: libraries/language/admin.php:2773
+#: libraries/language/admin.php:3235
+#: libraries/language/site.php:594
+#: libraries/language/site.php:939
+#: modules/mod_vikrentcar_search/language/handler.php:149
+msgid "Wednesday"
+msgstr ""
+
+#: libraries/language/admin.php:1411
+#: libraries/language/admin.php:2776
+#: libraries/language/admin.php:3238
+#: libraries/language/site.php:597
+#: libraries/language/site.php:942
+#: modules/mod_vikrentcar_search/language/handler.php:152
+msgid "Thursday"
+msgstr ""
+
+#: libraries/language/admin.php:1414
+#: libraries/language/admin.php:2779
+#: libraries/language/admin.php:3241
+#: libraries/language/site.php:600
+#: libraries/language/site.php:945
+#: modules/mod_vikrentcar_search/language/handler.php:155
+msgid "Friday"
+msgstr ""
+
+#: libraries/language/admin.php:1417
+#: libraries/language/admin.php:2782
+#: libraries/language/admin.php:3244
+#: libraries/language/site.php:603
+#: libraries/language/site.php:948
+#: modules/mod_vikrentcar_search/language/handler.php:158
+msgid "Saturday"
+msgstr ""
+
+#: libraries/language/admin.php:1420
+msgid "Insert a starting and an ending date (Season) or select one or more days of the week (Week Days). Only one filter is required. Provide a Season and Week Days to combine the filters"
+msgstr ""
+
+#: libraries/language/admin.php:1423
+msgid "Seasons and Week Days"
+msgstr ""
+
+#: libraries/language/admin.php:1426
+msgid "Special Price Name"
+msgstr ""
+
+#: libraries/language/admin.php:1435
+msgid "Latitude"
+msgstr ""
+
+#: libraries/language/admin.php:1438
+msgid "Longitude"
+msgstr ""
+
+#: libraries/language/admin.php:1444
+msgid "Hourly Fares"
+msgstr ""
+
+#: libraries/language/admin.php:1447
+#: libraries/language/admin.php:1684
+msgid "Daily Fares"
+msgstr ""
+
+#: libraries/language/admin.php:1450
+#: libraries/language/site.php:561
+msgid "Hours"
+msgstr ""
+
+#: libraries/language/admin.php:1453
+msgid "Hourly Price(s)"
+msgstr ""
+
+#: libraries/language/admin.php:1456
+msgid "Fare for Hours"
+msgstr ""
+
+#: libraries/language/admin.php:1459
+msgid "Separator"
+msgstr ""
+
+#: libraries/language/admin.php:1462
+#: libraries/language/site.php:564
+msgid "Driver Information"
+msgstr ""
+
+#: libraries/language/admin.php:1465
+msgid "Load jQuery Library"
+msgstr ""
+
+#: libraries/language/admin.php:1468
+msgid "Calendar Type"
+msgstr ""
+
+#: libraries/language/admin.php:1471
+#: libraries/language/admin.php:1825
+#: libraries/language/site.php:567
+#: libraries/language/site.php:741
+msgid "Order Number"
+msgstr ""
+
+#: libraries/language/admin.php:1474
+#: libraries/language/admin.php:2809
+#: libraries/language/adminsys.php:193
+#: libraries/language/site.php:570
+msgid "Order Details"
+msgstr ""
+
+#: libraries/language/admin.php:1483
+msgid "Auto-Set Order to Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:1486
+msgid "If this setting is enabled, when the user selects this payment, the order status will be set to Confirmed when saving the reservation. This setting should always be disabled for methods of payment that need to validate a server response after a credit card payment"
+msgstr ""
+
+#: libraries/language/admin.php:1489
+#: libraries/language/admin.php:1498
+msgid "Charge/Discount"
+msgstr ""
+
+#: libraries/language/admin.php:1492
+msgid "Charge +"
+msgstr ""
+
+#: libraries/language/admin.php:1495
+msgid "Discount -"
+msgstr ""
+
+#: libraries/language/admin.php:1501
+#: libraries/language/site.php:615
+msgid "Opening Time"
+msgstr ""
+
+#: libraries/language/admin.php:1504
+msgid "The opening time for Pickup and-or Drop Off. If empty, the global opening time of the configuration will be applied"
+msgstr ""
+
+#: libraries/language/admin.php:1513
+msgid "Pickup Date must be after the beginning of the Season"
+msgstr ""
+
+#: libraries/language/admin.php:1516
+msgid "Extra Hours Charges"
+msgstr ""
+
+#: libraries/language/admin.php:1519
+msgid "Extra Hours of Rental"
+msgstr ""
+
+#: libraries/language/admin.php:1522
+msgid "Hourly Charge(s)"
+msgstr ""
+
+#: libraries/language/admin.php:1525
+msgid "These charges will be applied to the daily fares that are longer than one day. A rental from the 20th of December at 8am to the 22nd at 11am can be charged by those 3 extra hours. The setting of the configuration Hours of Extended Gratuity Period will be considered as well. So in that case, the charge for the 3 extra hours will be applied only if that setting is 0, 1 or 2, not if it is 3 or higher. From and To need an integer value, for example From 3 To 6 hours"
+msgstr ""
+
+#: libraries/language/admin.php:1528
+msgid "Select Car"
+msgstr ""
+
+#: libraries/language/admin.php:1531
+msgid "Apply Extra Hours Charges"
+msgstr ""
+
+#: libraries/language/admin.php:1534
+msgid "Before the Special Prices"
+msgstr ""
+
+#: libraries/language/admin.php:1537
+msgid "After the Special Prices"
+msgstr ""
+
+#: libraries/language/admin.php:1540
+msgid "Always Selected"
+msgstr ""
+
+#: libraries/language/admin.php:1543
+msgid "Quantity"
+msgstr ""
+
+#: libraries/language/admin.php:1546
+msgid "per Day of Rental"
+msgstr ""
+
+#: libraries/language/admin.php:1549
+msgid "Enable Coupons"
+msgstr ""
+
+#: libraries/language/admin.php:1552
+msgid "No coupon found"
+msgstr ""
+
+#: libraries/language/admin.php:1555
+msgid "Code"
+msgstr ""
+
+#: libraries/language/admin.php:1561
+#: libraries/language/admin.php:1597
+msgid "Valid Dates"
+msgstr ""
+
+#: libraries/language/admin.php:1564
+#: libraries/language/admin.php:1594
+#: libraries/language/adminsys.php:205
+msgid "Vehicles"
+msgstr ""
+
+#: libraries/language/admin.php:1567
+#: libraries/language/admin.php:1600
+msgid "Min. Order Total"
+msgstr ""
+
+#: libraries/language/admin.php:1570
+msgid "Permanent"
+msgstr ""
+
+#: libraries/language/admin.php:1573
+msgid "Gift"
+msgstr ""
+
+#: libraries/language/admin.php:1576
+msgid "Always Valid"
+msgstr ""
+
+#: libraries/language/admin.php:1579
+msgid "All Vehicles"
+msgstr ""
+
+#: libraries/language/admin.php:1582
+msgid "Coupon Code"
+msgstr ""
+
+#: libraries/language/admin.php:1585
+msgid "Coupon Type"
+msgstr ""
+
+#: libraries/language/admin.php:1588
+msgid "Percent or Total"
+msgstr ""
+
+#: libraries/language/admin.php:1603
+#: libraries/language/system.php:286
+msgid "All"
+msgstr ""
+
+#: libraries/language/admin.php:1606
+msgid "If there are no dates, the coupon will be always valid"
+msgstr ""
+
+#: libraries/language/admin.php:1609
+msgid "Error, the coupon code already exists"
+msgstr ""
+
+#: libraries/language/admin.php:1612
+msgid "Coupon Successfully Saved"
+msgstr ""
+
+#: libraries/language/admin.php:1615
+msgid "Pricing"
+msgstr ""
+
+#: libraries/language/admin.php:1618
+msgid "Dashboard"
+msgstr ""
+
+#: libraries/language/admin.php:1621
+msgid "Fares Table"
+msgstr ""
+
+#: libraries/language/admin.php:1624
+msgid "Calendar"
+msgstr ""
+
+#: libraries/language/admin.php:1627
+msgid "Coupons"
+msgstr ""
+
+#: libraries/language/admin.php:1630
+msgid "Vik Rent Car - Coupons"
+msgstr ""
+
+#: libraries/language/admin.php:1642
+msgid "Vik Rent Car - Dashboard"
+msgstr ""
+
+#: libraries/language/admin.php:1645
+msgid "Upcoming Rentals"
+msgstr ""
+
+#: libraries/language/admin.php:1654
+#: libraries/language/adminsys.php:235
+#: libraries/language/system.php:291
+msgid "ID"
+msgstr ""
+
+#: libraries/language/admin.php:1657
+#: libraries/language/admin.php:1945
+msgid "Vehicle"
+msgstr ""
+
+#: libraries/language/admin.php:1669
+msgid "Report"
+msgstr ""
+
+#: libraries/language/admin.php:1675
+msgid "Pickup - Drop Off Locations"
+msgstr ""
+
+#: libraries/language/admin.php:1687
+msgid "Confirmed Reservations"
+msgstr ""
+
+#: libraries/language/admin.php:1690
+msgid "Standby Reservations"
+msgstr ""
+
+#: libraries/language/admin.php:1693
+#: libraries/language/site.php:636
+msgid "Coupon"
+msgstr ""
+
+#: libraries/language/admin.php:1696
+msgid "Theme"
+msgstr ""
+
+#: libraries/language/admin.php:1699
+msgid "This value will be added to or deducted from the cost of every day of rental that is affected by this Special Price"
+msgstr ""
+
+#: libraries/language/admin.php:1702
+msgid "Value Overrides"
+msgstr ""
+
+#: libraries/language/admin.php:1711
+msgid "The default absolute or percentage value can be different depending on the days of rental. For example you can override the default value of the Special Price for 7 Days of rental and set it to a lower charge or to a higher discount. Do not override the default value for always applying the same charge or discount regardless the length of the rental in the days affected by this Special Price."
+msgstr ""
+
+#: libraries/language/admin.php:1714
+msgid "Add Value Override"
+msgstr ""
+
+#: libraries/language/admin.php:1717
+msgid "Apply if the Locations are inverted"
+msgstr ""
+
+#: libraries/language/admin.php:1720
+msgid "Cost Overrides"
+msgstr ""
+
+#: libraries/language/admin.php:1723
+msgid "The default Cost can be overwritten depending on the number of days of rental. Do not create overrides fow always applying the default cost."
+msgstr ""
+
+#: libraries/language/admin.php:1726
+msgid "Add Cost Override"
+msgstr ""
+
+#: libraries/language/admin.php:1735
+msgid "Custom Starting From Price"
+msgstr ""
+
+#: libraries/language/admin.php:1738
+msgid "The View List and the Vehicle Details page will show this price as the Starting From Price. Leave this field empty for making the program automatically calculate the Starting From Price"
+msgstr ""
+
+#: libraries/language/admin.php:1741
+msgid "Customer e-Mail"
+msgstr ""
+
+#: libraries/language/admin.php:1744
+msgid "Re-Send eMail"
+msgstr ""
+
+#: libraries/language/admin.php:1747
+msgid "Order eMail re-sent to %s"
+msgstr ""
+
+#: libraries/language/admin.php:1750
+msgid "Error, Customer eMail Address is empty"
+msgstr ""
+
+#: libraries/language/admin.php:1756
+msgid "Closing Days"
+msgstr ""
+
+#: libraries/language/admin.php:1759
+msgid "Insert the dates when this location is closed for Pickup and Drop Off. Right syntax: yyyy-mm-dd,yyyy-mm-dd,..etc..Use the calendar to avoid syntax errors."
+msgstr ""
+
+#: libraries/language/admin.php:1762
+msgid "Add Date"
+msgstr ""
+
+#: libraries/language/admin.php:1765
+#: libraries/language/site.php:714
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: libraries/language/admin.php:1771
+msgid "Show More Options"
+msgstr ""
+
+#: libraries/language/admin.php:1774
+msgid "Hide Options"
+msgstr ""
+
+#: libraries/language/admin.php:1783
+#: libraries/language/admin.php:1801
+msgid "-undefined-"
+msgstr ""
+
+#: libraries/language/admin.php:1786
+msgid "Populate Customer Information Fields"
+msgstr ""
+
+#: libraries/language/admin.php:1789
+msgid "Order Status: Waiting for the payment. Choose one type of price and eventually some of the Options. Then click on Save to complete the Standby - Quick Reservation. "
+msgstr ""
+
+#: libraries/language/admin.php:1792
+msgid "An email will be sent to the Customer eMail Address with the link for making the payment"
+msgstr ""
+
+#: libraries/language/admin.php:1795
+msgid "Notify Customer via eMail"
+msgstr ""
+
+#: libraries/language/admin.php:1798
+msgid "View front-end order page"
+msgstr ""
+
+#: libraries/language/admin.php:1810
+msgid "Order Status: Confirmed. Choose one type of price and eventually some of the Options. Then click on Save to complete the Quick Reservation. An email will be sent to the Customer eMail Address with the reservation details"
+msgstr ""
+
+#: libraries/language/admin.php:1813
+msgid "Attach PDF to the order eMail"
+msgstr ""
+
+#: libraries/language/admin.php:1816
+#: libraries/language/site.php:789
+msgid "Download PDF"
+msgstr ""
+
+#: libraries/language/admin.php:1819
+msgid "Re-send Order eMail + PDF"
+msgstr ""
+
+#: libraries/language/admin.php:1822
+msgid "eMail Address"
+msgstr ""
+
+#: libraries/language/admin.php:1828
+#: libraries/language/site.php:780
+msgid "Contract/Agreement"
+msgstr ""
+
+#: libraries/language/admin.php:1831
+#: libraries/language/site.php:783
+msgid "This agreement between %s %s and %s was made on the %s and is valid until the %s."
+msgstr ""
+
+#: libraries/language/admin.php:1834
+#: libraries/language/site.php:786
+msgid "1. Condition of Premises<br/><br/>The lessor shall keep the premises in a good state of repair and fit for habitation during the tenancy and shall comply with any enactment respecting standards of health, safety or housing notwithstanding any state of non-repair that may have existed at the time the agreement was entered into.<br/><br/>2. Services<br/><br/>Where the lessor provides or pays for a service or facility to the lessee that is reasonably related to the lessee's continued use and enjoyment of the premises, such as heat, water, electric power, gas, appliances, garbage collection, sewers or elevators, the lessor shall not discontinue providing or paying for that service to the lessee without permission from the Director.<br/><br/>3. Good Behaviour<br/><br/>The lessee and any person admitted to the premises by the lessee shall conduct themselves in such a manner as not to interfere with the possession, occupancy or quiet enjoyment of other lessees.<br/><br/>4. Obligation of the Lessee<br/><br/>The lessee shall be responsible for the ordinary cleanliness of the interior of the premises and for the repair of damage caused by any willful or negligent act of the lessee or of any person whom the lessee permits on the premises, but not for damage caused by normal wear and tear."
+msgstr ""
+
+#: libraries/language/admin.php:1840
+#: libraries/language/site.php:330
+#: libraries/language/site.php:771
+msgid "Net Price"
+msgstr ""
+
+#: libraries/language/admin.php:1843
+#: libraries/language/admin.php:2326
+#: libraries/language/site.php:255
+#: libraries/language/site.php:333
+#: libraries/language/site.php:774
+msgid "Tax"
+msgstr ""
+
+#: libraries/language/admin.php:1846
+#: libraries/language/site.php:336
+#: libraries/language/site.php:777
+msgid "Total Price"
+msgstr ""
+
+#: libraries/language/admin.php:1849
+msgid "Keep First Day Rate"
+msgstr ""
+
+#: libraries/language/admin.php:1852
+msgid "If this setting is enabled, the first day of rental will be the one giving the same rate to all the other days. If the first day of rental is not included in this Special Price and this setting is enabled, then every other day of rental will be considered as not included even if they were. When this setting is enabled just the first day of rental is considered and the week days do not affect this setting."
+msgstr ""
+
+#: libraries/language/admin.php:1855
+msgid "Show if Days of Rental Greater than"
+msgstr ""
+
+#: libraries/language/admin.php:1858
+msgid "Override Tax Rate"
+msgstr ""
+
+#: libraries/language/admin.php:1861
+msgid "If a Tax Rate is specified for this location, when this will be selected as Pickup, the Rental Fare, the Options and the Pickup-Drop Off Fees will take this tax rate instead of the one that they have assigned. Leave this field empty for using the global tax rate of each cost"
+msgstr ""
+
+#: libraries/language/admin.php:1864
+#: libraries/language/site.php:792
+msgid "Amount Paid"
+msgstr ""
+
+#: libraries/language/admin.php:1867
+msgid "and more"
+msgstr ""
+
+#: libraries/language/admin.php:1870
+msgid "Round to Integer"
+msgstr ""
+
+#: libraries/language/admin.php:1873
+msgid "- disabled -"
+msgstr ""
+
+#: libraries/language/admin.php:1876
+msgid "Round Up"
+msgstr ""
+
+#: libraries/language/admin.php:1879
+msgid "Round Down"
+msgstr ""
+
+#: libraries/language/admin.php:1882
+msgid "Number of Decimals"
+msgstr ""
+
+#: libraries/language/admin.php:1885
+msgid "Decimal Separator"
+msgstr ""
+
+#: libraries/language/admin.php:1888
+msgid "Thousand Separator"
+msgstr ""
+
+#: libraries/language/admin.php:1891
+msgid "Minimum # Days of Rental"
+msgstr ""
+
+#: libraries/language/admin.php:1894
+#: libraries/language/site.php:807
+msgid "Confirmation Number"
+msgstr ""
+
+#: libraries/language/admin.php:1897
+msgid "Export"
+msgstr ""
+
+#: libraries/language/admin.php:1900
+msgid "Vik Rent Car - Export Orders"
+msgstr ""
+
+#: libraries/language/admin.php:1903
+#: libraries/language/admin.php:3184
+msgid "From Date"
+msgstr ""
+
+#: libraries/language/admin.php:1906
+#: libraries/language/admin.php:3187
+msgid "To Date"
+msgstr ""
+
+#: libraries/language/admin.php:1909
+#: libraries/language/admin.php:4600
+msgid "Export Type"
+msgstr ""
+
+#: libraries/language/admin.php:1912
+msgid "CSV (for Excel or other Software)"
+msgstr ""
+
+#: libraries/language/admin.php:1915
+msgid "ICS (iCalendar, Google Calendar, Hotmail)"
+msgstr ""
+
+#: libraries/language/admin.php:1918
+msgid "Orders Status"
+msgstr ""
+
+#: libraries/language/admin.php:1924
+msgid "Confirmed, Pending and Cancelled"
+msgstr ""
+
+#: libraries/language/admin.php:1927
+msgid "Export Orders"
+msgstr ""
+
+#: libraries/language/admin.php:1930
+msgid "Date Format"
+msgstr ""
+
+#: libraries/language/admin.php:1936
+msgid "Error, no records to export..."
+msgstr ""
+
+#: libraries/language/admin.php:1963
+#: libraries/language/admin.php:4033
+msgid "Total Paid"
+msgstr ""
+
+#: libraries/language/admin.php:1969
+#: libraries/language/site.php:858
+msgid "Rental @ %s"
+msgstr ""
+
+#: libraries/language/admin.php:1972
+#: libraries/language/admin.php:2041
+#: libraries/language/admin.php:3724
+msgid "Parameters"
+msgstr ""
+
+#: libraries/language/admin.php:1975
+msgid "Loading..."
+msgstr ""
+
+#: libraries/language/admin.php:1978
+msgid "VikRent Car v.%s - Powered by"
+msgstr ""
+
+#: libraries/language/admin.php:1981
+msgid "Save &amp; Close"
+msgstr ""
+
+#: libraries/language/admin.php:1984
+msgid "Days in Advance for bookings"
+msgstr ""
+
+#: libraries/language/admin.php:1987
+msgid "Maximum Date in the Future from today"
+msgstr ""
+
+#: libraries/language/admin.php:1993
+msgid "Weeks"
+msgstr ""
+
+#: libraries/language/admin.php:1996
+msgid "Months"
+msgstr ""
+
+#: libraries/language/admin.php:1999
+msgid "Years"
+msgstr ""
+
+#: libraries/language/admin.php:2002
+msgid "Renew Session"
+msgstr ""
+
+#: libraries/language/admin.php:2005
+msgid "The PHP Session will be renewed and the new settings will be applied but any logged in user will be logged out. Proceed?"
+msgstr ""
+
+#: libraries/language/admin.php:2008
+msgid "Calendars First Day of the Week"
+msgstr ""
+
+#: libraries/language/admin.php:2011
+msgid "Suggested Time"
+msgstr ""
+
+#: libraries/language/admin.php:2014
+msgid "If not empty, this time will be pre-selected in the drop down menus for selecting the time"
+msgstr ""
+
+#: libraries/language/admin.php:2017
+msgid "Tied to the Year"
+msgstr ""
+
+#: libraries/language/admin.php:2020
+msgid "Select All"
+msgstr ""
+
+#: libraries/language/admin.php:2026
+#: libraries/language/admin.php:2467
+msgid "Promotion"
+msgstr ""
+
+#: libraries/language/admin.php:2029
+msgid "Valid up to"
+msgstr ""
+
+#: libraries/language/admin.php:2032
+msgid "days in advance from Start Date"
+msgstr ""
+
+#: libraries/language/admin.php:2035
+msgid "Promotion Details"
+msgstr ""
+
+#: libraries/language/admin.php:2038
+msgid "Short Description"
+msgstr ""
+
+#: libraries/language/admin.php:2044
+msgid "Show Cost Per Day in Search Results"
+msgstr ""
+
+#: libraries/language/admin.php:2047
+msgid "Custom Page Title"
+msgstr ""
+
+#: libraries/language/admin.php:2050
+msgid "Add it Before the Current Page Title"
+msgstr ""
+
+#: libraries/language/admin.php:2053
+msgid "Add it After the Current Page Title"
+msgstr ""
+
+#: libraries/language/admin.php:2056
+msgid "Replace the Current Page Title"
+msgstr ""
+
+#: libraries/language/admin.php:2059
+msgid "Keywords Meta Tag"
+msgstr ""
+
+#: libraries/language/admin.php:2062
+msgid "Description Meta Tag"
+msgstr ""
+
+#: libraries/language/admin.php:2065
+msgid "Additional eMail Address"
+msgstr ""
+
+#: libraries/language/admin.php:2068
+msgid "if not empty, this address will be notified together with the administrator email address defined in the Configuration."
+msgstr ""
+
+#: libraries/language/admin.php:2074
+msgid "::Change method of payment::"
+msgstr ""
+
+#: libraries/language/admin.php:2077
+msgid "Change method of payment to "
+msgstr ""
+
+#: libraries/language/admin.php:2080
+msgid "Payments Log"
+msgstr ""
+
+#: libraries/language/admin.php:2083
+msgid "View in front site"
+msgstr ""
+
+#: libraries/language/admin.php:2086
+msgid "Total with current pricing would be %s"
+msgstr ""
+
+#: libraries/language/admin.php:2089
+msgid "Filter by Location"
+msgstr ""
+
+#: libraries/language/admin.php:2092
+msgid "Any Location"
+msgstr ""
+
+#: libraries/language/admin.php:2095
+msgid "Pick-up"
+msgstr ""
+
+#: libraries/language/admin.php:2098
+msgid "Drop-off"
+msgstr ""
+
+#: libraries/language/admin.php:2101
+msgid "Pick-up or Drop-off"
+msgstr ""
+
+#: libraries/language/admin.php:2104
+#: libraries/language/admin.php:2791
+#: libraries/language/admin.php:3253
+#: libraries/language/site.php:621
+#: libraries/language/site.php:906
+msgid "Apply"
+msgstr ""
+
+#: libraries/language/admin.php:2107
+msgid "Orders to Export: %d"
+msgstr ""
+
+#: libraries/language/admin.php:2110
+msgid "Apply Discount"
+msgstr ""
+
+#: libraries/language/admin.php:2122
+msgid "The car rented will be changed"
+msgstr ""
+
+#: libraries/language/admin.php:2128
+msgid "Drop off Location"
+msgstr ""
+
+#: libraries/language/admin.php:2131
+msgid "The Car was correctly switched. Please select the new Rental Fare for this car."
+msgstr ""
+
+#: libraries/language/admin.php:2134
+msgid "Out of Hours Fees"
+msgstr ""
+
+#: libraries/language/admin.php:2137
+msgid "No Out of Hours Fees Found"
+msgstr ""
+
+#: libraries/language/admin.php:2143
+msgid "From Time"
+msgstr ""
+
+#: libraries/language/admin.php:2146
+msgid "To Time"
+msgstr ""
+
+#: libraries/language/admin.php:2149
+msgid "Pick Up Charge"
+msgstr ""
+
+#: libraries/language/admin.php:2152
+msgid "Drop Off Charge"
+msgstr ""
+
+#: libraries/language/admin.php:2155
+msgid "Max Charge"
+msgstr ""
+
+#: libraries/language/admin.php:2164
+msgid "Pick up/Drop Off"
+msgstr ""
+
+#: libraries/language/admin.php:2167
+msgid "Pick up only"
+msgstr ""
+
+#: libraries/language/admin.php:2170
+msgid "Drop off only"
+msgstr ""
+
+#: libraries/language/admin.php:2173
+msgid "Pick up and Drop Off"
+msgstr ""
+
+#: libraries/language/admin.php:2176
+msgid "Vik Rent Car - Out of Hours Fees"
+msgstr ""
+
+#: libraries/language/admin.php:2185
+msgid "Remove Fees"
+msgstr ""
+
+#: libraries/language/admin.php:2188
+msgid "Error, invalid time for the Out of Hours Fee"
+msgstr ""
+
+#: libraries/language/admin.php:2191
+msgid "Out of Hours Fee Saved!"
+msgstr ""
+
+#: libraries/language/admin.php:2194
+msgid "Out of Hours Fee Updated!"
+msgstr ""
+
+#: libraries/language/admin.php:2200
+#: libraries/language/site.php:843
+msgid "Out of Hours Fee<br/>(%s)"
+msgstr ""
+
+#: libraries/language/admin.php:2203
+#: libraries/language/site.php:846
+msgid "Out of Hours Fee"
+msgstr ""
+
+#: libraries/language/admin.php:2206
+msgid "Manage Distinctive Features"
+msgstr ""
+
+#: libraries/language/admin.php:2209
+msgid "Distinctive Features"
+msgstr ""
+
+#: libraries/language/admin.php:2212
+msgid "Car #"
+msgstr ""
+
+#: libraries/language/admin.php:2215
+#: libraries/language/admin.php:2617
+#: libraries/language/site.php:1107
+msgid "Add"
+msgstr ""
+
+#: libraries/language/admin.php:2218
+msgid "Feature"
+msgstr ""
+
+#: libraries/language/admin.php:2224
+#: libraries/language/site.php:849
+msgid "License Plate"
+msgstr ""
+
+#: libraries/language/admin.php:2227
+#: libraries/language/site.php:852
+msgid "Mileage"
+msgstr ""
+
+#: libraries/language/admin.php:2230
+msgid "Fuel In"
+msgstr ""
+
+#: libraries/language/admin.php:2233
+#: libraries/language/site.php:855
+msgid "Next Service"
+msgstr ""
+
+#: libraries/language/admin.php:2236
+msgid "Vehicle Updated Successfully!"
+msgstr ""
+
+#: libraries/language/admin.php:2239
+msgid "Vehicle Saved Successfully!"
+msgstr ""
+
+#: libraries/language/admin.php:2242
+msgid "Damages and Status"
+msgstr ""
+
+#: libraries/language/admin.php:2245
+msgid "Damage"
+msgstr ""
+
+#: libraries/language/admin.php:2248
+msgid "No Damages Reported"
+msgstr ""
+
+#: libraries/language/admin.php:2251
+msgid "Assign Unit #"
+msgstr ""
+
+#: libraries/language/admin.php:2254
+msgid "Not Specified"
+msgstr ""
+
+#: libraries/language/admin.php:2257
+msgid "Unit # Assigned"
+msgstr ""
+
+#: libraries/language/admin.php:2260
+msgid "Customer Check-In"
+msgstr ""
+
+#: libraries/language/admin.php:2263
+msgid "Download Check-in Document"
+msgstr ""
+
+#: libraries/language/admin.php:2266
+msgid "ID/Confirmation Number"
+msgstr ""
+
+#: libraries/language/admin.php:2269
+msgid "Filter by Characteristics"
+msgstr ""
+
+#: libraries/language/admin.php:2272
+msgid "Car Damages in Check-in PDF"
+msgstr ""
+
+#: libraries/language/admin.php:2275
+msgid "Damage Marks Only"
+msgstr ""
+
+#: libraries/language/admin.php:2278
+msgid "Numbered Damage Marks"
+msgstr ""
+
+#: libraries/language/admin.php:2281
+msgid "Damage Marks and Explanations"
+msgstr ""
+
+#: libraries/language/admin.php:2284
+msgid "XML (for any Rental Management Software)"
+msgstr ""
+
+#: libraries/language/admin.php:2287
+msgid "Software Driver File"
+msgstr ""
+
+#: libraries/language/admin.php:2290
+msgid "Error loading the XML Software Driver File"
+msgstr ""
+
+#: libraries/language/admin.php:2293
+msgid "Thumbnails Size"
+msgstr ""
+
+#: libraries/language/admin.php:2296
+#: libraries/language/admin.php:3793
+msgid "Generate Invoices"
+msgstr ""
+
+#: libraries/language/admin.php:2299
+msgid "Invoices Starting Number"
+msgstr ""
+
+#: libraries/language/admin.php:2302
+msgid "Number Suffix"
+msgstr ""
+
+#: libraries/language/admin.php:2308
+msgid "Use Order Date"
+msgstr ""
+
+#: libraries/language/admin.php:2311
+msgid "Send Invoices to the customers via email"
+msgstr ""
+
+#: libraries/language/admin.php:2314
+msgid "%d invoice(s) will be generated"
+msgstr ""
+
+#: libraries/language/admin.php:2317
+msgid "Invoice Number"
+msgstr ""
+
+#: libraries/language/admin.php:2323
+msgid "Net"
+msgstr ""
+
+#: libraries/language/admin.php:2338
+msgid "Taxes"
+msgstr ""
+
+#: libraries/language/admin.php:2341
+msgid "Grand Total"
+msgstr ""
+
+#: libraries/language/admin.php:2344
+msgid "Company Legal Information"
+msgstr ""
+
+#: libraries/language/admin.php:2347
+msgid "Rental Order for %s - Pickup Date: %s"
+msgstr ""
+
+#: libraries/language/admin.php:2350
+msgid "Invoice for your Order"
+msgstr ""
+
+#: libraries/language/admin.php:2353
+msgid "Download Invoice"
+msgstr ""
+
+#: libraries/language/admin.php:2356
+msgid "Stop Rentals on these dates"
+msgstr ""
+
+#: libraries/language/admin.php:2359
+msgid "iCal Sync Link"
+msgstr ""
+
+#: libraries/language/admin.php:2362
+msgid "iCal Secret Key"
+msgstr ""
+
+#: libraries/language/admin.php:2365
+msgid "Dear customer,<br/><br/>attahced to this message you will find the invoice for your rental order."
+msgstr ""
+
+#: libraries/language/admin.php:2368
+msgid "Invoices Generated: %d"
+msgstr ""
+
+#: libraries/language/admin.php:2371
+msgid "Customer Check-in Document"
+msgstr ""
+
+#: libraries/language/admin.php:2374
+msgid "This document shows the current conditions of the rental car as well as some distinctive features. <br/>Any red-mark placed over the inspection image indicates a Scratch, a Ding, a Scrap or a Dent."
+msgstr ""
+
+#: libraries/language/admin.php:2377
+msgid "Customer Signature"
+msgstr ""
+
+#: libraries/language/admin.php:2380
+msgid "Checker-in Signature"
+msgstr ""
+
+#: libraries/language/admin.php:2383
+msgid "Translations"
+msgstr ""
+
+#: libraries/language/admin.php:2386
+msgid "Vik Rent Car - Translations"
+msgstr ""
+
+#: libraries/language/admin.php:2389
+msgid "Load Translations"
+msgstr ""
+
+#: libraries/language/admin.php:2395
+msgid "There is only one content-language enabled for this WordPress site so translations cannot be created."
+msgstr ""
+
+#: libraries/language/admin.php:2398
+msgid "Some changes were made to the translations. Proceed without Saving?"
+msgstr ""
+
+#: libraries/language/admin.php:2401
+msgid "No Contents Selected for Translation"
+msgstr ""
+
+#: libraries/language/admin.php:2404
+msgid "Default Language"
+msgstr ""
+
+#: libraries/language/admin.php:2407
+msgid "Error: Invalid or Empty Table Set for Translation"
+msgstr ""
+
+#: libraries/language/admin.php:2410
+msgid "Translations Saved!"
+msgstr ""
+
+#: libraries/language/admin.php:2416
+msgid "Missing Translation File"
+msgstr ""
+
+#: libraries/language/admin.php:2419
+msgid "Definitions"
+msgstr ""
+
+#: libraries/language/admin.php:2422
+msgid "Path"
+msgstr ""
+
+#: libraries/language/admin.php:2425
+msgid "SEF Alias"
+msgstr ""
+
+#: libraries/language/admin.php:2428
+msgid "Some records will be removed. Proceed?"
+msgstr ""
+
+#: libraries/language/admin.php:2431
+msgid "Booking"
+msgstr ""
+
+#: libraries/language/admin.php:2434
+msgid "Search/Rental Parameters"
+msgstr ""
+
+#: libraries/language/admin.php:2437
+msgid "System"
+msgstr ""
+
+#: libraries/language/admin.php:2440
+msgid "Enable Multi-Language"
+msgstr ""
+
+#: libraries/language/admin.php:2443
+msgid "SEF Router"
+msgstr ""
+
+#: libraries/language/admin.php:2446
+msgid "Currency"
+msgstr ""
+
+#: libraries/language/admin.php:2449
+msgid "Taxes and Payments"
+msgstr ""
+
+#: libraries/language/admin.php:2452
+msgid "Appearance and Texts"
+msgstr ""
+
+#: libraries/language/admin.php:2455
+msgid "Affected Cars"
+msgstr ""
+
+#: libraries/language/admin.php:2461
+msgid "Any Car"
+msgstr ""
+
+#: libraries/language/admin.php:2464
+msgid "Pricing Modifications"
+msgstr ""
+
+#: libraries/language/admin.php:2473
+#: libraries/language/site.php:867
+msgid "Remaining Balance"
+msgstr ""
+
+#: libraries/language/admin.php:2476
+msgid "Edit Template File"
+msgstr ""
+
+#: libraries/language/admin.php:2479
+msgid "Customer Email"
+msgstr ""
+
+#: libraries/language/admin.php:2482
+msgid "Customer PDF"
+msgstr ""
+
+#: libraries/language/admin.php:2485
+msgid "PDF Check-in"
+msgstr ""
+
+#: libraries/language/admin.php:2488
+msgid "PDF Invoice"
+msgstr ""
+
+#: libraries/language/admin.php:2491
+msgid "Error: empty or invalid Template File Path"
+msgstr ""
+
+#: libraries/language/admin.php:2494
+msgid "Error: 0 bytes written on file"
+msgstr ""
+
+#: libraries/language/admin.php:2497
+msgid "Template File Successfully Updated"
+msgstr ""
+
+#: libraries/language/admin.php:2500
+msgid "Edit Template File Source Code"
+msgstr ""
+
+#: libraries/language/admin.php:2503
+msgid "Error reading the source code of the file"
+msgstr ""
+
+#: libraries/language/admin.php:2506
+msgid "Save & Write Source Code"
+msgstr ""
+
+#: libraries/language/admin.php:2509
+msgid "Nominative"
+msgstr ""
+
+#: libraries/language/admin.php:2512
+msgid "Phone Number"
+msgstr ""
+
+#: libraries/language/admin.php:2515
+msgid "Collecting Today"
+msgstr ""
+
+#: libraries/language/admin.php:2518
+msgid "Returning Today"
+msgstr ""
+
+#: libraries/language/admin.php:2521
+msgid "Cars Locked - Waiting for Confirmation"
+msgstr ""
+
+#: libraries/language/admin.php:2524
+msgid "Locked Until"
+msgstr ""
+
+#: libraries/language/admin.php:2527
+msgid "Unlock"
+msgstr ""
+
+#: libraries/language/admin.php:2530
+msgid "Driver Name"
+msgstr ""
+
+#: libraries/language/admin.php:2533
+msgid "Time Format"
+msgstr ""
+
+#: libraries/language/admin.php:2536
+msgid "24 Hours"
+msgstr ""
+
+#: libraries/language/admin.php:2539
+msgid "12 Hours AM/PM"
+msgstr ""
+
+#: libraries/language/admin.php:2542
+msgid "Show Tax in Summary Only"
+msgstr ""
+
+#: libraries/language/admin.php:2545
+msgid "Rentals for today at any time"
+msgstr ""
+
+#: libraries/language/admin.php:2551
+msgid "Options, Taxes, Fees"
+msgstr ""
+
+#: libraries/language/admin.php:2572
+msgid "Component Front-End"
+msgstr ""
+
+#: libraries/language/admin.php:2575
+msgid "Component Back-End"
+msgstr ""
+
+#: libraries/language/admin.php:2578
+msgid "Component Back-End SYS"
+msgstr ""
+
+#: libraries/language/admin.php:2581
+msgid "Search Module"
+msgstr ""
+
+#: libraries/language/admin.php:2584
+msgid "Texts"
+msgstr ""
+
+#: libraries/language/admin.php:2587
+msgid "Content"
+msgstr ""
+
+#: libraries/language/admin.php:2593
+msgid "Administrator Notes"
+msgstr ""
+
+#: libraries/language/admin.php:2596
+msgid "Update"
+msgstr ""
+
+#: libraries/language/admin.php:2599
+msgid "Dates, Car, Locations"
+msgstr ""
+
+#: libraries/language/admin.php:2602
+#: libraries/language/site.php:873
+msgid "Rental Cost"
+msgstr ""
+
+#: libraries/language/admin.php:2605
+msgid "Set Custom Rate"
+msgstr ""
+
+#: libraries/language/admin.php:2608
+msgid "Custom Rates should always be inclusive of taxes"
+msgstr ""
+
+#: libraries/language/admin.php:2611
+msgid "Service Name"
+msgstr ""
+
+#: libraries/language/admin.php:2614
+msgid "Extra Services"
+msgstr ""
+
+#: libraries/language/admin.php:2620
+msgid "Custom CSS Overrides"
+msgstr ""
+
+#: libraries/language/admin.php:2623
+#: libraries/language/site.php:876
+msgid "Cancelled"
+msgstr ""
+
+#: libraries/language/admin.php:2626
+msgid "Single Day"
+msgstr ""
+
+#: libraries/language/admin.php:2629
+msgid "Every week"
+msgstr ""
+
+#: libraries/language/admin.php:2632
+msgid "Show Hourly Calendar"
+msgstr ""
+
+#: libraries/language/admin.php:2635
+msgid "Date Filter"
+msgstr ""
+
+#: libraries/language/admin.php:2644
+msgid "Graphs & Statistics"
+msgstr ""
+
+#: libraries/language/admin.php:2647
+msgid "Rental Orders"
+msgstr ""
+
+#: libraries/language/admin.php:2650
+msgid "Data based on orders creation date"
+msgstr ""
+
+#: libraries/language/admin.php:2653
+msgid "Data based on booked dates"
+msgstr ""
+
+#: libraries/language/admin.php:2656
+msgid "Total Sales"
+msgstr ""
+
+#: libraries/language/admin.php:2659
+msgid "Total days booked: %d"
+msgstr ""
+
+#: libraries/language/admin.php:2662
+msgid "Average Values may be applied when the booked dates are not included in the dates filter"
+msgstr ""
+
+#: libraries/language/admin.php:2665
+msgid "Days Booked"
+msgstr ""
+
+#: libraries/language/admin.php:2668
+msgid "Occupancy Rate: %s%%"
+msgstr ""
+
+#: libraries/language/admin.php:2671
+msgid "Occupancy Rate"
+msgstr ""
+
+#: libraries/language/admin.php:2677
+msgid "Jan"
+msgstr ""
+
+#: libraries/language/admin.php:2680
+msgid "Feb"
+msgstr ""
+
+#: libraries/language/admin.php:2683
+msgid "Mar"
+msgstr ""
+
+#: libraries/language/admin.php:2686
+msgid "Apr"
+msgstr ""
+
+#: libraries/language/admin.php:2692
+msgid "Jun"
+msgstr ""
+
+#: libraries/language/admin.php:2695
+msgid "Jul"
+msgstr ""
+
+#: libraries/language/admin.php:2698
+msgid "Aug"
+msgstr ""
+
+#: libraries/language/admin.php:2701
+msgid "Sep"
+msgstr ""
+
+#: libraries/language/admin.php:2704
+msgid "Oct"
+msgstr ""
+
+#: libraries/language/admin.php:2707
+msgid "Nov"
+msgstr ""
+
+#: libraries/language/admin.php:2710
+msgid "Dec"
+msgstr ""
+
+#: libraries/language/admin.php:2713
+msgid "- All Cars"
+msgstr ""
+
+#: libraries/language/admin.php:2716
+msgid "No confirmed orders found for these dates. Reports cannot be generated."
+msgstr ""
+
+#: libraries/language/admin.php:2719
+msgid "%d Confirmed Orders over %d days"
+msgstr ""
+
+#: libraries/language/admin.php:2722
+#: libraries/language/admin.php:3886
+msgid "Top Countries"
+msgstr ""
+
+#: libraries/language/admin.php:2725
+msgid "Total Gross Income"
+msgstr ""
+
+#: libraries/language/admin.php:2728
+msgid "Vik Rent Car - Graphs &amp; Statistics"
+msgstr ""
+
+#: libraries/language/admin.php:2731
+msgid "Tracking Code"
+msgstr ""
+
+#: libraries/language/admin.php:2734
+msgid "Conversion Code"
+msgstr ""
+
+#: libraries/language/admin.php:2737
+msgid "Sender e-Mail"
+msgstr ""
+
+#: libraries/language/admin.php:2740
+msgid "Vik Rent Car - Software Update"
+msgstr ""
+
+#: libraries/language/admin.php:2743
+msgid "Checking Version..."
+msgstr ""
+
+#: libraries/language/admin.php:2746
+msgid "Download Update & Install"
+msgstr ""
+
+#: libraries/language/admin.php:2749
+msgid "Download & Re-Install"
+msgstr ""
+
+#: libraries/language/admin.php:2752
+#: libraries/language/site.php:573
+#: modules/mod_vikrentcar_search/language/handler.php:128
+msgid "Done"
+msgstr ""
+
+#: libraries/language/admin.php:2755
+#: libraries/language/site.php:576
+#: modules/mod_vikrentcar_search/language/handler.php:131
+msgid "Prev"
+msgstr ""
+
+#: libraries/language/admin.php:2758
+#: libraries/language/site.php:579
+#: modules/mod_vikrentcar_search/language/handler.php:134
+msgid "Next"
+msgstr ""
+
+#: libraries/language/admin.php:2761
+#: libraries/language/site.php:582
+#: modules/mod_vikrentcar_search/language/handler.php:137
+msgid "Today"
+msgstr ""
+
+#: libraries/language/admin.php:2785
+#: libraries/language/site.php:606
+#: modules/mod_vikrentcar_search/language/handler.php:161
+msgid "Wk"
+msgstr ""
+
+#: libraries/language/admin.php:2788
+msgid "Assign Customer"
+msgstr ""
+
+#: libraries/language/admin.php:2794
+msgid "Existing Customer"
+msgstr ""
+
+#: libraries/language/admin.php:2797
+msgid "Search by PIN or Name"
+msgstr ""
+
+#: libraries/language/admin.php:2800
+msgid "Car Closed"
+msgstr ""
+
+#: libraries/language/admin.php:2803
+msgid "Close Car"
+msgstr ""
+
+#: libraries/language/admin.php:2806
+msgid "Customer Name"
+msgstr ""
+
+#: libraries/language/admin.php:2812
+msgid "Administration"
+msgstr ""
+
+#: libraries/language/admin.php:2815
+msgid "Order created by User ID %s"
+msgstr ""
+
+#: libraries/language/admin.php:2818
+msgid "Send Custom Email"
+msgstr ""
+
+#: libraries/language/admin.php:2824
+#: libraries/language/system.php:315
+msgid "Language"
+msgstr ""
+
+#: libraries/language/admin.php:2827
+msgid "Subject"
+msgstr ""
+
+#: libraries/language/admin.php:2830
+#: libraries/language/admin.php:3778
+#: libraries/language/site.php:753
+#: libraries/language/site.php:1035
+msgid "Message"
+msgstr ""
+
+#: libraries/language/admin.php:2833
+msgid "Attachment"
+msgstr ""
+
+#: libraries/language/admin.php:2836
+msgid "From Address"
+msgstr ""
+
+#: libraries/language/admin.php:2839
+msgid "Missing required data for sending the email message."
+msgstr ""
+
+#: libraries/language/admin.php:2842
+msgid "The message was sent successfully"
+msgstr ""
+
+#: libraries/language/admin.php:2845
+msgid "- Load text from Template -"
+msgstr ""
+
+#: libraries/language/admin.php:2848
+msgid "Use Template"
+msgstr ""
+
+#: libraries/language/admin.php:2851
+msgid "Remove Template"
+msgstr ""
+
+#: libraries/language/admin.php:2854
+msgid "Switch Car"
+msgstr ""
+
+#: libraries/language/admin.php:2860
+msgid "No Fares found for this car and for this number of days of rental. Unable to edit the reservation."
+msgstr ""
+
+#: libraries/language/admin.php:2863
+msgid "The car of this reservation has no rates defined. Make sure to set a rate, or the reservation will be incomplete."
+msgstr ""
+
+#: libraries/language/admin.php:2866
+#: libraries/language/admin.php:4657
+#: libraries/language/adminsys.php:187
+msgid "Management"
+msgstr ""
+
+#: libraries/language/admin.php:2869
+msgid "Customers"
+msgstr ""
+
+#: libraries/language/admin.php:2872
+msgid "No Customers found"
+msgstr ""
+
+#: libraries/language/admin.php:2875
+#: libraries/language/site.php:651
+msgid "First Name"
+msgstr ""
+
+#: libraries/language/admin.php:2881
+#: libraries/language/site.php:681
+msgid "eMail"
+msgstr ""
+
+#: libraries/language/admin.php:2890
+msgid "PIN"
+msgstr ""
+
+#: libraries/language/admin.php:2893
+msgid "Generate PIN"
+msgstr ""
+
+#: libraries/language/admin.php:2896
+msgid "Vik Rent Car - Customers"
+msgstr ""
+
+#: libraries/language/admin.php:2908
+msgid "Vik Rent Car - Customer Details"
+msgstr ""
+
+#: libraries/language/admin.php:2911
+msgid "Customer with the same email address already exists"
+msgstr ""
+
+#: libraries/language/admin.php:2914
+msgid "Customer Saved Successfully"
+msgstr ""
+
+#: libraries/language/admin.php:2917
+msgid "Enable Customers PIN Code"
+msgstr ""
+
+#: libraries/language/admin.php:2920
+msgid "Total Bookings"
+msgstr ""
+
+#: libraries/language/admin.php:2923
+#: libraries/language/site.php:915
+msgid "PIN Code"
+msgstr ""
+
+#: libraries/language/admin.php:2926
+msgid "CSV Export"
+msgstr ""
+
+#: libraries/language/admin.php:2929
+msgid "Download CSV Export"
+msgstr ""
+
+#: libraries/language/admin.php:2932
+msgid "-- Any Country --"
+msgstr ""
+
+#: libraries/language/admin.php:2935
+msgid "Export Information about %d selected Customers"
+msgstr ""
+
+#: libraries/language/admin.php:2938
+msgid "Export Customers Information"
+msgstr ""
+
+#: libraries/language/admin.php:2941
+msgid "Vik Rent Car - Export Customers Information"
+msgstr ""
+
+#: libraries/language/admin.php:2944
+msgid "Include Notes"
+msgstr ""
+
+#: libraries/language/admin.php:2947
+msgid "Include ID Image Scan URL"
+msgstr ""
+
+#: libraries/language/admin.php:2950
+msgid "Include PIN Code"
+msgstr ""
+
+#: libraries/language/admin.php:2953
+msgid "No customer records to export"
+msgstr ""
+
+#: libraries/language/admin.php:2956
+msgid "Customer Details"
+msgstr ""
+
+#: libraries/language/admin.php:2965
+#: libraries/language/admin.php:3013
+msgid "ZIP"
+msgstr ""
+
+#: libraries/language/admin.php:2968
+msgid "ID Type"
+msgstr ""
+
+#: libraries/language/admin.php:2971
+msgid "ID Number"
+msgstr ""
+
+#: libraries/language/admin.php:2974
+msgid "ID Scan Image"
+msgstr ""
+
+#: libraries/language/admin.php:2983
+#: libraries/language/admin.php:2989
+msgid "VAT ID"
+msgstr ""
+
+#: libraries/language/admin.php:2992
+msgid "Gender"
+msgstr ""
+
+#: libraries/language/admin.php:2995
+msgid "Male"
+msgstr ""
+
+#: libraries/language/admin.php:2998
+msgid "Female"
+msgstr ""
+
+#: libraries/language/admin.php:3004
+msgid "Place of Birth"
+msgstr ""
+
+#: libraries/language/admin.php:3016
+msgid "Load Font Awesome"
+msgstr ""
+
+#: libraries/language/admin.php:3019
+msgid "Location Address"
+msgstr ""
+
+#: libraries/language/admin.php:3022
+#: libraries/language/site.php:474
+msgid "View Details"
+msgstr ""
+
+#: libraries/language/admin.php:3025
+msgid "Send Emails When"
+msgstr ""
+
+#: libraries/language/admin.php:3028
+msgid "Order is Pending or Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:3031
+msgid "Order is Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:3034
+msgid "iCal Events End Date"
+msgstr ""
+
+#: libraries/language/admin.php:3037
+msgid "Choose whether a rental order should be displayed in the external calendars as one day (pick up date) or with all the consecutive dates. For example: a rental of 3 days can be displayed in the external calendar system as occupying just one day (the pick up date) or all days until the drop off date. Choose the method you prefer."
+msgstr ""
+
+#: libraries/language/admin.php:3040
+#: libraries/language/admin.php:3532
+msgid "Pick up Date"
+msgstr ""
+
+#: libraries/language/admin.php:3043
+#: libraries/language/admin.php:3535
+msgid "Drop off Date"
+msgstr ""
+
+#: libraries/language/admin.php:3046
+msgid "Filter by Car"
+msgstr ""
+
+#: libraries/language/admin.php:3049
+msgid "Filter by Payment"
+msgstr ""
+
+#: libraries/language/admin.php:3052
+msgid "Filter by Status"
+msgstr ""
+
+#: libraries/language/admin.php:3055
+msgid "Stop Rentals"
+msgstr ""
+
+#: libraries/language/admin.php:3058
+msgid "Filter by Date"
+msgstr ""
+
+#: libraries/language/admin.php:3061
+msgid "Filter Orders"
+msgstr ""
+
+#: libraries/language/admin.php:3067
+msgid "The attribute is an additional information you can pass to the Type of Price for any number of days of rental. It is NOT a mandatory field and it can be left empty. An example of attribute could be &quot;Km Included&quot;. From the page Fares Table, you will be able to specify the value for the attribute for any number of days of rental. For example, from 1 to 7 days: &quot;100Km/day&quot;. From 8 to 14 days: &quot;150Km/day&quot;. The attribute will be visible to the customer during the reservation process."
+msgstr ""
+
+#: libraries/language/admin.php:3070
+msgid "Fares Overview"
+msgstr ""
+
+#: libraries/language/admin.php:3073
+msgid "st"
+msgstr ""
+
+#: libraries/language/admin.php:3076
+msgid "nd"
+msgstr ""
+
+#: libraries/language/admin.php:3079
+msgid "rd"
+msgstr ""
+
+#: libraries/language/admin.php:3082
+msgid "th"
+msgstr ""
+
+#: libraries/language/admin.php:3085
+msgid "Vik Rent Car - Rates Overview"
+msgstr ""
+
+#: libraries/language/admin.php:3088
+#: libraries/language/admin.php:3130
+msgid "Restrictions"
+msgstr ""
+
+#: libraries/language/admin.php:3091
+msgid "Rates Calculator"
+msgstr ""
+
+#: libraries/language/admin.php:3094
+msgid "Vik Rent Car - Restrictions"
+msgstr ""
+
+#: libraries/language/admin.php:3097
+msgid "Vik Rent Car - New Restriction"
+msgstr ""
+
+#: libraries/language/admin.php:3100
+msgid "Vik Rent Car - Edit Restriction"
+msgstr ""
+
+#: libraries/language/admin.php:3103
+msgid "New Restriction"
+msgstr ""
+
+#: libraries/language/admin.php:3112
+msgid "No Restrictions found."
+msgstr ""
+
+#: libraries/language/admin.php:3118
+#: libraries/language/admin.php:3136
+msgid "Month"
+msgstr ""
+
+#: libraries/language/admin.php:3121
+msgid "Arrival Week Day"
+msgstr ""
+
+#: libraries/language/admin.php:3124
+#: libraries/language/admin.php:3145
+msgid "Min Num of Days"
+msgstr ""
+
+#: libraries/language/admin.php:3127
+#: libraries/language/admin.php:3199
+msgid "Max Num of Days"
+msgstr ""
+
+#: libraries/language/admin.php:3133
+msgid "With the restrictions you can limit the minimum rental period for a specific month of the Year or for a certain range of dates and optionally force the pickup Day of the Week. For example you can create a restriction for your car in August, forcing the pickup day to Saturday and the minimum rental period to 7 days, 14 days etc.. The minimum number of days will be set to 1 in case it is left empty."
+msgstr ""
+
+#: libraries/language/admin.php:3139
+msgid "Force Arrival Week Day"
+msgstr ""
+
+#: libraries/language/admin.php:3142
+msgid "Restriction Name"
+msgstr ""
+
+#: libraries/language/admin.php:3148
+msgid "Multiply Min Num of Days"
+msgstr ""
+
+#: libraries/language/admin.php:3151
+msgid "If this setting is enabled the minimum number of days will be multiplied every time this is passed. For example if you want to force the Pickup day to Saturday and the Drop-off day must still be on Saturday, you have to set the Minimum Number of Days to 7 and if this setting is enabled, 8, 9, 10, 11, 12 and 13 days of rental will not be allowed but only 14, 21, 28 etc. days will be allowed. This is useful if you want to give your cars only for weeks. The Maximum number of Days is automatically calculated from the Rates Table of each car, infact, if a car does not have a rate for 28 days, this car will not show up in the results so it will not be available. In case you want the calendar to force the Maximum Number of Days for this month, set a number of MaxLOS below."
+msgstr ""
+
+#: libraries/language/admin.php:3154
+msgid "Error, the restriction would be useless without an Arrival Week Day, without the CTA or CTD and the Minimum Num of Days as 1 which is the default MinLOS"
+msgstr ""
+
+#: libraries/language/admin.php:3157
+msgid "Restriction Saved Successfully"
+msgstr ""
+
+#: libraries/language/admin.php:3160
+msgid "Forced Combinations:"
+msgstr ""
+
+#: libraries/language/admin.php:3163
+msgid "if none selected, any check-out week day in accordance with the max and min number of days will be accepted"
+msgstr ""
+
+#: libraries/language/admin.php:3166
+msgid "Apply to all Cars"
+msgstr ""
+
+#: libraries/language/admin.php:3169
+msgid "Cars affected by this Restriction:"
+msgstr ""
+
+#: libraries/language/admin.php:3175
+msgid "ALL"
+msgstr ""
+
+#: libraries/language/admin.php:3178
+msgid "or"
+msgstr ""
+
+#: libraries/language/admin.php:3181
+#: libraries/language/admin.php:3193
+msgid "Dates Range"
+msgstr ""
+
+#: libraries/language/admin.php:3190
+msgid "Error: Restrictions must have a month or a dates range, from and to."
+msgstr ""
+
+#: libraries/language/admin.php:3196
+msgid "Error, a restriction for the selected month already exists."
+msgstr ""
+
+#: libraries/language/admin.php:3202
+msgid "Set Days Closed to Arrival (CTA)"
+msgstr ""
+
+#: libraries/language/admin.php:3205
+msgid "Set Days Closed to Departure (CTD)"
+msgstr ""
+
+#: libraries/language/admin.php:3208
+msgid "Week days closed to arrival"
+msgstr ""
+
+#: libraries/language/admin.php:3211
+msgid "Week days closed to departure"
+msgstr ""
+
+#: libraries/language/admin.php:3214
+msgid "CTA Week Days"
+msgstr ""
+
+#: libraries/language/admin.php:3217
+msgid "CTD Week Days"
+msgstr ""
+
+#: libraries/language/admin.php:3220
+msgid "Week Days Closed to Arrival"
+msgstr ""
+
+#: libraries/language/admin.php:3223
+msgid "Week Days Closed to Departure"
+msgstr ""
+
+#: libraries/language/admin.php:3250
+msgid "Rental Period"
+msgstr ""
+
+#: libraries/language/admin.php:3256
+msgid "Calculate"
+msgstr ""
+
+#: libraries/language/admin.php:3259
+msgid "Calculating..."
+msgstr ""
+
+#: libraries/language/admin.php:3262
+msgid "Length of Stay Pricing Overview"
+msgstr ""
+
+#: libraries/language/admin.php:3265
+msgid "Calendar Pricing Overview"
+msgstr ""
+
+#: libraries/language/admin.php:3268
+msgid "Select Period"
+msgstr ""
+
+#: libraries/language/admin.php:3277
+msgid "Rate Plan"
+msgstr ""
+
+#: libraries/language/admin.php:3280
+msgid "Valid any Year"
+msgstr ""
+
+#: libraries/language/admin.php:3283
+msgid "Based on Rental Period"
+msgstr ""
+
+#: libraries/language/admin.php:3286
+msgid "per day"
+msgstr ""
+
+#: libraries/language/admin.php:3289
+msgid "%d Day"
+msgstr ""
+
+#: libraries/language/admin.php:3292
+msgid "%d Days"
+msgstr ""
+
+#: libraries/language/admin.php:3295
+msgid "Off-Season Prices"
+msgstr ""
+
+#: libraries/language/admin.php:3298
+msgid "Min. Days"
+msgstr ""
+
+#: libraries/language/admin.php:3301
+msgid "Max. Days"
+msgstr ""
+
+#: libraries/language/admin.php:3304
+msgid "Pick up Week Day"
+msgstr ""
+
+#: libraries/language/admin.php:3307
+msgid "Pick up Week Days"
+msgstr ""
+
+#: libraries/language/admin.php:3310
+msgid "Set New Rate"
+msgstr ""
+
+#: libraries/language/admin.php:3313
+msgid "Error while setting new rates. Missing data"
+msgstr ""
+
+#: libraries/language/admin.php:3316
+msgid "Error while setting new rates. No rates"
+msgstr ""
+
+#: libraries/language/admin.php:3319
+msgid "Error: no changes needed for the selected rates"
+msgstr ""
+
+#: libraries/language/admin.php:3322
+msgid "Close/Open Rate Plan"
+msgstr ""
+
+#: libraries/language/admin.php:3325
+msgid "Close Rate Plan"
+msgstr ""
+
+#: libraries/language/admin.php:3328
+msgid "Open Rate Plan"
+msgstr ""
+
+#: libraries/language/admin.php:3331
+msgid "Error while modifying rate plans. Missing data"
+msgstr ""
+
+#: libraries/language/admin.php:3334
+msgid "Special Price rule #%d"
+msgstr ""
+
+#: libraries/language/admin.php:3337
+msgid "The Car is not available or has no Rates from %s to %s."
+msgstr ""
+
+#: libraries/language/admin.php:3343
+msgid "Days modified by Special Prices:"
+msgstr ""
+
+#: libraries/language/admin.php:3346
+msgid "Enable Request Information"
+msgstr ""
+
+#: libraries/language/admin.php:3349
+msgid "If enabled, from the Car details page in the front-end, it will be possible for every user to submit an information request through a contact form."
+msgstr ""
+
+#: libraries/language/admin.php:3352
+msgid "Override Opening Time"
+msgstr ""
+
+#: libraries/language/admin.php:3355
+msgid "The default Opening Time can be changed on some days of the week. Closing days, for either festivities or weekly closure, can be defined from the apposite parameter Closing Dates. If the Opening Time does not change from one day to another, keep this setting empty."
+msgstr ""
+
+#: libraries/language/admin.php:3358
+msgid "Do you want the system to re-calculate the new order total?"
+msgstr ""
+
+#: libraries/language/admin.php:3361
+msgid "Units booked"
+msgstr ""
+
+#: libraries/language/admin.php:3364
+msgid "Units left"
+msgstr ""
+
+#: libraries/language/admin.php:3367
+msgid "Allow Pick Ups on Drop Offs"
+msgstr ""
+
+#: libraries/language/admin.php:3370
+msgid "If enabled, and if the setting 'Dropped Off car is available after N hours' is set to 0, the system will allow pick ups at times when the same car is being dropped off by another rental order. Otherwise, the car would become available for pick up at the very next minute."
+msgstr ""
+
+#: libraries/language/admin.php:3373
+msgid "Toggle Availability by Units"
+msgstr ""
+
+#: libraries/language/admin.php:3376
+#: libraries/language/site.php:1062
+msgid "Order ID"
+msgstr ""
+
+#: libraries/language/admin.php:3379
+msgid "Assign new customer"
+msgstr ""
+
+#: libraries/language/admin.php:3382
+msgid "Create new customer"
+msgstr ""
+
+#: libraries/language/admin.php:3385
+msgid "Do you want to assign this new customer to the order?"
+msgstr ""
+
+#: libraries/language/admin.php:3388
+msgid "Back-end Logo (180px)"
+msgstr ""
+
+#: libraries/language/admin.php:3391
+msgid "Statistics Tracking"
+msgstr ""
+
+#: libraries/language/admin.php:3394
+msgid "Vik Rent Car - Statistics Tracking"
+msgstr ""
+
+#: libraries/language/admin.php:3397
+msgid "No data available."
+msgstr ""
+
+#: libraries/language/admin.php:3400
+msgid "Last Visit"
+msgstr ""
+
+#: libraries/language/admin.php:3403
+msgid "First Visit"
+msgstr ""
+
+#: libraries/language/admin.php:3406
+msgid "Tracking Status"
+msgstr ""
+
+#: libraries/language/admin.php:3409
+msgid "Geo Info"
+msgstr ""
+
+#: libraries/language/admin.php:3412
+msgid "Enable tracking for this visitor"
+msgstr ""
+
+#: libraries/language/admin.php:3415
+msgid "Disable tracking for this visitor"
+msgstr ""
+
+#: libraries/language/admin.php:3418
+msgid "Anonymous"
+msgstr ""
+
+#: libraries/language/admin.php:3421
+msgid "Device"
+msgstr ""
+
+#: libraries/language/admin.php:3424
+msgid "Tracking Time"
+msgstr ""
+
+#: libraries/language/admin.php:3427
+msgid "Rental Dates"
+msgstr ""
+
+#: libraries/language/admin.php:3430
+msgid "Cars and Rates"
+msgstr ""
+
+#: libraries/language/admin.php:3433
+msgid "Invert Tracking Status"
+msgstr ""
+
+#: libraries/language/admin.php:3436
+msgid "Tracking Dates"
+msgstr ""
+
+#: libraries/language/admin.php:3439
+msgid "Filter Results"
+msgstr ""
+
+#: libraries/language/admin.php:3442
+msgid "Filter by Country"
+msgstr ""
+
+#: libraries/language/admin.php:3445
+msgid "seconds"
+msgstr ""
+
+#: libraries/language/admin.php:3448
+msgid "minutes"
+msgstr ""
+
+#: libraries/language/admin.php:3451
+msgid "Tracking Settings"
+msgstr ""
+
+#: libraries/language/admin.php:3454
+msgid "Tracking Enabled"
+msgstr ""
+
+#: libraries/language/admin.php:3457
+msgid "Tracking is disabled"
+msgstr ""
+
+#: libraries/language/admin.php:3460
+msgid "Vik Rent Car - Tracking Settings"
+msgstr ""
+
+#: libraries/language/admin.php:3463
+msgid "Referrer Cookie Duration"
+msgstr ""
+
+#: libraries/language/admin.php:3466
+msgid "The Referrer is the system that redirects/sends the visitor to your website. It could be a search engine, a social network or a marketing campaign. This value is not always available and it may be empty. The duration of the cookie defines for how long the visitor should be assigned to a certain referrer for any eventual conversion made after the first visit. The minimum duration should be greater than zero."
+msgstr ""
+
+#: libraries/language/admin.php:3469
+msgid "Tracking Campaigns"
+msgstr ""
+
+#: libraries/language/admin.php:3472
+msgid "You can add custom tracking campaigns to obtain a specific referrer for each tracking. This is useful to keep track of the provenience of a specific visitor. For example, if you are sending newsletters or marketing emails to your customers, you can include such instructions in the links and track who clicked on them and then searched for a car. The same function can be used to track other kind of marketing campaigns, such as ones from social networks or analytics techniques used by search engines. To set up a custom campaign rule you need to specify a request key (make sure to not use preserved request keys, numbers are always better), optionally a request value fort the key, and the name of the campaign that will be used as referrer for the trackings."
+msgstr ""
+
+#: libraries/language/admin.php:3475
+msgid "Add Campaign"
+msgstr ""
+
+#: libraries/language/admin.php:3478
+msgid "Request Key"
+msgstr ""
+
+#: libraries/language/admin.php:3481
+msgid "Request Key Value"
+msgstr ""
+
+#: libraries/language/admin.php:3484
+msgid "Referrer Name"
+msgstr ""
+
+#: libraries/language/admin.php:3487
+msgid "Filter by Referrer"
+msgstr ""
+
+#: libraries/language/admin.php:3490
+msgid "Booking Conversion"
+msgstr ""
+
+#: libraries/language/admin.php:3493
+msgid "Referrer"
+msgstr ""
+
+#: libraries/language/admin.php:3496
+msgid "Visitors"
+msgstr ""
+
+#: libraries/language/admin.php:3499
+msgid "Conversion Rates"
+msgstr ""
+
+#: libraries/language/admin.php:3502
+msgid "Request(s)"
+msgstr ""
+
+#: libraries/language/admin.php:3505
+msgid "Visitor(s)"
+msgstr ""
+
+#: libraries/language/admin.php:3508
+msgid "Most Demanded Days"
+msgstr ""
+
+#: libraries/language/admin.php:3511
+msgid "Average Values"
+msgstr ""
+
+#: libraries/language/admin.php:3514
+msgid "Total Visitors"
+msgstr ""
+
+#: libraries/language/admin.php:3517
+msgid "Average Conversion Rate"
+msgstr ""
+
+#: libraries/language/admin.php:3520
+msgid "This percentage value is calculated proportionally by taking into account the total number of visitors and the total numbers of bookings. It shows how many visitors completed the reservation process by generating a booking."
+msgstr ""
+
+#: libraries/language/admin.php:3523
+msgid "Average Length of Rent"
+msgstr ""
+
+#: libraries/language/admin.php:3526
+msgid "Best Referrers"
+msgstr ""
+
+#: libraries/language/admin.php:3529
+msgid "The Statistics Tracking functions use cookies to store information about the visitor's fingerprint and referrer. These cookies are sent to the visitors with the sole purpose of knowing the dates/cars/rate plans they search on this website. The cookies do not contain any personal information. By default, such cookies are not shared with any third party system. It may be necessary to inform your visitors of the usage you make of these internal tracking cookies."
+msgstr ""
+
+#: libraries/language/admin.php:3538
+#: libraries/language/admin.php:3649
+msgid "Customer"
+msgstr ""
+
+#: libraries/language/admin.php:3541
+msgid "Save &amp; New"
+msgstr ""
+
+#: libraries/language/admin.php:3544
+#: libraries/language/site.php:891
+msgid "I agree to the terms and conditions"
+msgstr ""
+
+#: libraries/language/admin.php:3547
+msgid "Configure"
+msgstr ""
+
+#: libraries/language/admin.php:3550
+#: libraries/language/system.php:270
+msgid "Details"
+msgstr ""
+
+#: libraries/language/admin.php:3553
+msgid "Settings"
+msgstr ""
+
+#: libraries/language/admin.php:3556
+msgid "Repeat restriction every %s"
+msgstr ""
+
+#: libraries/language/admin.php:3559
+msgid "Repeat until"
+msgstr ""
+
+#: libraries/language/admin.php:3562
+msgid "Cars Assigned"
+msgstr ""
+
+#: libraries/language/admin.php:3565
+msgid "This option is assigned to %d cars over %d."
+msgstr ""
+
+#: libraries/language/admin.php:3568
+msgid "Car Option updated successfully"
+msgstr ""
+
+#: libraries/language/admin.php:3571
+msgid "Type Flag"
+msgstr ""
+
+#: libraries/language/admin.php:3574
+msgid "There are several sub-types of fields that tell the system what kind of information was collected from the customer. Choose the appropriate type and remember to only create one field of type eMail that will be used for the notifications."
+msgstr ""
+
+#: libraries/language/admin.php:3577
+msgid "Selecting no week days equals to selecting all 7 week days"
+msgstr ""
+
+#: libraries/language/admin.php:3580
+msgid "The name of this pricing rule. Visible only if &quot;Promotion&quot; enabled. Can be left empty"
+msgstr ""
+
+#: libraries/language/admin.php:3583
+msgid "If disabled, the pricing rule will be applied on the selected range of dates regardless of the year"
+msgstr ""
+
+#: libraries/language/admin.php:3586
+msgid "If enabled, the rule will be applied only if the pick-up date for the rental is included in the range of dates"
+msgstr ""
+
+#: libraries/language/admin.php:3589
+msgid "Make this pricing rule a &quot;Promotion&quot; to display it in the front-end booking process"
+msgstr ""
+
+#: libraries/language/admin.php:3592
+msgid "The (optional) information/description text of your promotion"
+msgstr ""
+
+#: libraries/language/admin.php:3595
+msgid "A range of dates is mandatory to create a promotion"
+msgstr ""
+
+#: libraries/language/admin.php:3598
+msgid "If this value is set to a number greater than zero, this promotion will be valid only for early bookings. If you need to apply the promotion only to those who book N days in advance, then you should set the number of days in advance from the apposite input field. Otherwise, you should keep this setting to 0. This setting is not for Last Minute promotions, but rather for Early Bird promotions."
+msgstr ""
+
+#: libraries/language/admin.php:3601
+msgid "Last Minute validity"
+msgstr ""
+
+#: libraries/language/admin.php:3604
+msgid "If you are willing to apply discounts only to last minute bookings, then you should provide a number of days and/or hours for the validity of the promotion. If the time remaining to the pickup from the booking date is less than the limit you defined, the promotion will be applied."
+msgstr ""
+
+#: libraries/language/admin.php:3607
+msgid "Force minimum length of rent"
+msgstr ""
+
+#: libraries/language/admin.php:3610
+msgid "Apply on cars final cost"
+msgstr ""
+
+#: libraries/language/admin.php:3613
+msgid "This setting will determine how the promotion will be applied onto the cars costs"
+msgstr ""
+
+#: libraries/language/admin.php:3616
+msgid "All special pricing rules are applied on the cars base costs as a cumulative charge or discount even in case of multiple rules applied on the same rental dates. This algorithm follows the OpenTravel (OTA) standards, and here is an example of how two special pricing rules are typically applied on the bases costs to obtain the final price:<br/><br/><ul><li>Car base cost = 80/day</li><li>Reservation for 3 days</li><li>One Special Price sets a charge of 20/day to obtain a cost of 100/day</li><li>One Last-Minute promotion applies a 10% off</li></ul><br/><strong>Calculation of final price</strong><br/><ul><li>1st day (80 + 20 - 8) = 92</li><li>2nd day (80 + 20 - 8) = 92</li><li>3rd day (80 + 20 - 8) = 92</li><li><u>Final price</u> 92 * 3 = 276</li></ul><br/>With this default calculation method, the 10% off promotion has been applied cumulatively on the car base cost for each day affected.<br/>If the parameter <i>Apply on cars final cost</i> was enabled, the calculation would be performed with the following method:<br/><ul><li>1st day (80 + 20) = 100</li><li>2nd day (80 + 20) = 100</li><li>3rd day (80 + 20) = 100</li><li><u>Final price before promotion</u> 100 * 3 = 300</li><li><u>Promotion applied on final cost</u> 300 - 10% = 270</li></ul><br/>You should choose the calculation method that best fits your needs. Applying promotions on the final price for specific dates is usually more handy, but you can choose to adopt the default calculation method like for all the other special pricing rules."
+msgstr ""
+
+#: libraries/language/admin.php:3619
+msgid "Preview"
+msgstr ""
+
+#: libraries/language/admin.php:3622
+msgid "Please specify the base-cost per day for each rate plan."
+msgstr ""
+
+#: libraries/language/admin.php:3625
+msgid "This should be the rental cost applied for the longer period of the year. You will be able to set later any hourly rate, as well as some seasonal pricing or different costs for some dates of the year."
+msgstr ""
+
+#: libraries/language/admin.php:3628
+msgid "What's the starting rental cost per day for your car?"
+msgstr ""
+
+#: libraries/language/admin.php:3631
+msgid "Open Wizard"
+msgstr ""
+
+#: libraries/language/admin.php:3634
+msgid "Descriptions"
+msgstr ""
+
+#: libraries/language/admin.php:3637
+#: libraries/language/site.php:1074
+msgid "Your reservation at %s"
+msgstr ""
+
+#: libraries/language/admin.php:3640
+msgid "Attach iCal Reminder"
+msgstr ""
+
+#: libraries/language/admin.php:3643
+msgid "If enabled, a calendar reminder in iCal format will be attached to the confirmation email for the customer and/or the administrator. This is useful to save the event on any calendar application of any device."
+msgstr ""
+
+#: libraries/language/admin.php:3646
+msgid "Administrator"
+msgstr ""
+
+#: libraries/language/admin.php:3652
+#: libraries/language/site.php:1077
+msgid "New Order #%s"
+msgstr ""
+
+#: libraries/language/admin.php:3655
+msgid "Preferred Countries Ordering"
+msgstr ""
+
+#: libraries/language/admin.php:3658
+msgid "The Preferred Countries are used to build input fields to collect phone numbers. These countries are taken from the installed languages on your website, and they will be used to display some countries at the top of the list next to each input field of type phone number. To add custom countries or to remove some, click the edit icon and enter the comma separated alpha-2 country codes (ISO 3166-1)."
+msgstr ""
+
+#: libraries/language/admin.php:3661
+#: libraries/language/site.php:507
+msgid "Book Now"
+msgstr ""
+
+#: libraries/language/admin.php:3664
+msgid "Advanced"
+msgstr ""
+
+#: libraries/language/admin.php:3667
+#: libraries/language/admin.php:3673
+msgid "Scheduled Cron Jobs"
+msgstr ""
+
+#: libraries/language/admin.php:3670
+msgid "Reports"
+msgstr ""
+
+#: libraries/language/admin.php:3676
+msgid "Cron Jobs Secret Key"
+msgstr ""
+
+#: libraries/language/admin.php:3679
+msgid "Vik Rent Car - Scheduled Cron Jobs"
+msgstr ""
+
+#: libraries/language/admin.php:3682
+msgid "New Cron Job"
+msgstr ""
+
+#: libraries/language/admin.php:3691
+msgid "No Cron Jobs currently set up or scheduled."
+msgstr ""
+
+#: libraries/language/admin.php:3694
+msgid "Cron Job Name"
+msgstr ""
+
+#: libraries/language/admin.php:3697
+msgid "Class File"
+msgstr ""
+
+#: libraries/language/admin.php:3700
+msgid "Last Execution"
+msgstr ""
+
+#: libraries/language/admin.php:3706
+msgid "Cron Job Saved!"
+msgstr ""
+
+#: libraries/language/admin.php:3709
+msgid "Cron Job Updated!"
+msgstr ""
+
+#: libraries/language/admin.php:3712
+msgid "Execution Logs"
+msgstr ""
+
+#: libraries/language/admin.php:3715
+msgid "Actions"
+msgstr ""
+
+#: libraries/language/admin.php:3718
+msgid "Execute"
+msgstr ""
+
+#: libraries/language/admin.php:3721
+msgid "Cron Job Result"
+msgstr ""
+
+#: libraries/language/admin.php:3727
+msgid "Get Command"
+msgstr ""
+
+#: libraries/language/admin.php:3730
+msgid "This cron job could be executed automatically by your server at regular intervals. The cron can also be executed manually by an administrator, but letting the server do it will be effortless and fully functional. Only servers supporting a Cron utility like crontab will be able of executing this cron job."
+msgstr ""
+
+#: libraries/language/admin.php:3733
+msgid "Installation Steps"
+msgstr ""
+
+#: libraries/language/admin.php:3736
+msgid "Download the executable PHP file for this cron job onto a local folder of your computer."
+msgstr ""
+
+#: libraries/language/admin.php:3739
+msgid "Upload the downloaded file onto a directory of your server, either before, in or after the root directory of the web-server."
+msgstr ""
+
+#: libraries/language/admin.php:3742
+msgid "Log in to your server control panel and add a new job for your Cron Utility. Your hosting company should help you use this tool."
+msgstr ""
+
+#: libraries/language/admin.php:3745
+msgid "Cron Jobs require the execution interval and the command to execute. Set the necessary interval and the proper command to execute this cron job repetitively."
+msgstr ""
+
+#: libraries/language/admin.php:3748
+msgid "Assuming that the executable PHP file was uploaded onto the root directory of your web-server, the command you should set in the Cron Utility should look similar to the one below. In this example, the path to the PHP interpreter has been set to <em>/usr/bin/php</em> but this may differ for your server."
+msgstr ""
+
+#: libraries/language/admin.php:3751
+msgid "Please be aware that PHP files in or after the root directory of the web-server can be executed at a public URL. This may not be secure if you do not want anyone to be able to launch the cron job except for the server. If the file was in the root directory, it would be callable at the URL below."
+msgstr ""
+
+#: libraries/language/admin.php:3754
+msgid "Download Executable File"
+msgstr ""
+
+#: libraries/language/admin.php:3757
+msgid "Reminder Type"
+msgstr ""
+
+#: libraries/language/admin.php:3760
+msgid "Pick-up Reminder"
+msgstr ""
+
+#: libraries/language/admin.php:3763
+msgid "Remaining Balance Payment Reminder"
+msgstr ""
+
+#: libraries/language/admin.php:3766
+msgid "After Drop-off Message"
+msgstr ""
+
+#: libraries/language/admin.php:3769
+msgid "If type = After Drop-off Message, this will be the number of days after the drop-off. Number of days before the pick-up otherwise."
+msgstr ""
+
+#: libraries/language/admin.php:3772
+msgid "Days in Advance"
+msgstr ""
+
+#: libraries/language/admin.php:3775
+msgid "eMail Subject"
+msgstr ""
+
+#: libraries/language/admin.php:3781
+#: libraries/language/admin.php:3811
+msgid "Test Mode"
+msgstr ""
+
+#: libraries/language/admin.php:3784
+msgid "if enabled, the cron will not actually send the SMS"
+msgstr ""
+
+#: libraries/language/admin.php:3787
+msgid "if enabled, the cron will not actually send the eMail"
+msgstr ""
+
+#: libraries/language/admin.php:3790
+msgid "This cron job should be scheduled to run at regular intervals of one time per day. Executing the cron job once per day, at the preferred time, will guarantee the best result."
+msgstr ""
+
+#: libraries/language/admin.php:3796
+msgid "After the Pick-up date"
+msgstr ""
+
+#: libraries/language/admin.php:3799
+msgid "Whenever the order status is Confirmed"
+msgstr ""
+
+#: libraries/language/admin.php:3802
+msgid "After the Drop-off date"
+msgstr ""
+
+#: libraries/language/admin.php:3805
+msgid "Use Generation Date"
+msgstr ""
+
+#: libraries/language/admin.php:3808
+msgid "Send Invoices via eMail"
+msgstr ""
+
+#: libraries/language/admin.php:3814
+msgid "if enabled, the cron will not actually generate the invoices, nor it will send them via eMail to the customers"
+msgstr ""
+
+#: libraries/language/admin.php:3817
+msgid "eMail message with PDF attached"
+msgstr ""
+
+#: libraries/language/admin.php:3820
+msgid "This cron job should be scheduled to run once per day. Remember to create at least one invoice manually from the back-end before running this cron. This is to set the invoices starting number and other details."
+msgstr ""
+
+#: libraries/language/admin.php:3823
+msgid "Vik Rent Car - PMS Reports"
+msgstr ""
+
+#: libraries/language/admin.php:3826
+msgid "- Select Report Type -"
+msgstr ""
+
+#: libraries/language/admin.php:3829
+msgid "Load Report Data"
+msgstr ""
+
+#: libraries/language/admin.php:3832
+#: libraries/language/admin.php:3880
+msgid "Revenue"
+msgstr ""
+
+#: libraries/language/admin.php:3835
+msgid "Date From"
+msgstr ""
+
+#: libraries/language/admin.php:3838
+msgid "Date To"
+msgstr ""
+
+#: libraries/language/admin.php:3841
+msgid "Car Filter"
+msgstr ""
+
+#: libraries/language/admin.php:3844
+msgid "Please select the desired dates for the Report."
+msgstr ""
+
+#: libraries/language/admin.php:3847
+msgid "No orders found with the parameters specified."
+msgstr ""
+
+#: libraries/language/admin.php:3850
+msgid "Export as CSV"
+msgstr ""
+
+#: libraries/language/admin.php:3856
+msgid "Cars Sold"
+msgstr ""
+
+#: libraries/language/admin.php:3859
+msgid "Total Orders"
+msgstr ""
+
+#: libraries/language/admin.php:3862
+msgid "% Occupancy"
+msgstr ""
+
+#: libraries/language/admin.php:3865
+msgid "ADR"
+msgstr ""
+
+#: libraries/language/admin.php:3868
+msgid "The &quot;Average Daily Rate&quot; is calculated by dividing the Total Revenue by the number of Cars Sold."
+msgstr ""
+
+#: libraries/language/admin.php:3871
+msgid "RevPAC"
+msgstr ""
+
+#: libraries/language/admin.php:3874
+msgid "The &quot;Revenue Per Available Car&quot; is calculated by dividing the Total Revenue by the total number of Cars Available."
+msgstr ""
+
+#: libraries/language/admin.php:3877
+msgid "Taxes/Fees"
+msgstr ""
+
+#: libraries/language/admin.php:3892
+msgid "Unknown"
+msgstr ""
+
+#: libraries/language/admin.php:3895
+msgid "Sheet + Chart"
+msgstr ""
+
+#: libraries/language/admin.php:3898
+msgid "Sheet"
+msgstr ""
+
+#: libraries/language/admin.php:3901
+msgid "Chart"
+msgstr ""
+
+#: libraries/language/admin.php:3904
+msgid "Website Rates"
+msgstr ""
+
+#: libraries/language/admin.php:3907
+msgid "Total sellable cars: %d"
+msgstr ""
+
+#: libraries/language/admin.php:3910
+msgid "Cars Occupancy"
+msgstr ""
+
+#: libraries/language/admin.php:3913
+msgid "Cars Unsold"
+msgstr ""
+
+#: libraries/language/admin.php:3916
+msgid "Occupancy Ranking"
+msgstr ""
+
+#: libraries/language/admin.php:3919
+msgid "Rate Plans Revenue"
+msgstr ""
+
+#: libraries/language/admin.php:3922
+msgid "Options/Extras"
+msgstr ""
+
+#: libraries/language/admin.php:3925
+msgid "The values for the Options/Extras are tax included. The amount is calculated by subtracting the amount of Car Costs from the Order Total. It's the sum of all costs excluding the costs of the vehicles. It may include out of hours or location fees."
+msgstr ""
+
+#: libraries/language/admin.php:3928
+msgid "Ordering position"
+msgstr ""
+
+#: libraries/language/admin.php:3931
+msgid "Leave this field empty for letting the system calculate the ordering position automatically"
+msgstr ""
+
+#: libraries/language/admin.php:3934
+msgid "Previous amount paid %s"
+msgstr ""
+
+#: libraries/language/admin.php:3937
+msgid "New Confirmed Booking"
+msgstr ""
+
+#: libraries/language/admin.php:3940
+msgid "Booking Modified by Customer"
+msgstr ""
+
+#: libraries/language/admin.php:3943
+msgid "Administrator Booking Modification"
+msgstr ""
+
+#: libraries/language/admin.php:3946
+msgid "Booking Created by Administrator"
+msgstr ""
+
+#: libraries/language/admin.php:3949
+msgid "New Stand-by Booking"
+msgstr ""
+
+#: libraries/language/admin.php:3952
+msgid "Payment Received"
+msgstr ""
+
+#: libraries/language/admin.php:3955
+msgid "Other Payment Received"
+msgstr ""
+
+#: libraries/language/admin.php:3958
+msgid "Customer Request"
+msgstr ""
+
+#: libraries/language/admin.php:3961
+msgid "Booking Cancelled by Customer"
+msgstr ""
+
+#: libraries/language/admin.php:3964
+msgid "Booking Auto Cancellation"
+msgstr ""
+
+#: libraries/language/admin.php:3967
+msgid "Administrator Booking Cancellation"
+msgstr ""
+
+#: libraries/language/admin.php:3970
+msgid "Booking Receipt Issued"
+msgstr ""
+
+#: libraries/language/admin.php:3973
+msgid "Booking Invoice Issued"
+msgstr ""
+
+#: libraries/language/admin.php:3976
+msgid "Cancel Booking Registration"
+msgstr ""
+
+#: libraries/language/admin.php:3979
+msgid "Check-in"
+msgstr ""
+
+#: libraries/language/admin.php:3982
+msgid "Check-out"
+msgstr ""
+
+#: libraries/language/admin.php:3985
+msgid "No-Show"
+msgstr ""
+
+#: libraries/language/admin.php:3988
+msgid "Administrator Booking Confirmation"
+msgstr ""
+
+#: libraries/language/admin.php:3991
+msgid "Reporting"
+msgstr ""
+
+#: libraries/language/admin.php:3994
+msgid "Email to Client"
+msgstr ""
+
+#: libraries/language/admin.php:3997
+msgid "SMS to Client"
+msgstr ""
+
+#: libraries/language/admin.php:4000
+msgid "New amount paid"
+msgstr ""
+
+#: libraries/language/admin.php:4003
+msgid "New extras booked"
+msgstr ""
+
+#: libraries/language/admin.php:4006
+msgid "Cancellation Email Sent"
+msgstr ""
+
+#: libraries/language/admin.php:4009
+msgid "Refund transaction"
+msgstr ""
+
+#: libraries/language/admin.php:4012
+msgid "Refunded amount updated"
+msgstr ""
+
+#: libraries/language/admin.php:4015
+#: libraries/language/admin.php:4330
+msgid "Payable amount updated"
+msgstr ""
+
+#: libraries/language/admin.php:4018
+msgid "Order modified on %s.\\nPrevious rental dates: %s.\\nPrevious car booked: %s.\\nPrevious Total: %s."
+msgstr ""
+
+#: libraries/language/admin.php:4021
+msgid "Order History"
+msgstr ""
+
+#: libraries/language/admin.php:4024
+msgid "Event"
+msgstr ""
+
+#: libraries/language/admin.php:4036
+msgid "Order Total"
+msgstr ""
+
+#: libraries/language/admin.php:4039
+msgid "Sub-unit changed for %s from %s to %s"
+msgstr ""
+
+#: libraries/language/admin.php:4042
+msgid "Click this button to force the availability, even if this may generate overbooking."
+msgstr ""
+
+#: libraries/language/admin.php:4045
+msgid "Force availability"
+msgstr ""
+
+#: libraries/language/admin.php:4048
+msgid "Order was forced due to non-availability"
+msgstr ""
+
+#: libraries/language/admin.php:4051
+msgid "Add new note for today"
+msgstr ""
+
+#: libraries/language/admin.php:4054
+msgid "Consecutive days"
+msgstr ""
+
+#: libraries/language/admin.php:4057
+msgid "Initial Setup"
+msgstr ""
+
+#: libraries/language/admin.php:4060
+msgid "Complete the configuration of the following tasks to get started."
+msgstr ""
+
+#: libraries/language/admin.php:4063
+msgid "The types of price are the rate plans that clients can choose for renting a vehicle. They identify the insurance, the cancellation policies or the services included."
+msgstr ""
+
+#: libraries/language/admin.php:4066
+msgid "Create some vehicles to enable the booking process. Your cars will have their own calendars for the availability and rates, and your guests will be booking the vehicles you have set up."
+msgstr ""
+
+#: libraries/language/admin.php:4069
+msgid "It is necessary to define the base rental costs for each vehicle for the various rate plans you have created. Other seasonal rates can be set up later from the page Rates Overview."
+msgstr ""
+
+#: libraries/language/admin.php:4072
+msgid "Admin Widgets Customizer"
+msgstr ""
+
+#: libraries/language/admin.php:4075
+msgid "<strong>Welcome to the Admin Widgets Customizer!</strong><br/>This interface will let you manage all the elements displayed in your Dashboard through <b>Sections</b>, <b>Containers</b> and <b>Widgets</b>."
+msgstr ""
+
+#: libraries/language/admin.php:4078
+msgid "Add new <b>Sections</b> to better organize your elements, and arrange their position with drag and drop actions. Add new <b>Containers</b> with a proper size to contain your <b>widgets</b>.<br/>Four sizes are available for the containers:<ul><li><b>Full Width</b> gives a <u>100%</u> width to the container. Only one container of this type will fit in one row.</li><li><b>Large</b> gives the container a <u>75%</u> width. Another small container could fit in the same row next to this size.</li><li><b>Medium</b> gives the container a <u>50%</u> width. Another medium container could fit next to it, or even two small containers.</li><li><b>Small</b> gives the container a width of <u>25%</u>. One row could fit up to 4 containers of this size.</li></ul>"
+msgstr ""
+
+#: libraries/language/admin.php:4081
+msgid "Customize Widgets"
+msgstr ""
+
+#: libraries/language/admin.php:4084
+msgid "Changes will be saved automatically"
+msgstr ""
+
+#: libraries/language/admin.php:4087
+msgid "Restore"
+msgstr ""
+
+#: libraries/language/admin.php:4090
+msgid "Restore Default Widgets Configuration"
+msgstr ""
+
+#: libraries/language/admin.php:4093
+msgid "Container Size"
+msgstr ""
+
+#: libraries/language/admin.php:4096
+msgid "Full Width"
+msgstr ""
+
+#: libraries/language/admin.php:4099
+msgid "Large"
+msgstr ""
+
+#: libraries/language/admin.php:4102
+msgid "Medium"
+msgstr ""
+
+#: libraries/language/admin.php:4105
+msgid "Small"
+msgstr ""
+
+#: libraries/language/admin.php:4108
+msgid "Add Widgets Container"
+msgstr ""
+
+#: libraries/language/admin.php:4111
+msgid "Choose one widget to add"
+msgstr ""
+
+#: libraries/language/admin.php:4114
+msgid "Add New Widget"
+msgstr ""
+
+#: libraries/language/admin.php:4117
+msgid "Saving the widgets map"
+msgstr ""
+
+#: libraries/language/admin.php:4120
+msgid "Could not update the map. Please try again"
+msgstr ""
+
+#: libraries/language/admin.php:4123
+msgid "Last update"
+msgstr ""
+
+#: libraries/language/admin.php:4126
+msgid "Please enter a name for the section"
+msgstr ""
+
+#: libraries/language/admin.php:4129
+msgid "New Section"
+msgstr ""
+
+#: libraries/language/admin.php:4132
+msgid "The selected element will be removed. Proceed?"
+msgstr ""
+
+#: libraries/language/admin.php:4135
+msgid "Please select the size of the container"
+msgstr ""
+
+#: libraries/language/admin.php:4138
+msgid "Update Widgets Container"
+msgstr ""
+
+#: libraries/language/admin.php:4141
+msgid "Edit Widgets Container"
+msgstr ""
+
+#: libraries/language/admin.php:4144
+msgid "Could not display the widget. Try reloading the page"
+msgstr ""
+
+#: libraries/language/admin.php:4147
+msgid "Sticky Notes"
+msgstr ""
+
+#: libraries/language/admin.php:4150
+msgid "Write down something important for all your colleagues."
+msgstr ""
+
+#: libraries/language/admin.php:4153
+msgid "Note Title"
+msgstr ""
+
+#: libraries/language/admin.php:4156
+msgid "Write here the text of the note."
+msgstr ""
+
+#: libraries/language/admin.php:4159
+msgid "Use <b>shortcuts</b> to <u>format</u> the <i>text</i>."
+msgstr ""
+
+#: libraries/language/admin.php:4162
+msgid "Enter a custom URI for the link"
+msgstr ""
+
+#: libraries/language/admin.php:4165
+msgid "Notes text formatting"
+msgstr ""
+
+#: libraries/language/admin.php:4168
+msgid "You can use the following keyboard shortcuts while typing the text of your note:<br/><br/><b>Ctrl + B</b>: makes the text selection bold.<br/><b>Ctrl + I</b>: makes the text selection italic.<br/><b>Ctrl + U</b>: underlines the text selection.<br/><b>Ctrl + S</b>: strike-through the text selection.<br/><b>Ctrl + H/T</b>: makes the current block a title/heading.<br/><b>Ctrl + P</b>: makes the current block a paragraph.<br/><b>Ctrl + L</b>: adds a new bullet list, or converts the text selection to a link.<br/><b>Ctrl + O/N</b>: adds a new numbered list.<br/><b>Ctrl + A</b>: makes the whole text selected.<br/><b>Ctrl + M</b>: converts the markup text selection to HTML."
+msgstr ""
+
+#: libraries/language/admin.php:4171
+msgid "You can use the following keyboard shortcuts while typing the text of your note:<br/><br/><b>&#8984; + B</b>: makes the text selection bold.<br/><b>&#8984; + I</b>: makes the text selection italic.<br/><b>&#8984; + U</b>: underlines the text selection.<br/><b>&#8984; + S</b>: strike-through the text selection.<br/><b>&#8984; + H/T</b>: makes the current block a title/heading.<br/><b>&#8984; + P</b>: makes the current block a paragraph.<br/><b>&#8984; + L</b>: adds a new bullet list, or converts the text selection to a link.<br/><b>&#8984; + O/N</b>: adds a new numbered list.<br/><b>&#8984; + A</b>: makes the whole text selected.<br/><b>Ctrl + M</b>: converts the markup text selection to HTML.<br/><br/>Some commands may also be executed by holding <kbd>Ctrl</kbd> rather than <kbd>&#8984;</kbd>."
+msgstr ""
+
+#: libraries/language/admin.php:4174
+msgid "Visitors Counter"
+msgstr ""
+
+#: libraries/language/admin.php:4177
+msgid "Counts the daily visitors that looked for a vehicle from your website"
+msgstr ""
+
+#: libraries/language/admin.php:4180
+msgid "Visitors today"
+msgstr ""
+
+#: libraries/language/admin.php:4183
+msgid "Visitors this month"
+msgstr ""
+
+#: libraries/language/admin.php:4186
+msgid "Visitors last month"
+msgstr ""
+
+#: libraries/language/admin.php:4189
+msgid "Turnout"
+msgstr ""
+
+#: libraries/language/admin.php:4192
+msgid "Okay, keep reminding."
+msgstr ""
+
+#: libraries/language/admin.php:4195
+msgid "Okay, do not remind again."
+msgstr ""
+
+#: libraries/language/admin.php:4198
+msgid "A list of rental orders starting today"
+msgstr ""
+
+#: libraries/language/admin.php:4201
+msgid "A list of rental orders ending today"
+msgstr ""
+
+#: libraries/language/admin.php:4204
+msgid "No pickup for today."
+msgstr ""
+
+#: libraries/language/admin.php:4207
+msgid "No drop off for today."
+msgstr ""
+
+#: libraries/language/admin.php:4210
+#: libraries/language/site.php:861
+#: libraries/language/system.php:249
+#: modules/mod_vikrentcar_search/language/handler.php:101
+msgid "Search"
+msgstr ""
+
+#: libraries/language/admin.php:4213
+msgid "The upcoming rental orders"
+msgstr ""
+
+#: libraries/language/admin.php:4216
+msgid "Cars Locked"
+msgstr ""
+
+#: libraries/language/admin.php:4219
+msgid "A list of unconfirmed orders currently blocking some vehicles"
+msgstr ""
+
+#: libraries/language/admin.php:4222
+msgid "Reminders"
+msgstr ""
+
+#: libraries/language/admin.php:4225
+msgid "List of notes defined for certain vehicles and dates"
+msgstr ""
+
+#: libraries/language/admin.php:4228
+msgid "Use <i>#hashtags</i> to categorize the note."
+msgstr ""
+
+#: libraries/language/admin.php:4231
+msgid "Add New"
+msgstr ""
+
+#: libraries/language/admin.php:4234
+msgid "New Reminder"
+msgstr ""
+
+#: libraries/language/admin.php:4237
+msgid "Until"
+msgstr ""
+
+#: libraries/language/admin.php:4240
+msgid "Missing required fields"
+msgstr ""
+
+#: libraries/language/admin.php:4243
+msgid "A snapshot of the future and past rental orders"
+msgstr ""
+
+#: libraries/language/admin.php:4246
+msgid "Rentals last month"
+msgstr ""
+
+#: libraries/language/admin.php:4249
+msgid "Rentals this month"
+msgstr ""
+
+#: libraries/language/admin.php:4252
+msgid "Suggest solutions when no availability"
+msgstr ""
+
+#: libraries/language/admin.php:4255
+msgid "Preferred Colors"
+msgstr ""
+
+#: libraries/language/admin.php:4258
+msgid "Select your preferred colors to adjust the default front-end styles. This way, the look of the elements (titles, buttons, font color and backgrounds) of the various pages of the booking process can match with your Theme or Company design."
+msgstr ""
+
+#: libraries/language/admin.php:4261
+msgid "Titles and Headings"
+msgstr ""
+
+#: libraries/language/admin.php:4264
+msgid "Elements with backgrounds"
+msgstr ""
+
+#: libraries/language/admin.php:4267
+msgid "Hovered elements"
+msgstr ""
+
+#: libraries/language/admin.php:4270
+msgid "Background color"
+msgstr ""
+
+#: libraries/language/admin.php:4273
+msgid "Font color"
+msgstr ""
+
+#: libraries/language/admin.php:4276
+msgid "Styles examples"
+msgstr ""
+
+#: libraries/language/admin.php:4279
+msgid "Registration"
+msgstr ""
+
+#: libraries/language/admin.php:4282
+msgid "None"
+msgstr ""
+
+#: libraries/language/admin.php:4285
+msgid "Started"
+msgstr ""
+
+#: libraries/language/admin.php:4288
+msgid "Terminated"
+msgstr ""
+
+#: libraries/language/admin.php:4291
+msgid "No show"
+msgstr ""
+
+#: libraries/language/admin.php:4294
+msgid "Total duration"
+msgstr ""
+
+#: libraries/language/admin.php:4297
+msgid "Payment &quot;button&quot; position"
+msgstr ""
+
+#: libraries/language/admin.php:4300
+msgid "Top"
+msgstr ""
+
+#: libraries/language/admin.php:4303
+msgid "Middle"
+msgstr ""
+
+#: libraries/language/admin.php:4306
+msgid "Bottom"
+msgstr ""
+
+#: libraries/language/admin.php:4309
+msgid "Custom logo"
+msgstr ""
+
+#: libraries/language/admin.php:4312
+msgid "Allow multiple payments for the same order"
+msgstr ""
+
+#: libraries/language/admin.php:4315
+msgid "If enabled, confirmed rental orders with an amount paid greater than zero and less than the order total amount, will allow to pay the remaining balance. If disabled, confirmed rental orders will not allow any additional payment."
+msgstr ""
+
+#: libraries/language/admin.php:4318
+msgid "Amount Payable"
+msgstr ""
+
+#: libraries/language/admin.php:4321
+msgid "Request Payment"
+msgstr ""
+
+#: libraries/language/admin.php:4324
+msgid "The reservation will allow the payment to be made via front-end. Make sure to inform the customer by using the re-send email button."
+msgstr ""
+
+#: libraries/language/admin.php:4327
+msgid "Reservation amount payable changed to %s"
+msgstr ""
+
+#: libraries/language/admin.php:4333
+msgid "Make payable from front site"
+msgstr ""
+
+#: libraries/language/admin.php:4336
+msgid "Customer Documents"
+msgstr ""
+
+#: libraries/language/admin.php:4339
+msgid "Upload File"
+msgstr ""
+
+#: libraries/language/admin.php:4342
+msgid "or DRAG FILES HERE"
+msgstr ""
+
+#: libraries/language/admin.php:4345
+msgid "Press ESC from keyboard to stop deleting the files"
+msgstr ""
+
+#: libraries/language/admin.php:4348
+msgid "Drag & drop some documents here to upload them. It is possible to remove the documents by keeping them pressed.<br />You do not need to hit the \"Save\" button to keep the uploaded files."
+msgstr ""
+
+#: libraries/language/admin.php:4351
+msgid "Allow Documents Upload"
+msgstr ""
+
+#: libraries/language/admin.php:4354
+msgid "If enabled, confirmed orders with a pick up date in the future will allow the user to upload documents via front-end, like their driver license or a photo of the personal ID."
+msgstr ""
+
+#: libraries/language/admin.php:4357
+msgid "Upload instructions"
+msgstr ""
+
+#: libraries/language/admin.php:4360
+msgid "This text will be displayed on the page where the users will be able to upload their own documents. These instructions should help the users understand what documents they should upload and what information they should provide."
+msgstr ""
+
+#: libraries/language/admin.php:4363
+msgid "Documents uploaded by client"
+msgstr ""
+
+#: libraries/language/admin.php:4366
+msgid "Reminder - Email"
+msgstr ""
+
+#: libraries/language/admin.php:4369
+msgid "Backup - Creator"
+msgstr ""
+
+#: libraries/language/admin.php:4372
+msgid "Webhook Notification"
+msgstr ""
+
+#: libraries/language/admin.php:4375
+msgid "This cron job allows to set up automated actions whenever new events related to orders take place. This is useful to post the changes to remote URLs or to pass the data to third party plugins."
+msgstr ""
+
+#: libraries/language/admin.php:4378
+msgid "Notification type"
+msgstr ""
+
+#: libraries/language/admin.php:4381
+msgid "Choose the type of webhook notification to trigger:<br/><ul><li><strong>URL</strong> POST request with a JSON payload to a remote URL.</li><li><strong>PHP Callback</strong> Invoke a custom PHP function or a class method.</li><li><strong>WordPress Action</strong> Calls a custom event (hook) by passing the payload to the action.</li></ul>"
+msgstr ""
+
+#: libraries/language/admin.php:4384
+msgid "URL"
+msgstr ""
+
+#: libraries/language/admin.php:4387
+msgid "PHP Callback"
+msgstr ""
+
+#: libraries/language/admin.php:4390
+msgid "WordPress Action"
+msgstr ""
+
+#: libraries/language/admin.php:4393
+msgid "Handler"
+msgstr ""
+
+#: libraries/language/admin.php:4396
+msgid "Depending on the type of webhook notification, enter the endpoint URL, the PHP callback (syntax: <code>function_name</code> or <code>object,method</code>) or the name of the WordPress hook."
+msgstr ""
+
+#: libraries/language/admin.php:4399
+msgid "Vik Rent Car - Conditional Text"
+msgstr ""
+
+#: libraries/language/admin.php:4402
+msgid "Conditional Texts"
+msgstr ""
+
+#: libraries/language/admin.php:4405
+msgid "Conditional Text Rules"
+msgstr ""
+
+#: libraries/language/admin.php:4408
+msgid "New Conditional Text"
+msgstr ""
+
+#: libraries/language/admin.php:4411
+msgid "Conditional Text Name"
+msgstr ""
+
+#: libraries/language/admin.php:4414
+msgid "Special Tag"
+msgstr ""
+
+#: libraries/language/admin.php:4417
+msgid "The special tag (token) is generated automatically from the name of the conditional text. You can use it on most messages to execute all rules."
+msgstr ""
+
+#: libraries/language/admin.php:4420
+msgid "Add Rule"
+msgstr ""
+
+#: libraries/language/admin.php:4423
+msgid "Conditional Message"
+msgstr ""
+
+#: libraries/language/admin.php:4426
+msgid "If you would like these conditional rules to produce a message, enter it here. Leave it empty otherwise."
+msgstr ""
+
+#: libraries/language/admin.php:4429
+msgid "This rule is already being used"
+msgstr ""
+
+#: libraries/language/admin.php:4432
+msgid "Please select one rule to add"
+msgstr ""
+
+#: libraries/language/admin.php:4435
+msgid "Do you want to remove this rule?"
+msgstr ""
+
+#: libraries/language/admin.php:4438
+msgid "No rules defined to restrict the conditional text"
+msgstr ""
+
+#: libraries/language/admin.php:4441
+msgid "You can separate multiple email addresses with the comma"
+msgstr ""
+
+#: libraries/language/admin.php:4444
+msgid "Set as BCC"
+msgstr ""
+
+#: libraries/language/admin.php:4447
+msgid "Debug Rules"
+msgstr ""
+
+#: libraries/language/admin.php:4450
+msgid "If enabled, the special tags will debug the execution of the rules. Use it only for testing."
+msgstr ""
+
+#: libraries/language/admin.php:4453
+#: libraries/language/site.php:1113
+msgid "[Rule %s was not compliant. Special tag %s was not applied.]"
+msgstr ""
+
+#: libraries/language/admin.php:4456
+msgid "Expand"
+msgstr ""
+
+#: libraries/language/admin.php:4459
+msgid "Collapse"
+msgstr ""
+
+#: libraries/language/admin.php:4462
+msgid "Template Files"
+msgstr ""
+
+#: libraries/language/admin.php:4465
+msgid "Select the position in the template file where you would like to add the special tag %s"
+msgstr ""
+
+#: libraries/language/admin.php:4468
+msgid "Do you want to remove this tag from the template file %s? You will then be able to add it again to a different position."
+msgstr ""
+
+#: libraries/language/admin.php:4471
+msgid "Click the various elements on the template to edit their CSS styling properties."
+msgstr ""
+
+#: libraries/language/admin.php:4474
+msgid "Customize colors and styles"
+msgstr ""
+
+#: libraries/language/admin.php:4477
+msgid "Font Color"
+msgstr ""
+
+#: libraries/language/admin.php:4480
+msgid "Background Color"
+msgstr ""
+
+#: libraries/language/admin.php:4483
+msgid "HTML Tag"
+msgstr ""
+
+#: libraries/language/admin.php:4486
+msgid "Border"
+msgstr ""
+
+#: libraries/language/admin.php:4489
+msgid "Border Width"
+msgstr ""
+
+#: libraries/language/admin.php:4492
+msgid "Border Color"
+msgstr ""
+
+#: libraries/language/admin.php:4495
+msgid "Media Manager"
+msgstr ""
+
+#: libraries/language/admin.php:4498
+msgid "Full Path"
+msgstr ""
+
+#: libraries/language/admin.php:4501
+msgid "Enter the full path to the local file starting with %s"
+msgstr ""
+
+#: libraries/language/admin.php:4504
+msgid "Returning Customer"
+msgstr ""
+
+#: libraries/language/admin.php:4507
+msgid "Days to arrival"
+msgstr ""
+
+#: libraries/language/admin.php:4510
+msgid "Countries"
+msgstr ""
+
+#: libraries/language/admin.php:4513
+msgid "Attach Files"
+msgstr ""
+
+#: libraries/language/admin.php:4516
+msgid "Add file attachments to the email message"
+msgstr ""
+
+#: libraries/language/admin.php:4519
+msgid "Booking Dates"
+msgstr ""
+
+#: libraries/language/admin.php:4522
+msgid "Restriction applied to certain booking dates"
+msgstr ""
+
+#: libraries/language/admin.php:4525
+msgid "Filter by reservation statuses"
+msgstr ""
+
+#: libraries/language/admin.php:4528
+msgid "Filter the reservations by source of provenience"
+msgstr ""
+
+#: libraries/language/admin.php:4531
+msgid "Restriction applied to certain countries"
+msgstr ""
+
+#: libraries/language/admin.php:4534
+msgid "Restriction for minimum days offset to arrival"
+msgstr ""
+
+#: libraries/language/admin.php:4537
+msgid "Extra Email"
+msgstr ""
+
+#: libraries/language/admin.php:4540
+msgid "Add one or more email recipient addresses"
+msgstr ""
+
+#: libraries/language/admin.php:4543
+msgid "Restriction for specific booking languages"
+msgstr ""
+
+#: libraries/language/admin.php:4546
+msgid "Filter by number of days"
+msgstr ""
+
+#: libraries/language/admin.php:4549
+msgid "Restriction applied to certain options/extras"
+msgstr ""
+
+#: libraries/language/admin.php:4552
+msgid "Filter by payment method"
+msgstr ""
+
+#: libraries/language/admin.php:4555
+msgid "Restriction applied to certain rate plans"
+msgstr ""
+
+#: libraries/language/admin.php:4558
+msgid "The same customer must have placed other reservations before"
+msgstr ""
+
+#: libraries/language/admin.php:4561
+msgid "Restriction for specific cars booked"
+msgstr ""
+
+#: libraries/language/admin.php:4564
+msgid "Restriction applied to certain dates of rent"
+msgstr ""
+
+#: libraries/language/admin.php:4567
+msgid "Filter by pick up or drop off week day."
+msgstr ""
+
+#: libraries/language/admin.php:4570
+msgid "Filter by amount paid less than booking total."
+msgstr ""
+
+#: libraries/language/admin.php:4573
+msgid "Your PHP version may not support these functions, or the source code of the template may not be compatible. Please edit the template file manually, any changes will be restored."
+msgstr ""
+
+#: libraries/language/admin.php:4576
+msgid "Insert content wrapper"
+msgstr ""
+
+#: libraries/language/admin.php:4579
+msgid "Content Wrapper"
+msgstr ""
+
+#: libraries/language/admin.php:4582
+msgid "When you insert a content wrapper to the body of the message, this will wrap your text within the default HTML layout. It is needed to beautify some contents of your email message."
+msgstr ""
+
+#: libraries/language/admin.php:4585
+msgid "Text/HTML"
+msgstr ""
+
+#: libraries/language/admin.php:4588
+msgid "Visual"
+msgstr ""
+
+#: libraries/language/admin.php:4594
+msgid "Copy original translation"
+msgstr ""
+
+#: libraries/language/admin.php:4597
+msgid "Backup"
+msgstr ""
+
+#: libraries/language/admin.php:4603
+msgid "Folder Path"
+msgstr ""
+
+#: libraries/language/admin.php:4606
+msgid "Enter here the path used to store the backup archives created by Vik Rent Car. In case the folder does not exist, the system will attempt to create it. Installation base path: %s"
+msgstr ""
+
+#: libraries/language/admin.php:4609
+msgid "Manage Backups"
+msgstr ""
+
+#: libraries/language/admin.php:4612
+msgid "Vik Rent Car - Backup Archives"
+msgstr ""
+
+#: libraries/language/admin.php:4615
+msgid "Vik Rent Car - New Backup"
+msgstr ""
+
+#: libraries/language/admin.php:4618
+msgid "File Size"
+msgstr ""
+
+#: libraries/language/admin.php:4621
+msgid "Download"
+msgstr ""
+
+#: libraries/language/admin.php:4624
+msgid "Do you want to restore the program data with the selected backup?"
+msgstr ""
+
+#: libraries/language/admin.php:4627
+msgid "Confirm that you want to proceed one last time. This action cannot be undone."
+msgstr ""
+
+#: libraries/language/admin.php:4630
+msgid "The backup has been restored successfully!"
+msgstr ""
+
+#: libraries/language/admin.php:4633
+#: libraries/language/system.php:157
+msgid "Action"
+msgstr ""
+
+#: libraries/language/admin.php:4636
+msgid "Create New"
+msgstr ""
+
+#: libraries/language/admin.php:4639
+msgid "Upload Existing"
+msgstr ""
+
+#: libraries/language/admin.php:4642
+msgid "Periodically creates a backup of the contents created through Vik Rent Car."
+msgstr ""
+
+#: libraries/language/admin.php:4645
+msgid "Maximum Archives"
+msgstr ""
+
+#: libraries/language/admin.php:4648
+msgid "Choose the maximum number of backup archives that can be created. When the specified threshold is reached, the system will automatically delete the oldest backup to allow the creation of a new one."
+msgstr ""
+
+#: libraries/language/admin.php:4651
+msgid "Full"
+msgstr ""
+
+#: libraries/language/admin.php:4654
+msgid "The backup will export all the contents created through Vik Rent Car."
+msgstr ""
+
+#: libraries/language/admin.php:4660
+msgid "The backup will export only the contents used to set up the program. The records related to the customers, such as the bookings, will be completely ignored. This is useful to copy the configuration of this website into a new one."
+msgstr ""
+
+#: libraries/language/admin.php:4663
+msgid "Include less days"
+msgstr ""
+
+#: libraries/language/admin.php:4666
+msgid "If type = Pickup and Days in advance greater than 1, by turning on this option the Cron Job will also include the reservations with a number of days to collection (from the booking date) lower than the option days in advance. For example, if days in advance is set to 7, but a last-minute reservation is made 2 days before the pickup, with this setting enabled this reservation will be notified."
+msgstr ""
+
+#: libraries/language/admin.php:4669
+msgid "Fully paid"
+msgstr ""
+
+#: libraries/language/admin.php:4672
+msgid "Import Calendars"
+msgstr ""
+
+#: libraries/language/admin.php:4675
+msgid "It is possible to import remote iCal calendars containing reservations to sync the availability for this vehicle."
+msgstr ""
+
+#: libraries/language/admin.php:4678
+msgid "Availability calendars to import"
+msgstr ""
+
+#: libraries/language/admin.php:4681
+msgid "Add calendar"
+msgstr ""
+
+#: libraries/language/admin.php:4684
+msgid "Calendar name"
+msgstr ""
+
+#: libraries/language/admin.php:4687
+msgid "Calendar URL"
+msgstr ""
+
+#: libraries/language/admin.php:4690
+msgid "iCal Calendars Importer"
+msgstr ""
+
+#: libraries/language/admin.php:4693
+msgid "Allow cancellations"
+msgstr ""
+
+#: libraries/language/admin.php:4696
+msgid "If enabled, the active reservations previously downloaded, and no longer available on the iCal calendars, will be set to cancelled."
+msgstr ""
+
+#: libraries/language/admin.php:4699
+msgid "If enabled, no reservations will actually be downloaded, modified or cancelled."
+msgstr ""
+
+#: libraries/language/admin.php:4702
+msgid "New order from iCal"
+msgstr ""
+
+#: libraries/language/admin.php:4705
+msgid "Order modified from iCal"
+msgstr ""
+
+#: libraries/language/admin.php:4708
+msgid "Order cancelled from iCal"
+msgstr ""
+
+#: libraries/language/admin.php:4711
+msgid "Filter by calendar"
+msgstr ""
+
+#: libraries/language/admin.php:4714
+msgid "Force Pickup/Drop Off Time"
+msgstr ""
+
+#: libraries/language/admin.php:4717
+msgid "Forced pickup time"
+msgstr ""
+
+#: libraries/language/admin.php:4720
+msgid "Forced drop off time"
+msgstr ""
+
+#: libraries/language/admin.php:4723
+msgid "Save as copy"
+msgstr ""
+
+#: libraries/language/admin.php:4726
+msgid "Reset distinctive features automatically?"
+msgstr ""
+
+#: libraries/language/admin.php:4729
+msgid "Send cancellation email"
+msgstr ""
+
+#: libraries/language/admin.php:4732
+msgid "Cancellation email sent to %s"
+msgstr ""
+
+#: libraries/language/admin.php:4735
+msgid "Custom image car status"
+msgstr ""
+
+#: libraries/language/admin.php:4738
+msgid "An optional custom image (PNG) for this vehicle to display the damages and status of each unit"
+msgstr ""
+
+#: libraries/language/admin.php:4741
+msgid "Filter by certain pickup/drop off locations."
+msgstr ""
+
+#: libraries/language/admin.php:4744
+msgid "Hourly availability for %s (units left)"
+msgstr ""
+
+#: libraries/language/admin.php:4747
+msgid "One-way Fee"
+msgstr ""
+
+#: libraries/language/admin.php:4750
+msgid "One-way fees will include any possible combination of pickup location different from the drop off location."
+msgstr ""
+
+#: libraries/language/admin.php:4753
+msgid "Breaks"
+msgstr ""
+
+#: libraries/language/admin.php:4756
+#: libraries/language/site.php:1131
+msgid "The agency %s is open from %s to %s"
+msgstr ""
+
+#: libraries/language/admin.php:4759
+#: libraries/language/site.php:1134
+msgid "The agency %s is on break from %s to %s"
+msgstr ""
+
+#: libraries/language/admin.php:4762
+msgid "Tracking/Conversion Driver"
+msgstr ""
+
+#: libraries/language/admin.php:4765
+msgid "Measurment ID"
+msgstr ""
+
+#: libraries/language/admin.php:4768
+msgid "Enter your Google Analytics Measurment ID"
+msgstr ""
+
+#: libraries/language/admin.php:4771
+msgid "Auto-Assign Car Unit"
+msgstr ""
+
+#: libraries/language/adminsys.php:45
+msgid "Vik Rent Car"
+msgstr ""
+
+#: libraries/language/adminsys.php:55
+msgid "VikRentCar - Access Levels"
+msgstr ""
+
+#: libraries/language/adminsys.php:58
+msgid "Search Form"
+msgstr ""
+
+#: libraries/language/adminsys.php:61
+#: modules/mod_vikrentcar_search/language/handler.php:38
+msgid "VikRentCar Search Form"
+msgstr ""
+
+#: libraries/language/adminsys.php:67
+msgid "VikRentCar Cars List"
+msgstr ""
+
+#: libraries/language/adminsys.php:73
+msgid "Select a VikRentCar Category"
+msgstr ""
+
+#: libraries/language/adminsys.php:76
+msgid "Locations List"
+msgstr ""
+
+#: libraries/language/adminsys.php:79
+msgid "VikRentCar Locations List"
+msgstr ""
+
+#: libraries/language/adminsys.php:82
+msgid "User Orders"
+msgstr ""
+
+#: libraries/language/adminsys.php:85
+msgid "VikRentCar User Orders"
+msgstr ""
+
+#: libraries/language/adminsys.php:88
+msgid "Search by Confirmation Number"
+msgstr ""
+
+#: libraries/language/adminsys.php:91
+msgid "Enable this setting to display a form for searching orders by confirmation number"
+msgstr ""
+
+#: libraries/language/adminsys.php:94
+msgid "Enabled"
+msgstr ""
+
+#: libraries/language/adminsys.php:97
+msgid "Disabled"
+msgstr ""
+
+#: libraries/language/adminsys.php:100
+msgid "Sort Cars By"
+msgstr ""
+
+#: libraries/language/adminsys.php:106
+msgid "Custom Price"
+msgstr ""
+
+#: libraries/language/adminsys.php:112
+#: modules/mod_vikrentcar_cars/language/handler.php:128
+msgid "Ordering Type"
+msgstr ""
+
+#: libraries/language/adminsys.php:115
+#: libraries/language/adminsys.php:238
+#: modules/mod_vikrentcar_cars/language/handler.php:86
+msgid "Ascending"
+msgstr ""
+
+#: libraries/language/adminsys.php:118
+#: libraries/language/adminsys.php:241
+#: modules/mod_vikrentcar_cars/language/handler.php:89
+msgid "Descending"
+msgstr ""
+
+#: libraries/language/adminsys.php:121
+msgid "Cars per Page"
+msgstr ""
+
+#: libraries/language/adminsys.php:124
+#: libraries/language/adminsys.php:323
+msgid "Promotions"
+msgstr ""
+
+#: libraries/language/adminsys.php:127
+msgid "Shows a list of all the Special Prices marked as -Promotion-"
+msgstr ""
+
+#: libraries/language/adminsys.php:130
+msgid "Show Cars"
+msgstr ""
+
+#: libraries/language/adminsys.php:133
+msgid "Choose whether the Cars, for which the Promotion is valid, should be displayed"
+msgstr ""
+
+#: libraries/language/adminsys.php:136
+msgid "Max Date in the Future"
+msgstr ""
+
+#: libraries/language/adminsys.php:139
+msgid "Choose if the promotions should be displayed if they are 3, 6 or 12 months in advance"
+msgstr ""
+
+#: libraries/language/adminsys.php:151
+msgid "Max Promotions"
+msgstr ""
+
+#: libraries/language/adminsys.php:154
+msgid "Single Car Details"
+msgstr ""
+
+#: libraries/language/adminsys.php:157
+msgid "Details page of one car"
+msgstr ""
+
+#: libraries/language/adminsys.php:160
+msgid "Select a Car"
+msgstr ""
+
+#: libraries/language/adminsys.php:163
+msgid "Cars Configuration"
+msgstr ""
+
+#: libraries/language/adminsys.php:166
+msgid "Cars, Categories, Options and Characteristics Management"
+msgstr ""
+
+#: libraries/language/adminsys.php:169
+msgid "Rental Costs"
+msgstr ""
+
+#: libraries/language/adminsys.php:172
+msgid "Daily-Hourly Fares, Tax Rates, Types of Price, Fees Management"
+msgstr ""
+
+#: libraries/language/adminsys.php:175
+msgid "Orders Management"
+msgstr ""
+
+#: libraries/language/adminsys.php:178
+msgid "Orders, Availability, Calendars, Overiview"
+msgstr ""
+
+#: libraries/language/adminsys.php:181
+msgid "Global Settings"
+msgstr ""
+
+#: libraries/language/adminsys.php:184
+msgid "Configuration, Payment Options, Locations"
+msgstr ""
+
+#: libraries/language/adminsys.php:190
+msgid "Customers, Graphs and Statistics"
+msgstr ""
+
+#: libraries/language/adminsys.php:196
+msgid "The order details page"
+msgstr ""
+
+#: libraries/language/adminsys.php:199
+msgid "General Availability"
+msgstr ""
+
+#: libraries/language/adminsys.php:202
+msgid "A list of availability calendars for all or just some vehicles"
+msgstr ""
+
+#: libraries/language/adminsys.php:208
+msgid "You can optionally choose to display only certain vehicles"
+msgstr ""
+
+#: libraries/language/adminsys.php:211
+msgid "Cars Units"
+msgstr ""
+
+#: libraries/language/adminsys.php:214
+msgid "Show available days with no numbers"
+msgstr ""
+
+#: libraries/language/adminsys.php:217
+msgid "Show number of remaining units"
+msgstr ""
+
+#: libraries/language/adminsys.php:220
+msgid "Show number of units booked"
+msgstr ""
+
+#: libraries/language/adminsys.php:223
+msgid "Sort by"
+msgstr ""
+
+#: libraries/language/adminsys.php:226
+msgid "Sort type"
+msgstr ""
+
+#: libraries/language/adminsys.php:229
+msgid "Starting from price"
+msgstr ""
+
+#: libraries/language/adminsys.php:248
+msgid "Vik Rent Car - Upgrade to Pro"
+msgstr ""
+
+#: libraries/language/adminsys.php:251
+msgid "License Key valid until %s"
+msgstr ""
+
+#: libraries/language/adminsys.php:254
+msgid "Your License Key expired on %s"
+msgstr ""
+
+#: libraries/language/adminsys.php:257
+msgid "Please enter a valid License Key"
+msgstr ""
+
+#: libraries/language/adminsys.php:260
+msgid "No valid and active License Key found."
+msgstr ""
+
+#: libraries/language/adminsys.php:263
+msgid "Vik Rent Car - Downloading Pro version"
+msgstr ""
+
+#: libraries/language/adminsys.php:266
+msgid "Update Completed. Please click here"
+msgstr ""
+
+#: libraries/language/adminsys.php:269
+msgid "Update Failed. Please click here"
+msgstr ""
+
+#: libraries/language/adminsys.php:272
+msgid "Please wait"
+msgstr ""
+
+#: libraries/language/adminsys.php:275
+msgid "Downloading the package..."
+msgstr ""
+
+#: libraries/language/adminsys.php:278
+msgid "Thanks for using the Pro version"
+msgstr ""
+
+#: libraries/language/adminsys.php:281
+msgid "The true Vik Rent Car is Pro. Make sure to keep your License Key active to be able to install future updates."
+msgstr ""
+
+#: libraries/language/adminsys.php:284
+msgid "Get or renew your License Key from VikWP.com"
+msgstr ""
+
+#: libraries/language/adminsys.php:287
+msgid "Get or renew your licence"
+msgstr ""
+
+#: libraries/language/adminsys.php:290
+msgid "Validate and Update"
+msgstr ""
+
+#: libraries/language/adminsys.php:293
+msgid "Already have Vik Rent Car PRO? <br /> <small>Enter your licence key here</small>"
+msgstr ""
+
+#: libraries/language/adminsys.php:296
+msgid "Why Upgrade to Pro?"
+msgstr ""
+
+#: libraries/language/adminsys.php:299
+msgid "The true Vik Rent Car is Pro. Discover the power of a professional vehicles rental software!"
+msgstr ""
+
+#: libraries/language/adminsys.php:302
+msgid "Get your License Key and Upgrade to PRO"
+msgstr ""
+
+#: libraries/language/adminsys.php:305
+msgid "Full Rates Management"
+msgstr ""
+
+#: libraries/language/adminsys.php:308
+msgid "Set different rates on some seasons, holidays, weekends or days of the year with just two clicks. Rental Restrictions: define the minimum or maximum days of rental for certain dates of the year and vehicles, set days closed to arrival or departure, and much more."
+msgstr ""
+
+#: libraries/language/adminsys.php:311
+msgid "Create and Modify rental orders via back-end"
+msgstr ""
+
+#: libraries/language/adminsys.php:314
+msgid "The page Calendar will let you create new reservations manually, maybe to register walk-in customers or offline reservations. Modify the dates and switch cars of certain reservations."
+msgstr ""
+
+#: libraries/language/adminsys.php:317
+msgid "Unlock over 30 must-have features"
+msgstr ""
+
+#: libraries/language/adminsys.php:320
+msgid "Customers Management"
+msgstr ""
+
+#: libraries/language/adminsys.php:326
+msgid "Coupon Discounts"
+msgstr ""
+
+#: libraries/language/adminsys.php:329
+msgid "Invoices"
+msgstr ""
+
+#: libraries/language/adminsys.php:332
+msgid "Check-in and Registration"
+msgstr ""
+
+#: libraries/language/adminsys.php:335
+msgid "Graphs and Statistics"
+msgstr ""
+
+#: libraries/language/adminsys.php:338
+msgid "Payment Gateways"
+msgstr ""
+
+#: libraries/language/adminsys.php:341
+msgid "Locations/Out of hours fees"
+msgstr ""
+
+#: libraries/language/adminsys.php:344
+msgid "Ready to upgrade?"
+msgstr ""
+
+#: libraries/language/adminsys.php:347
+msgid "Get your License Key from VikWP.com"
+msgstr ""
+
+#: libraries/language/adminsys.php:350
+msgid "Get your License Key"
+msgstr ""
+
+#: libraries/language/adminsys.php:353
+msgid "Validate and Install"
+msgstr ""
+
+#: libraries/language/adminsys.php:356
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: libraries/language/adminsys.php:359
+msgid "PRO Version"
+msgstr ""
+
+#: libraries/language/adminsys.php:362
+msgid "Active License Key"
+msgstr ""
+
+#: libraries/language/adminsys.php:365
+msgid "Options and Extra Services"
+msgstr ""
+
+#: libraries/language/adminsys.php:368
+msgid "Let customers choose extras and optional services for their rental orders. Such services will be displayed in the order summary with separate rows with their own cost. Offer anything your clients may need for their journey."
+msgstr ""
+
+#: libraries/language/adminsys.php:371
+msgid "Already purchased Vik Rent Car PRO? Upgrade to the PRO version <a href=\"#upgrade\">here</a>."
+msgstr ""
+
+#: libraries/language/adminsys.php:374
+msgid "Would you like to increase your rental orders?"
+msgstr ""
+
+#: libraries/language/adminsys.php:377
+msgid "Start creating your own Vehicles Rental System"
+msgstr ""
+
+#: libraries/language/adminsys.php:380
+msgid "Vik Rent Car PRO: the most complete and trusted car rental system plugin for WordPress"
+msgstr ""
+
+#: libraries/language/adminsys.php:383
+msgid "Easy installation and setup for anyone"
+msgstr ""
+
+#: libraries/language/adminsys.php:386
+msgid "Fully responsive and mobile ready"
+msgstr ""
+
+#: libraries/language/adminsys.php:389
+msgid "Powerful and flexible pricing system"
+msgstr ""
+
+#: libraries/language/adminsys.php:392
+msgid "Set up your daily/seasonal prices with just a few clicks"
+msgstr ""
+
+#: libraries/language/adminsys.php:395
+msgid "Configure Options and Extra Services"
+msgstr ""
+
+#: libraries/language/adminsys.php:398
+msgid "Occupancy Ranking report to analyse every detail"
+msgstr ""
+
+#: libraries/language/adminsys.php:401
+msgid "Get to monitor your future occupancy through the Occupancy Ranking report. Filter the targets by dates and analyse the data by day, week or month. The report will provide the information about the occupancy, the total number of cars sold, days booked, revenues and more."
+msgstr ""
+
+#: libraries/language/adminsys.php:404
+msgid "Create your customers database on your website"
+msgstr ""
+
+#: libraries/language/adminsys.php:407
+msgid "PayPal, Offline Credit Card and Bank Transfer pre-installed"
+msgstr ""
+
+#: libraries/language/adminsys.php:410
+msgid "Promotions and Coupons"
+msgstr ""
+
+#: libraries/language/adminsys.php:413
+msgid "Create Promotions to change rental costs and generate discount coupons"
+msgstr ""
+
+#: libraries/language/adminsys.php:416
+msgid "Financial Reports"
+msgstr ""
+
+#: libraries/language/adminsys.php:419
+msgid "Total Revenue, Top Countries, Occupancy Ranking and more"
+msgstr ""
+
+#: libraries/language/adminsys.php:422
+msgid "Generate invoices and send them to your customers via email"
+msgstr ""
+
+#: libraries/language/adminsys.php:425
+msgid "Manage, print or send via email the check-in document for your customers"
+msgstr ""
+
+#: libraries/language/adminsys.php:428
+msgid "Monitor your business trends thanks to the Graphs & Report functions"
+msgstr ""
+
+#: libraries/language/adminsys.php:431
+msgid "Get the most out of a tailored pricing framework"
+msgstr ""
+
+#: libraries/language/adminsys.php:434
+msgid "and much more..."
+msgstr ""
+
+#: libraries/language/adminsys.php:437
+msgid "Ready to increase your orders?"
+msgstr ""
+
+#: libraries/language/adminsys.php:440
+msgid "Get Vik Rent Car PRO and start now."
+msgstr ""
+
+#: libraries/language/adminsys.php:443
+msgid "This is what our customers say about Vik Rent Car"
+msgstr ""
+
+#: libraries/language/adminsys.php:446
+msgid "These Reviews are published on the official WordPress and Joomla repositories."
+msgstr ""
+
+#: libraries/language/adminsys.php:453
+msgid "Shortcodes in Pages/Posts"
+msgstr ""
+
+#: libraries/language/adminsys.php:456
+msgid "Shortcodes are necessary to display the contents of the plugin into the front-end section of your website. You should create some Shortcodes of various types, and use them onto some pages of your website to publish the desired contents."
+msgstr ""
+
+#: libraries/language/adminsys.php:463
+msgid "View page in front site"
+msgstr ""
+
+#: libraries/language/adminsys.php:466
+msgid "Create page"
+msgstr ""
+
+#: libraries/language/adminsys.php:469
+msgid "View trashed posts"
+msgstr ""
+
+#: libraries/language/adminsys.php:472
+msgid "You can always create a custom page or post manually and use this Shortcode text inside it. By proceeding, a page containing this Shortcode will be created automatically."
+msgstr ""
+
+#: libraries/language/adminsys.php:475
+msgid "The Shortcode was successfully added to a new page of your website. Visit the new page in the front site to see the content (if any)."
+msgstr ""
+
+#: libraries/language/adminsys.php:482
+msgid "Alternatively, you can install one Sample Data package to skip the initial setup steps."
+msgstr ""
+
+#: libraries/language/adminsys.php:485
+msgid "Select Sample Data"
+msgstr ""
+
+#: libraries/language/adminsys.php:488
+msgid "Vik Rent Car - Install Sample Data"
+msgstr ""
+
+#: libraries/language/adminsys.php:491
+msgid "Install Sample Data"
+msgstr ""
+
+#: libraries/language/adminsys.php:494
+msgid "Choose the type of Sample Data you would like to install. This operation will populate the plugin with some demo contents to complete the first configuration."
+msgstr ""
+
+#: libraries/language/adminsys.php:497
+msgid "To undo the installation of the sample data, you can deactivate and delete the plugin for then re-installing it. Otherwise, you can modify or remove some demo contents according to your needs."
+msgstr ""
+
+#: libraries/language/adminsys.php:504
+msgid "Allow your guests to pay their orders online through your preferred bank gateway. The Pro version comes with an integration for PayPal Standard and two more payment solutions, but the framework could be extended by installing apposite payment plugins for Vik Rent Car for your preferred bank."
+msgstr ""
+
+#: libraries/language/adminsys.php:507
+msgid "Thanks to the coupon codes you can give your clients some dedicated discounts for their rental orders."
+msgstr ""
+
+#: libraries/language/adminsys.php:510
+msgid "Allow your guests to book some extra services, either they are optional or mandatory. This function can be used to create services or fees like insurances, extra mileage/km, late drop off and anything else that could be booked with the cars."
+msgstr ""
+
+#: libraries/language/adminsys.php:513
+msgid "This function will let you create seasonal prices, promotions or special rates for the weekends or any other day of the week. Those who are used to work with seasonal rates will find this feature fundamental."
+msgstr ""
+
+#: libraries/language/adminsys.php:516
+msgid "The booking restrictions will let you define a minimum or maximum number of days of rent for specific cars and dates of the year. You could also allow or deny the pickup/return on some specific days of the week."
+msgstr ""
+
+#: libraries/language/adminsys.php:519
+msgid "Here you can manage all of your customers information, send specific email messages, and manage their documents."
+msgstr ""
+
+#: libraries/language/adminsys.php:522
+msgid "This page will display graphs and charts by showing important information and statistics about your rental orders, occupancy and revenue."
+msgstr ""
+
+#: libraries/language/adminsys.php:525
+msgid "Cron Jobs are essentials to automatize certain functions, such as to send email reminders to your clients before the pick-up, after the drop-off, remaining balance payments and much more."
+msgstr ""
+
+#: libraries/language/adminsys.php:528
+msgid "Reports are essentials to obtain and/or export data. You can use them to calculate your revenue on some dates, your occupancy, or to generate documents for your accountant. This framework is also extendable with custom PMS reports."
+msgstr ""
+
+#: libraries/language/adminsys.php:531
+msgid "Those who work with one or multiple locations can use this feature to define costs for certain combinations of pickup/drop off locations."
+msgstr ""
+
+#: libraries/language/adminsys.php:534
+msgid "This feature will let you define some Out of Hours Fees for those rentals who start or end at certain times of day, maybe when the office should be closed."
+msgstr ""
+
+#: libraries/language/site.php:45
+msgid "IP"
+msgstr ""
+
+#: libraries/language/site.php:54
+#: libraries/language/site.php:321
+msgid "Waiting for the Payment"
+msgstr ""
+
+#: libraries/language/site.php:60
+msgid "Sorry, the car has been booked. Please make a new order."
+msgstr ""
+
+#: libraries/language/site.php:63
+msgid "The car is now being ordered by another customer. Please make a new order."
+msgstr ""
+
+#: libraries/language/site.php:66
+msgid "Pickup and Drop Off Dates are wrong"
+msgstr ""
+
+#: libraries/language/site.php:69
+msgid "Error, Order Total is wrong"
+msgstr ""
+
+#: libraries/language/site.php:72
+#: libraries/language/site.php:75
+msgid "Error, Wrong data."
+msgstr ""
+
+#: libraries/language/site.php:78
+msgid "Error, Insufficient Data Received."
+msgstr ""
+
+#: libraries/language/site.php:81
+msgid "Error, Invalid Token. Unable to Save the Order"
+msgstr ""
+
+#: libraries/language/site.php:84
+msgid "Error, Car already booked. Please search for another one."
+msgstr ""
+
+#: libraries/language/site.php:87
+msgid "Error, Order not found"
+msgstr ""
+
+#: libraries/language/site.php:90
+msgid "Error occured processing fares. Please choose new dates"
+msgstr ""
+
+#: libraries/language/site.php:93
+msgid "Error, Not Existing Fare"
+msgstr ""
+
+#: libraries/language/site.php:96
+msgid "No Fares selected"
+msgstr ""
+
+#: libraries/language/site.php:99
+msgid "Car is not Returnable from the"
+msgstr ""
+
+#: libraries/language/site.php:108
+msgid "Car not found"
+msgstr ""
+
+#: libraries/language/site.php:111
+msgid "Car not available"
+msgstr ""
+
+#: libraries/language/site.php:114
+msgid "No Fares Found. Please select a different date or car"
+msgstr ""
+
+#: libraries/language/site.php:117
+msgid "Search Notification"
+msgstr ""
+
+#: libraries/language/site.php:132
+msgid "Search Results"
+msgstr ""
+
+#: libraries/language/site.php:135
+msgid "None of the cars is available on the requested period."
+msgstr ""
+
+#: libraries/language/site.php:138
+msgid "No cars is available for rental for"
+msgstr ""
+
+#: libraries/language/site.php:147
+msgid "Drop Off Date previous to Pickup"
+msgstr ""
+
+#: libraries/language/site.php:150
+msgid "Wrong Date Format. Right Format is"
+msgstr ""
+
+#: libraries/language/site.php:153
+msgid "Please select Pickup and Drop Off Date"
+msgstr ""
+
+#: libraries/language/site.php:165
+#: modules/mod_vikrentcar_search/language/handler.php:110
+msgid "Pickup Time"
+msgstr ""
+
+#: libraries/language/site.php:168
+#: modules/mod_vikrentcar_search/language/handler.php:116
+msgid "Drop Off Time"
+msgstr ""
+
+#: libraries/language/site.php:171
+msgid "Car Category"
+msgstr ""
+
+#: libraries/language/site.php:177
+msgid "Error while connecting to Paypal.com"
+msgstr ""
+
+#: libraries/language/site.php:180
+msgid "Unable to process the payment of the"
+msgstr ""
+
+#: libraries/language/site.php:189
+msgid "Valid Paypal Payment, Error Saving the Order"
+msgstr ""
+
+#: libraries/language/site.php:192
+msgid "Payment received with Success, Order not Saved. Correct the problem manually."
+msgstr ""
+
+#: libraries/language/site.php:195
+msgid "Paypal Response"
+msgstr ""
+
+#: libraries/language/site.php:198
+msgid "Invalid Paypal Payment"
+msgstr ""
+
+#: libraries/language/site.php:201
+msgid "Please Select a Payment Method"
+msgstr ""
+
+#: libraries/language/site.php:204
+msgid "Payment Not Verified"
+msgstr ""
+
+#: libraries/language/site.php:207
+msgid "Server Response"
+msgstr ""
+
+#: libraries/language/site.php:216
+msgid "Cars Found"
+msgstr ""
+
+#: libraries/language/site.php:219
+#: modules/mod_vikrentcar_cars/language/handler.php:134
+msgid "Continue"
+msgstr ""
+
+#: libraries/language/site.php:222
+#: libraries/language/site.php:471
+#: modules/mod_vikrentcar_cars/language/handler.php:131
+msgid "Starting from"
+msgstr ""
+
+#: libraries/language/site.php:228
+msgid "for"
+msgstr ""
+
+#: libraries/language/site.php:237
+msgid "Book now"
+msgstr ""
+
+#: libraries/language/site.php:246
+msgid "Order Summary"
+msgstr ""
+
+#: libraries/language/site.php:252
+msgid "Taxable Income"
+msgstr ""
+
+#: libraries/language/site.php:258
+msgid "Total Due"
+msgstr ""
+
+#: libraries/language/site.php:261
+msgid "Please fill in all fields"
+msgstr ""
+
+#: libraries/language/site.php:264
+msgid "Purchaser Details"
+msgstr ""
+
+#: libraries/language/site.php:288
+msgid "State"
+msgstr ""
+
+#: libraries/language/site.php:294
+msgid "Fiscal Code"
+msgstr ""
+
+#: libraries/language/site.php:297
+msgid "Confirm Order"
+msgstr ""
+
+#: libraries/language/site.php:300
+msgid "Thanks, Order Successfully Completed"
+msgstr ""
+
+#: libraries/language/site.php:303
+msgid "To review your order, please visit"
+msgstr ""
+
+#: libraries/language/site.php:306
+msgid "This Page"
+msgstr ""
+
+#: libraries/language/site.php:315
+msgid "Hired Car"
+msgstr ""
+
+#: libraries/language/site.php:348
+msgid "Change Dates"
+msgstr ""
+
+#: libraries/language/site.php:360
+msgid "Purchaser Info"
+msgstr ""
+
+#: libraries/language/site.php:501
+msgid "Partially Reserved"
+msgstr ""
+
+#: libraries/language/site.php:504
+msgid "Not Available"
+msgstr ""
+
+#: libraries/language/site.php:510
+msgid "Select the Dates for Pick Up and Drop Off"
+msgstr ""
+
+#: libraries/language/site.php:513
+msgid "is not available for the selected days. Please try with different dates"
+msgstr ""
+
+#: libraries/language/site.php:516
+msgid "Pickup and Drop Off is not available for those locations"
+msgstr ""
+
+#: libraries/language/site.php:519
+#: libraries/language/site.php:540
+msgid "Sign Up"
+msgstr ""
+
+#: libraries/language/site.php:531
+msgid "Username"
+msgstr ""
+
+#: libraries/language/site.php:534
+msgid "Password"
+msgstr ""
+
+#: libraries/language/site.php:537
+msgid "Confirm Password"
+msgstr ""
+
+#: libraries/language/site.php:543
+#: libraries/language/site.php:546
+msgid "Login"
+msgstr ""
+
+#: libraries/language/site.php:549
+msgid "Please fill in all the registration fields"
+msgstr ""
+
+#: libraries/language/site.php:552
+msgid "Error while creating an account, please try again"
+msgstr ""
+
+#: libraries/language/site.php:555
+msgid "View Locations Map"
+msgstr ""
+
+#: libraries/language/site.php:558
+msgid "Hour"
+msgstr ""
+
+#: libraries/language/site.php:609
+msgid "Invalid Amount Paid"
+msgstr ""
+
+#: libraries/language/site.php:612
+msgid "A payment for the order %s has been received. The total amount received is %s instead of %s."
+msgstr ""
+
+#: libraries/language/site.php:618
+msgid "Enter here your coupon code"
+msgstr ""
+
+#: libraries/language/site.php:624
+msgid "Error, Coupon not found"
+msgstr ""
+
+#: libraries/language/site.php:627
+msgid "The Coupon is not valid for these rental dates"
+msgstr ""
+
+#: libraries/language/site.php:630
+msgid "The Coupon is not valid for this vehicle"
+msgstr ""
+
+#: libraries/language/site.php:633
+msgid "The Order Total is not enough for this Coupon"
+msgstr ""
+
+#: libraries/language/site.php:642
+msgid "Credit Card Number"
+msgstr ""
+
+#: libraries/language/site.php:645
+msgid "Valid Through"
+msgstr ""
+
+#: libraries/language/site.php:648
+msgid "CVV"
+msgstr ""
+
+#: libraries/language/site.php:657
+msgid "Billing Information"
+msgstr ""
+
+#: libraries/language/site.php:660
+msgid "Company"
+msgstr ""
+
+#: libraries/language/site.php:669
+msgid "State/Province"
+msgstr ""
+
+#: libraries/language/site.php:672
+msgid "ZIP Code"
+msgstr ""
+
+#: libraries/language/site.php:684
+msgid "Process and Pay"
+msgstr ""
+
+#: libraries/language/site.php:687
+#: libraries/language/site.php:696
+msgid "Processing..."
+msgstr ""
+
+#: libraries/language/site.php:690
+msgid "Please provide your Credit Card information. Your card will not be charged and the information will be securely kept by us."
+msgstr ""
+
+#: libraries/language/site.php:693
+msgid "Submit Credit Card Information"
+msgstr ""
+
+#: libraries/language/site.php:699
+msgid "Credit Card Information Received"
+msgstr ""
+
+#: libraries/language/site.php:702
+msgid "Total to Pay"
+msgstr ""
+
+#: libraries/language/site.php:705
+#: modules/mod_vikrentcar_search/language/handler.php:200
+msgid "The location is closed on this day"
+msgstr ""
+
+#: libraries/language/site.php:708
+msgid "Error, the location %s is closed on the %s. Please select a different date"
+msgstr ""
+
+#: libraries/language/site.php:711
+msgid "Error, the Pickup date and time is in the past"
+msgstr ""
+
+#: libraries/language/site.php:717
+msgid "Your Reservations"
+msgstr ""
+
+#: libraries/language/site.php:726
+msgid "No reservations were found for this account"
+msgstr ""
+
+#: libraries/language/site.php:735
+msgid "Please log in to access this page"
+msgstr ""
+
+#: libraries/language/site.php:738
+msgid "View Order for Printing"
+msgstr ""
+
+#: libraries/language/site.php:744
+msgid "Cancellation/Modification Request"
+msgstr ""
+
+#: libraries/language/site.php:747
+msgid "Click here to request a cancellation or modification of the order"
+msgstr ""
+
+#: libraries/language/site.php:756
+#: libraries/language/site.php:1038
+msgid "Send Request"
+msgstr ""
+
+#: libraries/language/site.php:759
+msgid "Order Cancellation-Modification Request"
+msgstr ""
+
+#: libraries/language/site.php:762
+msgid ""
+"A Cancellation-Modification Request has been sent by the customer for the order id %s.\n"
+"Order details: %s"
+msgstr ""
+
+#: libraries/language/site.php:765
+msgid "Your request has been sent successfully. Please do not send it again"
+msgstr ""
+
+#: libraries/language/site.php:795
+msgid "Invalid Confirmation Number, unable to find your order"
+msgstr ""
+
+#: libraries/language/site.php:798
+msgid "Log in to see your orders"
+msgstr ""
+
+#: libraries/language/site.php:801
+msgid "Confirmation Number or PIN Code"
+msgstr ""
+
+#: libraries/language/site.php:804
+msgid "Search Order"
+msgstr ""
+
+#: libraries/language/site.php:810
+msgid "per Day"
+msgstr ""
+
+#: libraries/language/site.php:813
+msgid "Insufficient data received for converting the currency"
+msgstr ""
+
+#: libraries/language/site.php:816
+msgid "Invalid data received for converting the currency"
+msgstr ""
+
+#: libraries/language/site.php:819
+msgid "Sent via eMail"
+msgstr ""
+
+#: libraries/language/site.php:822
+msgid "No active promotions found"
+msgstr ""
+
+#: libraries/language/site.php:825
+msgid "Off"
+msgstr ""
+
+#: libraries/language/site.php:828
+msgid "Off per Day"
+msgstr ""
+
+#: libraries/language/site.php:837
+msgid "Valid until"
+msgstr ""
+
+#: libraries/language/site.php:840
+msgid "Book it Now"
+msgstr ""
+
+#: libraries/language/site.php:870
+msgid "Pick up for today no longer available at this time, please select a different Pick up date and time"
+msgstr ""
+
+#: libraries/language/site.php:879
+msgid "Error, minimum days in advance for pick up is %d days"
+msgstr ""
+
+#: libraries/language/site.php:882
+msgid "Hourly Availability for the day %s"
+msgstr ""
+
+#: libraries/language/site.php:885
+msgid "H"
+msgstr ""
+
+#: libraries/language/site.php:888
+msgid "Not Available (for the whole day, check hourly availability)"
+msgstr ""
+
+#: libraries/language/site.php:900
+msgid "Returning Customer?"
+msgstr ""
+
+#: libraries/language/site.php:903
+msgid "Please enter your PIN Code"
+msgstr ""
+
+#: libraries/language/site.php:909
+msgid "Welcome back"
+msgstr ""
+
+#: libraries/language/site.php:912
+msgid "Invalid PIN Code. Please try again or just enter your information below"
+msgstr ""
+
+#: libraries/language/site.php:918
+msgid "Dates"
+msgstr ""
+
+#: libraries/language/site.php:927
+msgid "Book"
+msgstr ""
+
+#: libraries/language/site.php:951
+msgid "Error, the pick up day in %s must be on a %s. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:954
+msgid "Error, the Maximum Num of Days in %s is %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:957
+msgid "Error, the Minimum Num of Days in %s is %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:960
+msgid "Error, the Num of Days allowed in %s must be a multiple of %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:963
+msgid "Error, the drop off day in %s must be on a %s if picking up on a %s"
+msgstr ""
+
+#: libraries/language/site.php:966
+msgid "Error, the pick up day in these dates must be on a %s. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:969
+msgid "Error, the Maximum Num of Days in these dates is %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:972
+msgid "Error, the Minimum Num of Days in these dates is %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:975
+msgid "Error, the Num of Days allowed in these dates must be a multiple of %d. Please try again."
+msgstr ""
+
+#: libraries/language/site.php:978
+msgid "Error, the drop off day in these dates must be on a %s if picking up on a %s"
+msgstr ""
+
+#: libraries/language/site.php:981
+msgid "Some results were excluded: try selecting the pick up day in %s as a %s."
+msgstr ""
+
+#: libraries/language/site.php:984
+msgid "Some results were excluded: the Maximum Num of Days in %s is %d."
+msgstr ""
+
+#: libraries/language/site.php:987
+msgid "Some results were excluded: the Minimum Num of Days in %s is %d."
+msgstr ""
+
+#: libraries/language/site.php:990
+msgid "Some results were excluded: the Num of Days allowed in %s should be a multiple of %d."
+msgstr ""
+
+#: libraries/language/site.php:993
+msgid "Some results were excluded: the drop off day in %s should be on a %s if picking up on a %s"
+msgstr ""
+
+#: libraries/language/site.php:996
+msgid "Some results were excluded: the pick up day in these dates should be on a %s."
+msgstr ""
+
+#: libraries/language/site.php:999
+msgid "Some results were excluded: the Maximum Num of Days in these dates is %d."
+msgstr ""
+
+#: libraries/language/site.php:1002
+msgid "Some results were excluded: the Minimum Num of Days in these dates is %d."
+msgstr ""
+
+#: libraries/language/site.php:1005
+msgid "Some results were excluded: the Num of Days allowed in these dates should be a multiple of %d."
+msgstr ""
+
+#: libraries/language/site.php:1008
+msgid "Some results were excluded: the drop off day in these dates should be on a %s if picking up on a %s"
+msgstr ""
+
+#: libraries/language/site.php:1011
+msgid "Error, pick ups on %s are not permitted on %s"
+msgstr ""
+
+#: libraries/language/site.php:1014
+msgid "Error, drop offs on %s are not permitted on %s"
+msgstr ""
+
+#: libraries/language/site.php:1017
+msgid "Error, pick ups on %s are not permitted on the selected dates"
+msgstr ""
+
+#: libraries/language/site.php:1020
+msgid "Error, drop offs on %s are not permitted on the selected dates"
+msgstr ""
+
+#: libraries/language/site.php:1023
+msgid "Request Information"
+msgstr ""
+
+#: libraries/language/site.php:1026
+msgid "Request Information for %s"
+msgstr ""
+
+#: libraries/language/site.php:1029
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:86
+msgid "Full Name"
+msgstr ""
+
+#: libraries/language/site.php:1041
+msgid "Please fill in all fields in order to request information."
+msgstr ""
+
+#: libraries/language/site.php:1044
+msgid "Information Request for %s"
+msgstr ""
+
+#: libraries/language/site.php:1047
+msgid "Information Request Successfully Sent!"
+msgstr ""
+
+#: libraries/language/site.php:1050
+msgid "Invalid Credit Card information received, please try again."
+msgstr ""
+
+#: libraries/language/site.php:1053
+msgid "The payment was not verified, please try again."
+msgstr ""
+
+#: libraries/language/site.php:1056
+msgid "Thank you! Your credit card details have been received correctly."
+msgstr ""
+
+#: libraries/language/site.php:1059
+msgid "Error, this order has a pick up date in the past and it was not confirmed on time. The order is now Cancelled."
+msgstr ""
+
+#: libraries/language/site.php:1065
+msgid "Card Type"
+msgstr ""
+
+#: libraries/language/site.php:1068
+msgid "Hide/Show Credit Card Details Submission Form"
+msgstr ""
+
+#: libraries/language/site.php:1071
+msgid "Availability Calendar"
+msgstr ""
+
+#: libraries/language/site.php:1080
+msgid "Closest booking solutions"
+msgstr ""
+
+#: libraries/language/site.php:1083
+msgid "Your confirmed order at %s"
+msgstr ""
+
+#: libraries/language/site.php:1086
+msgid "Your order is pending confirmation"
+msgstr ""
+
+#: libraries/language/site.php:1089
+msgid "Your order is cancelled"
+msgstr ""
+
+#: libraries/language/site.php:1092
+msgid "Upload documents"
+msgstr ""
+
+#: libraries/language/site.php:1095
+msgid "Uploading failed. Please try again"
+msgstr ""
+
+#: libraries/language/site.php:1098
+msgid "Do you want to remove the selected file?"
+msgstr ""
+
+#: libraries/language/site.php:1101
+msgid "Click the save button at the bottom of the page when you are done."
+msgstr ""
+
+#: libraries/language/site.php:1104
+msgid "Personal data is collected and processed in accordance with the Privacy Policy accepted at the time of booking."
+msgstr ""
+
+#: libraries/language/site.php:1110
+msgid "Information saved successfully, thank you!"
+msgstr ""
+
+#: libraries/language/site.php:1116
+msgid "Please fill in or accept all the required fields"
+msgstr ""
+
+#: libraries/language/site.php:1119
+#: modules/mod_vikrentcar_search/language/handler.php:212
+msgid "The selected location will open at %s"
+msgstr ""
+
+#: libraries/language/site.php:1122
+#: modules/mod_vikrentcar_search/language/handler.php:215
+msgid "The selected location will close at %s"
+msgstr ""
+
+#: libraries/language/site.php:1125
+#: modules/mod_vikrentcar_search/language/handler.php:218
+msgid "The selected location for pickup is on break from %s to %s"
+msgstr ""
+
+#: libraries/language/site.php:1128
+#: modules/mod_vikrentcar_search/language/handler.php:221
+msgid "The selected location for drop off is on break from %s to %s"
+msgstr ""
+
+#: libraries/language/system.php:46
+msgid "Error"
+msgstr ""
+
+#: libraries/language/system.php:50
+msgid "The controller does not exist."
+msgstr ""
+
+#: libraries/language/system.php:54
+msgid "The controller [%s] classname does not exist."
+msgstr ""
+
+#: libraries/language/system.php:58
+msgid "The controller must be an instance of JController."
+msgstr ""
+
+#: libraries/language/system.php:62
+msgid "You cannot call JController reserved methods."
+msgstr ""
+
+#: libraries/language/system.php:66
+msgid "Template view not found."
+msgstr ""
+
+#: libraries/language/system.php:70
+msgid "You are not authorised to access this resource."
+msgstr ""
+
+#: libraries/language/system.php:88
+msgid "Vik Rent Car - Access Control List"
+msgstr ""
+
+#: libraries/language/system.php:92
+msgid "Configure ACL & Options"
+msgstr ""
+
+#: libraries/language/system.php:96
+msgid "Allows users in the group to edit the options and permissions of this plugin."
+msgstr ""
+
+#: libraries/language/system.php:100
+msgid "Access Administration Interface"
+msgstr ""
+
+#: libraries/language/system.php:104
+msgid "Allows users in the group to access the administration interface for this plugin."
+msgstr ""
+
+#: libraries/language/system.php:108
+msgid "Create"
+msgstr ""
+
+#: libraries/language/system.php:112
+msgid "Allows users in the group to create any content in this plugin."
+msgstr ""
+
+#: libraries/language/system.php:120
+msgid "Allows users in the group to delete any content in this plugin."
+msgstr ""
+
+#: libraries/language/system.php:128
+msgid "Allows users in the group to edit any content in this plugin."
+msgstr ""
+
+#: libraries/language/system.php:141
+msgid "ACL saved."
+msgstr ""
+
+#: libraries/language/system.php:145
+msgid "An error occurred while saving the ACL."
+msgstr ""
+
+#: libraries/language/system.php:149
+msgid "Allowed"
+msgstr ""
+
+#: libraries/language/system.php:153
+msgid "Denied"
+msgstr ""
+
+#: libraries/language/system.php:161
+msgid "New Setting"
+msgstr ""
+
+#: libraries/language/system.php:165
+msgid "Current Setting"
+msgstr ""
+
+#: libraries/language/system.php:185
+msgid "Publish"
+msgstr ""
+
+#: libraries/language/system.php:189
+msgid "Unpublish"
+msgstr ""
+
+#: libraries/language/system.php:193
+msgid "Archive"
+msgstr ""
+
+#: libraries/language/system.php:197
+msgid "UnArchive"
+msgstr ""
+
+#: libraries/language/system.php:205
+msgid "Trash"
+msgstr ""
+
+#: libraries/language/system.php:213
+msgid "Save & Close"
+msgstr ""
+
+#: libraries/language/system.php:217
+msgid "Save & New"
+msgstr ""
+
+#: libraries/language/system.php:221
+msgid "Save as Copy"
+msgstr ""
+
+#: libraries/language/system.php:229
+msgid "Permissions"
+msgstr ""
+
+#: libraries/language/system.php:233
+msgid "Shortcodes"
+msgstr ""
+
+#: libraries/language/system.php:241
+msgid "- Select Language -"
+msgstr ""
+
+#: libraries/language/system.php:245
+msgid "- Select Type -"
+msgstr ""
+
+#: libraries/language/system.php:257
+msgid "%d items"
+msgstr ""
+
+#: libraries/language/system.php:262
+msgctxt "e.g. 1 of 12"
+msgid "%d of %s"
+msgstr ""
+
+#: libraries/language/system.php:295
+msgid "Created By"
+msgstr ""
+
+#: libraries/language/system.php:299
+msgid "Created On"
+msgstr ""
+
+#: libraries/language/system.php:311
+msgid "Shortcode"
+msgstr ""
+
+#: libraries/language/system.php:319
+msgid "Post"
+msgstr ""
+
+#: libraries/language/system.php:323
+msgid "Please first make a selection from the list."
+msgstr ""
+
+#: libraries/language/system.php:327
+msgid "Clear"
+msgstr ""
+
+#: libraries/language/system.php:331
+msgid "Maximum upload size: <strong>%s</strong>"
+msgstr ""
+
+#: libraries/language/system.php:336
+msgid "No rows found."
+msgstr ""
+
+#: libraries/language/system.php:340
+msgid "Vik Rent Car - Shortcodes"
+msgstr ""
+
+#: libraries/language/system.php:344
+msgid "Vik Rent Car - New Shortcode"
+msgstr ""
+
+#: libraries/language/system.php:348
+msgid "Vik Rent Car - Edit Shortcode"
+msgstr ""
+
+#: libraries/language/system.php:356
+msgid "You are not authorised to access this resource"
+msgstr ""
+
+#: libraries/language/system.php:360
+msgid "Item saved."
+msgstr ""
+
+#: libraries/language/system.php:364
+msgid "Save failed with the following error: %s"
+msgstr ""
+
+#: libraries/language/system.php:372
+msgid "Image preview"
+msgstr ""
+
+#: libraries/language/system.php:376
+msgid "Choose an image"
+msgstr ""
+
+#: libraries/language/system.php:380
+msgid "Choose one or more images"
+msgstr ""
+
+#: libraries/language/system.php:388
+msgid "Pick or upload an image"
+msgstr ""
+
+#: libraries/language/system.php:392
+msgid "Clear selection"
+msgstr ""
+
+#: libraries/system/cron.php:52
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: libraries/system/cron.php:58
+msgid "Every Half Hour"
+msgstr ""
+
+#: libraries/system/cron.php:64
+msgid "Every 2 Hours"
+msgstr ""
+
+#: libraries/system/cron.php:70
+msgid "Monthly"
+msgstr ""
+
+#: libraries/system/cron.php:326
+msgid "Recurrence"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:38
+msgid "VikRentCar Cars"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:41
+msgid "A carousel showing a list of vehicles."
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:44
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:44
+#: modules/mod_vikrentcar_search/language/handler.php:44
+msgid "Title"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:47
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:47
+#: modules/mod_vikrentcar_search/language/handler.php:47
+msgid "Layout"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:50
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:50
+#: modules/mod_vikrentcar_search/language/handler.php:50
+msgid "The layout of the module to use. The available layouts are contained within the <b>tmpl</b> folder of the module."
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:53
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:53
+#: modules/mod_vikrentcar_search/language/handler.php:53
+msgid "Page"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:56
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:56
+#: modules/mod_vikrentcar_search/language/handler.php:56
+msgid "Select a page to start the booking process. The page must use a VikRentCar shortcode."
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:65
+#: modules/mod_vikrentcar_search/language/handler.php:92
+msgid "Use Globals"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:68
+msgid "Total Number of Vehicles Displayed"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:71
+msgid "Ordering and Filtering"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:74
+msgid "By Price"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:77
+msgid "By Name"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:80
+msgid "By Category"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:83
+msgid "Sorting"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:92
+msgid "Show Description"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:98
+msgid "Show Category Name"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:101
+msgid "Layout Type"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:104
+msgid "Select a type of layout for the list"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:107
+msgid "Grid"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:110
+msgid "Scroll List"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:113
+msgid "Vehicles per row"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:116
+msgid "Autoplay"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:119
+msgid "Dots"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:122
+msgid "Navigation Arrows"
+msgstr ""
+
+#: modules/mod_vikrentcar_cars/language/handler.php:125
+msgid "Filter by Category"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:38
+msgid "VikRentCar Currency Converter"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:41
+msgid "Allows your visitors to convert the prices into several currencies."
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:65
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:71
+msgid "Show only within VikRentCar"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:68
+msgid "Choose whether to show the conversion form only on the pages of the plugin VikRentCar"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:74
+msgid "Allowed Currencies for conversion"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:77
+msgid "Currency Name Format"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:80
+msgid "i.e. the Three Letters format will print USD, the Full Name format will print United States Dollar while the Long format will print United States Dollar (USD)"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:83
+msgid "Three Letters"
+msgstr ""
+
+#: modules/mod_vikrentcar_currencyconverter/language/handler.php:89
+msgid "Long"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:41
+msgid "Search Form to start booking cars."
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:59
+msgid "Form Orientation"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:62
+msgid "Choose whether to display the form vertically or horizontally. "
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:65
+msgid "Vertical"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:68
+msgid "Horizontal"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:71
+msgid "Heading Text"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:74
+msgid "Introducing Text"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:77
+msgid "Closing Text"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:80
+msgid "Show Categories"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:83
+msgid "Show Pickup-DropOff Locations"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:95
+msgid "Custom Search Button Text"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:98
+msgid "Custom Search Button Text, Leave empty to use default value"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:203
+msgid "Force Specific Category"
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:206
+msgid "If enabled, the search module will check the availability only for the cars assigned to this specific category."
+msgstr ""
+
+#: modules/mod_vikrentcar_search/language/handler.php:209
+msgid "-- Disabled --"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:36
+msgid "VikRentCar Shortcode"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:41
+msgid "Add a shortcode configured through VikRentCar."
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:117
+msgid "- pick a shortcode -"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:152
+msgid "This shortcode is already used by a different post. If you select this shortcode, it will be detached from the existing post and assigned to this new post."
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:160
+#: admin/resources/js/gutenberg-shortcodes.js:165
+msgid "Post #"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:184
+msgid "Type:"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:194
+msgid "Name:"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:204
+msgid "Created on:"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:214
+msgid "Assignee:"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:226
+msgid "Shortcode:"
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:295
+msgid "Display all the existing shortcodes."
+msgstr ""
+
+#: admin/resources/js/gutenberg-shortcodes.js:295
+msgid "Toggle to display also the shortcodes that are already assigned to a post."
+msgstr ""

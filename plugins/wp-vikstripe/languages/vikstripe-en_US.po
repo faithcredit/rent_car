@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-10 10:31+0200\n"
+"PO-Revision-Date: 2019-07-10 10:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: stripe.php:36 stripe.php:217
+msgid "Yes"
+msgstr "Yes"
+
+#: stripe.php:60
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: stripe.php:64
+msgid "Publishable Key"
+msgstr "Publishable Key"
+
+#: stripe.php:68
+msgid "Currency"
+msgstr "Currency"
+
+#: stripe.php:213
+msgid "Use SSL"
+msgstr "Use SSL"
+
+#: stripe.php:216
+msgid "No"
+msgstr "No"
+
+#: stripe.php:221
+msgid "Company Name"
+msgstr "Company Name"
+
+#: stripe.php:225
+msgid "Image URL"
+msgstr "Image URL"
+
+#: stripe.php:225
+msgid "square image with minimum size 128x128"
+msgstr "square image with minimum size 128x128"
+
+#: stripe.php:334
+msgid "Thank you! Payment successfully received."
+msgstr "Thank you! Payment successfully received."
+
+#: vikappointments/stripe.php:43 vikbooking/stripe.php:35
+msgid "VBLEAVEDEPOSIT"
+msgstr "VBLEAVEDEPOSIT"
+
+#: vikbooking/stripe.php:102
+msgid "&Itemid="
+msgstr "&Itemid="

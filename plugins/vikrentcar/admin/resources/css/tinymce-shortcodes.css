@@ -1,0 +1,130 @@
+.vrc-tinymce-backdrop {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: #000;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	z-index: 100100;
+}
+.vrc-tinymce-modal {
+	display: block;
+	background-color: #fff;
+	width: 500px;
+	overflow: hidden;
+	margin-left: -250px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100105;
+	transition: height .2s,margin-top .2s;
+	height: 500px;
+	margin-top: -250px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
+.vrc-tinymce-modal form {
+	position: relative;
+	height: 100%;
+}
+.vrc-tinymce-modal form h1 {
+	background: #fcfcfc;
+	border-bottom: 1px solid #ddd;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	margin: 0;
+	padding: 0 36px 0 16px;
+}
+.vrc-tinymce-dismiss {
+	color: #666;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: 0 0;
+	border: none;
+	cursor: pointer;
+}
+.vrc-tinymce-dismiss::before {
+	font: 400 20px/36px dashicons;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 36px;
+	height: 36px;
+	content: "\f158";
+}
+.vrc-tinymce-selector {
+	-webkit-overflow-scrolling: touch;
+	padding: 0 16px;
+	position: absolute;
+	top: 37px;
+	left: 0;
+	right: 0;
+	bottom: 44px;
+}
+.vrc-tinymce-body {
+	overflow-y: auto;
+	height: calc(100% - 90px);
+}
+.vrc-tinymce-submitbox {
+	padding: 8px 16px;
+	background: #fcfcfc;
+	border-top: 1px solid #ddd;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#vrc-tinymce-cancel {
+	line-height: 25px;
+	float: left;
+}
+#vrc-tinymce-update {
+	line-height: 23px;
+	float: right;
+}
+
+.shortcodes-group {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+}
+.shortcodes-group a {
+	text-decoration: none;
+}
+
+.shortcodes-container {
+	display: none;
+}
+
+.shortcode-record {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	background: #f9f9f9;
+}
+.shortcode-record:hover {
+	cursor: pointer;
+}
+.shortcode-record.selected {
+	background: #eee;
+}
+
+.shortcode-record .subdetails {
+	height: 16px;
+}
+.shortcode-record .subdetails small.postid {
+	float: right;
+}
+.shortcode-record .subdetails small.createdon {
+	float: left;
+}

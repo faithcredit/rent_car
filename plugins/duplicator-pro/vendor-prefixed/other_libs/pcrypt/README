@@ -1,0 +1,40 @@
+This is a class to encrypt and decrypt data using some algorithms and methods.
+Actually it supports:
+            - Blowfish 
+            - ECB, CBC (modes)
+
+0. Install
+
+Verify if the algorithm files is in the cipher.
+
+1. How To:
+
+To use this class you need to instanciate it, selecting the mode, algorithm and key, then you can call encrypt and decrypt methods.
+
+Example:
+  
+  require 'class.pcrypt.php';
+  
+  /* MODE: MODE_ECB or MODE_CBC
+     ALGO: BLOWFISH
+     KEY:  Your secret key :) (max lenght: 56)
+  */
+  $crypt = new pcrypt(MODE_ECB, "BLOWFISH", "secretkey");
+  
+  // to encrypt
+  $plaintext  = "password";
+  $ciphertext = $crypt->encrypt($plaintext);
+
+  // to decrypt
+  $decrypted  = $crypt->decrypt($ciphertext);
+
+2. TODO
+
+   - Implement other algorithms and block modes
+   - Improve error handling function(s)
+   - Implement methods to discover automatically the ALGO used (maybe a header)
+   - Implement a method to change the key
+   - Compatible with mcrypt
+   - Correct bugs :)
+
+That's all, if you get any trouble please contact.

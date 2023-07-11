@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_vikrentcar">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.vrc.cars" title="VRCACTION_CARS" description="VRCACTION_CARS_DESC" />
+		<action name="core.vrc.prices" title="VRCACTION_PRICES" description="VRCACTION_PRICES_DESC" />
+		<action name="core.vrc.orders" title="VRCACTION_ORDERS" description="VRCACTION_ORDERS_DESC" />
+		<action name="core.vrc.gsettings" title="VRCACTION_GSETTINGS" description="VRCACTION_GSETTINGS_DESC" />
+		<action name="core.vrc.management" title="VRCACTION_MANAGEMENT" description="VRCACTION_MANAGEMENT_DESC" />
+	</section>
+</access>

@@ -1,0 +1,125 @@
+input[type="checkbox"] {
+	width: 16px !important;
+}
+
+input, textarea, select, .wp-core-ui select {
+	font-size: 14px;
+}
+
+.btn {
+	padding: 10px 12px;
+	font-size: 13px;
+}
+
+.btn-group button.btn,
+.input-append button.btn,
+.input-prepend button.btn {
+	padding: 9.5px 10px;
+}
+
+.btn-group input[type="text"],
+.input-append input[type="text"],
+.input-prepend input[type="text"] {
+	height: 40px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	margin-bottom: 0;
+}
+.vrc-link-btn-small {
+	padding: 6px 10px;
+}
+.wp-calendar-box {
+	padding: 0 10px 0 0;
+}
+.wp-calendar-box i.dashicons-calendar-alt {
+	top: 8px;
+	position: relative;
+}
+
+.select2-search input,
+.postbox-container input {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.media-sidebar input,
+.media-sidebar select {
+	width: 65% !important;
+}
+
+.wp-admin select {
+	line-height: 2em;
+	padding: 5px 24px 5px 10px !important;
+	border-color: #ddd;
+}
+
+.vrc-dashboard-fullcontainer .input-append .btn {
+	height: 40px;
+	line-height: 14px;
+}
+.new_depovr_container span:not(input), .new_depovr_container span:not(select), .new_depovr_container span:not(button) {
+	line-height: 2.5em;
+}
+.vrc-feature-remove{
+	margin-top: 4px;
+}
+.vrplusminus {
+	margin-top: 10px;
+}
+.vrcarparampactive * {
+	vertical-align: top;
+}
+i.icon-new::before {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin-right: 2px;
+}
+.vrc-ratesoverview-entryinline .input-append button.btn, .admintable .input-append button.btn, #adminForm .btn-group button.btn, #filter-bar .input-append .btn,
+.vrc-report-filter-val .input-append button.btn {
+	padding: 9.2px 8px;
+	height: 40px;
+}
+.vrc-ratesoverview-entryinline .input-append input[type="text"], .admintable .input-append input[type="text"], #adminForm .btn-group input[type="text"] {
+	height: 40px;
+}
+.vrc-ratesoverview-entryinline .select2-container .select2-selection--single, .vrc-ratesoverview-entryinline .select2-container--default .select2-selection--single .select2-selection__arrow,
+.vrc-reports-container .select2-container .select2-selection--single, .vrc-reports-container .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 40px;
+}
+.vrc-ratesoverview-entryinline .select2-container--default .select2-selection--single .select2-selection__rendered, .vrc-reports-container .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 34px;
+}
+.vrc-bookingdet-detcont .vrc-time-selects .vrc-time-selects-divider {
+	padding-top: 8px;
+	display: inline-block;
+}
+.wp-admin #ui-datepicker-div select {
+	line-height: 1em;
+	padding: 6px 24px 5px 8px;
+}
+#vrc-statsform .btn-toolbar .btn-group .wp-calendar-box {
+	padding: 0px 6px;
+}
+#vrc-statsform .btn-toolbar .btn-group button.btn {
+	padding: 9px 12px;
+}
+.wp-admin .ui-datepicker .ui-datepicker-title {
+	line-height: 2.3em;
+}
+.wp-admin .ui-datepicker-multi .ui-datepicker-group table {
+	width: 99%;
+}
+.wp-admin .ui-datepicker .ui-datepicker-prev, .wp-admin .ui-datepicker .ui-datepicker-next {
+	top: 7px;
+}
+.vrc-quickres-wrapper #vrspanpeople {
+	display: inline-block;
+	line-height: 2.6em;
+}
+.vrc-bookdet-wrap .vrc-bookdet-foot .btn.btn-small {
+	padding: 2px 12px;
+}
+.vrc-trackings-filters select {
+	padding: 6px 24px 5px 8px;
+}
